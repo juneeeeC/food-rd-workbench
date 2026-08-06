@@ -1112,6 +1112,56 @@ function getEntries(type){
   }catch(e){return[];}
 }
 
+// ==================== Feishu Sync ====================
+var API_BASE='https://your-app.onrender.com'; // UPDATE when deployed
+
+function syncLogToFeishu(entry){
+  if(!API_BASE||API_BASE.includes('your-app'))return;
+  fetch(API_BASE+'/api/logs',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({
+      project:entry.project,
+      content:entry.content,
+      stage:entry.stage?[entry.stage]:[],
+      conclusion:entry.conclusion?[entry.conclusion]:[],
+      version:entry.version,
+      next_step:entry.next_step,
+      operator:entry.operator?[entry.operator]:[],
+      date:entry.date
+    })
+  }).catch(function(){});
+}
+
+function syncProjectToFeishu(proj){
+  if(!API_BASE||API_BASE.includes('your-app'))return;
+  fetch(API_BASE+'/api/projects',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({
+      name:proj.name,
+      number:proj.number,
+      engineer:proj.engineer?[proj.engineer]:[],
+      client:proj.client,
+      status:proj.status,
+      category:proj.category,
+      priority:proj.priority,
+      start_time:proj.start_time,
+      material:proj.material,
+      has_oa:proj.has_oa,
+    })
+  }).catch(function(){});
+}
+
+function updateProjectInFeishu(record_id,updates){
+  if(!API_BASE||API_BASE.includes('your-app'))return;
+  fetch(API_BASE+'/api/projects/'+record_id,{
+    method:'PUT',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify(updates)
+  }).catch(function(){});
+}
+
 // ==================== Report Submit ====================
 function submitReport(){
   const date=gv('rp_date');
@@ -1141,9 +1191,10 @@ function submitReport(){
   entries.push(entry);
   localStorage.setItem('houcaller_entries',JSON.stringify(entries));
 
-  showToast('✅ 日报已保存','ok');
+  // Also sync to Feishu
+  syncLogToFeishu(entry);
 
-  // Reset form
+  showToast('✅ 日报已保存','ok');
   document.getElementById('rp_content').value='';
   document.getElementById('rp_stage').value='';
   document.getElementById('rp_conclusion').value='';
@@ -1527,6 +1578,7 @@ function saveNewProject(){
   }
   CUSTOM_PROJECTS.push(newProj);
   localStorage.setItem('custom_projects',JSON.stringify(CUSTOM_PROJECTS));
+  syncProjectToFeishu(newProj);
   showToast(editing?'✅ 项目已更新':'✅ 项目已添加','ok');
   document.getElementById('new_project_form').style.display='none';
   refreshDashboard();
