@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>授权回调</title></head>
+<body>
+<h2 id="msg">正在处理授权...</h2>
+<script>
+var code=new URLSearchParams(location.search).get('code');
+if(code){
+  document.getElementById('msg').textContent='code='+code+' 请复制下方内容发给WorkBuddy';
+  var pre=document.createElement('pre');
+  pre.style.background='#f0f0f0';
+  pre.style.padding='12px';
+  pre.style.fontSize='14px';
+  pre.style.wordBreak='break-all';
+  pre.textContent=code;
+  document.body.appendChild(pre);
+}else{
+  document.getElementById('msg').textContent='未收到授权码';
+}
+</script>
+</body></html>
