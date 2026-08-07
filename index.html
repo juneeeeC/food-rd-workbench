@@ -1,0 +1,1722 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#F2F2F7">
+<title>食品研发部工作台</title>
+<link rel="manifest" href="manifest.json">
+<style>
+:root{
+  --bg:#F2F2F7;
+  --card:#FFFFFF;
+  --primary:#007AFF;
+  --text:#000000;
+  --sub:#8E8E93;
+  --border:rgba(60,60,67,0.12);
+  --green:#34C759;
+  --orange:#FF9500;
+  --red:#FF3B30;
+  --calc:#E8F0FE;
+  --separator:rgba(60,60,67,0.08);
+  --fill-tertiary:rgba(118,118,128,0.06);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  font-size:15px;
+  line-height:1.5;
+  -webkit-tap-highlight-color:transparent;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:50px;
+}
+
+/* ====== Tab Bar ====== */
+.tab-bar{
+  position:sticky;
+  top:0;
+  z-index:20;
+  display:flex;
+  background:rgba(242,242,247,0.85);
+  backdrop-filter:blur(20px);
+  -webkit-backdrop-filter:blur(20px);
+  border-bottom:0.5px solid var(--separator);
+}
+.tab-btn{
+  flex:1;
+  padding:14px 8px 12px;
+  border:none;
+  background:none;
+  font-size:14px;
+  font-weight:500;
+  color:var(--sub);
+  cursor:pointer;
+  transition:color .2s;
+  position:relative;
+  font-family:inherit;
+  letter-spacing:-.2px;
+}
+.tab-btn.active{
+  color:var(--primary);
+  font-weight:600;
+}
+.tab-btn.active::after{
+  content:'';
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+  width:32px;
+  height:3px;
+  background:var(--primary);
+  border-radius:1.5px;
+}
+.tab-icon{font-size:18px;display:block;margin-bottom:2px}
+
+/* ====== Container ====== */
+.container{max-width:680px;margin:0 auto;padding:16px}
+.tab-content{display:none}
+.tab-content.active{display:block}
+
+/* ====== Home Tab ====== */
+.home-hero{
+  text-align:center;
+  padding:24px 0 20px;
+}
+.home-hero h1{
+  font-size:28px;
+  font-weight:700;
+  letter-spacing:-.5px;
+  margin-bottom:4px;
+}
+.home-hero .subtitle{
+  font-size:15px;
+  color:var(--sub);
+}
+
+.entry-cards{
+  display:grid;
+  gap:12px;
+  margin-bottom:20px;
+}
+.entry-card{
+  background:var(--card);
+  border-radius:16px;
+  padding:20px 16px;
+  cursor:pointer;
+  border:0.5px solid var(--border);
+  transition:transform .15s,box-shadow .15s;
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+.entry-card:active{
+  transform:scale(.98);
+  box-shadow:0 0 0 3px rgba(0,122,255,.15);
+}
+.entry-card-icon{
+  width:52px;height:52px;
+  border-radius:14px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:26px;
+  flex-shrink:0;
+}
+.entry-card-icon.cut{background:rgba(255,149,0,.12);color:var(--orange)}
+.entry-card-icon.report{background:rgba(0,122,255,.12);color:var(--primary)}
+.entry-card-body{flex:1;min-width:0}
+.entry-card-body h3{font-size:16px;font-weight:600;margin-bottom:2px}
+.entry-card-body p{font-size:13px;color:var(--sub);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.entry-card-arrow{font-size:18px;color:var(--separator)}
+
+.status-section{
+  background:var(--card);
+  border-radius:16px;
+  padding:16px;
+  border:0.5px solid var(--border);
+}
+.status-section h3{font-size:14px;font-weight:600;margin-bottom:10px;color:var(--sub);text-transform:uppercase;letter-spacing:.5px}
+.status-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.status-item{
+  text-align:center;
+  padding:12px 8px;
+  background:var(--fill-tertiary);
+  border-radius:12px;
+}
+.status-item .num{font-size:22px;font-weight:700;color:var(--text)}
+.status-item .lbl{font-size:11px;color:var(--sub);margin-top:2px}
+
+/* ====== Form Cards ====== */
+.card{
+  background:var(--card);
+  border-radius:16px;
+  padding:16px;
+  margin-bottom:12px;
+  border:0.5px solid var(--border);
+}
+.card-title{
+  font-size:15px;
+  font-weight:600;
+  color:var(--text);
+  margin-bottom:12px;
+  display:flex;align-items:center;gap:6px;
+  padding-bottom:10px;
+  border-bottom:0.5px solid var(--separator);
+}
+
+.hidden{display:none!important}
+
+.row{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.col{flex:1;min-width:80px}
+.col2{flex:2;min-width:160px}
+.col3{flex:3}
+.col-half{flex:0 0 calc(50% - 4px)}
+.col-third{flex:0 0 calc(33.33% - 6px)}
+.col-quarter{flex:0 0 calc(25% - 6px)}
+
+label{display:block;font-size:13px;color:var(--sub);margin-bottom:3px;font-weight:500}
+label .u{font-weight:400;font-size:11px;color:#999}
+
+input,select,textarea{
+  width:100%;
+  padding:10px 12px;
+  border:0.5px solid var(--border);
+  border-radius:10px;
+  font-size:15px;
+  font-family:inherit;
+  background:var(--fill-tertiary);
+  transition:border .2s,box-shadow .2s;
+  -webkit-appearance:none;
+  color:var(--text);
+}
+input:focus,select:focus,textarea:focus{
+  outline:none;
+  border-color:var(--primary);
+  box-shadow:0 0 0 3px rgba(0,122,255,.12);
+  background:#fff;
+}
+input.calc{
+  background:var(--calc);
+  color:var(--primary);
+  font-weight:600;
+  font-size:14px;
+}
+select{
+  background:var(--fill-tertiary) url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Cpath fill='%238E8E93' d='M3 5l3 3 3-3'/%3E%3C/svg%3E") no-repeat right 10px center;
+  padding-right:32px;
+}
+textarea{resize:vertical;min-height:60px}
+
+.code-box{
+  background:#1A1A2E;
+  color:#30D158;
+  padding:14px 16px;
+  border-radius:12px;
+  font-family:"SF Mono","Menlo","Courier New",monospace;
+  font-size:20px;
+  font-weight:700;
+  text-align:center;
+  letter-spacing:1px;
+  word-break:break-all;
+}
+.code-hint{font-size:12px;color:var(--sub);text-align:center;margin-top:4px}
+
+.part-block{
+  background:var(--fill-tertiary);
+  border-radius:12px;
+  padding:12px;
+  margin-bottom:8px;
+}
+.part-block h4{font-size:13px;color:var(--primary);margin-bottom:8px;font-weight:600}
+
+.slice-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(56px,1fr));gap:4px}
+.slice-item{text-align:center}
+.slice-item label{font-size:10px;color:var(--sub);margin-bottom:1px}
+.slice-item input{padding:6px 2px;text-align:center;font-size:13px}
+
+.collapse-btn{
+  display:block;width:100%;
+  padding:8px;
+  border:0.5px dashed var(--border);
+  border-radius:10px;
+  background:none;
+  color:var(--primary);
+  font-size:13px;
+  cursor:pointer;
+  margin-top:8px;
+  font-family:inherit;
+}
+
+/* ====== Buttons ====== */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:6px;
+  padding:12px 20px;
+  border:none;border-radius:12px;
+  font-size:15px;font-weight:600;
+  cursor:pointer;transition:all .15s;
+  width:100%;text-align:center;
+  font-family:inherit;
+  letter-spacing:-.2px;
+}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-primary:active{opacity:.85;transform:scale(.98)}
+.btn-copy{background:#1A1A2E;color:#30D158;font-size:16px;padding:14px}
+.btn-copy:active{background:#0D0D1A}
+.btn-reset{
+  background:var(--fill-tertiary);
+  color:var(--text);
+  border:0.5px solid var(--border);
+  width:auto;padding:10px 16px;font-size:13px;
+  border-radius:10px;
+}
+.btn-danger{background:var(--red);color:#fff}
+.btn-danger:active{opacity:.85;transform:scale(.98)}
+
+.footer-bar{
+  position:fixed;bottom:0;left:0;right:0;
+  background:rgba(242,242,247,0.9);
+  backdrop-filter:blur(20px);
+  -webkit-backdrop-filter:blur(20px);
+  padding:10px 16px;
+  border-top:0.5px solid var(--separator);
+  display:flex;gap:8px;
+  z-index:10;
+  max-width:680px;margin:0 auto;
+}
+.footer-bar .btn{flex:1}
+
+/* ====== Toast ====== */
+.toast{
+  position:fixed;top:72px;left:50%;transform:translateX(-50%);
+  padding:10px 24px;
+  border-radius:20px;
+  color:#fff;font-size:14px;font-weight:500;
+  z-index:999;opacity:0;transition:opacity .2s;
+  pointer-events:none;white-space:nowrap;
+  backdrop-filter:blur(10px);
+}
+.toast.show{opacity:1}
+.toast.ok{background:var(--green)}
+.toast.err{background:var(--red)}
+.toast.info{background:var(--primary)}
+
+/* ====== Photo Upload ====== */
+.photo-area{
+  border:1px dashed var(--border);
+  border-radius:12px;
+  padding:20px;
+  text-align:center;
+  color:var(--sub);
+  font-size:13px;
+  cursor:pointer;
+  transition:border-color .2s;
+}
+.photo-area:hover{border-color:var(--primary)}
+.photo-area.has-photo{border-color:var(--green);background:rgba(52,199,89,.04)}
+.photo-preview{max-width:100%;max-height:160px;border-radius:10px;margin-top:8px;display:none}
+.photo-preview.show{display:inline-block}
+
+/* ====== Dashboard ====== */
+.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+.stat-card{
+  background:var(--card);
+  border-radius:14px;
+  padding:14px 12px;
+  text-align:center;
+  border:0.5px solid var(--border);
+}
+.stat-card .val{font-size:24px;font-weight:700;letter-spacing:-.5px}
+.stat-card .lbl{font-size:11px;color:var(--sub);margin-top:2px}
+.stat-card .val.green{color:var(--green)}
+.stat-card .val.orange{color:var(--orange)}
+.stat-card .val.blue{color:var(--primary)}
+
+.project-card{
+  background:var(--card);
+  border-radius:16px;
+  padding:14px 16px;
+  margin-bottom:8px;
+  border:0.5px solid var(--border);
+  cursor:pointer;
+  transition:background .15s;
+}
+.project-card:active{background:var(--fill-tertiary)}
+.project-header{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.project-header h4{font-size:15px;font-weight:600;flex:1;min-width:0}
+.project-tags{display:flex;gap:4px;flex-shrink:0}
+.tag{
+  font-size:11px;padding:3px 8px;
+  border-radius:6px;
+  font-weight:500;
+}
+.tag.checking{background:rgba(255,149,0,.12);color:var(--orange)}
+.tag.passed{background:rgba(52,199,89,.12);color:var(--green)}
+.tag.pending{background:rgba(0,122,255,.12);color:var(--primary)}
+
+.project-logs{
+  margin-top:10px;
+  border-top:0.5px solid var(--separator);
+  padding-top:8px;
+  display:none;
+}
+.project-logs.show{display:block}
+.log-item{
+  padding:8px 0;
+  border-bottom:0.5px solid var(--separator);
+  font-size:13px;
+}
+.log-item:last-child{border-bottom:none}
+.log-item .log-date{font-weight:600;color:var(--text);margin-right:6px}
+.log-item .log-meta{color:var(--sub);font-size:12px}
+.log-item .log-content{color:var(--text);margin-top:3px;line-height:1.5}
+.log-item .log-photo{max-width:100%;max-height:120px;border-radius:8px;margin-top:6px;cursor:pointer}
+
+.empty-state{
+  text-align:center;
+  padding:40px 20px;
+  color:var(--sub);
+  font-size:14px;
+}
+.empty-state .icon{font-size:40px;margin-bottom:10px;opacity:.5}
+
+/* ====== Modal ====== */
+.modal-overlay{
+  position:fixed;top:0;left:0;right:0;bottom:0;
+  background:rgba(0,0,0,0.45);
+  z-index:100;display:flex;align-items:center;justify-content:center;
+  padding:16px;
+  opacity:0;pointer-events:none;transition:opacity .25s;
+}
+.modal-overlay.show{opacity:1;pointer-events:auto}
+.modal-box{
+  background:var(--card);border-radius:20px;
+  width:100%;max-width:520px;max-height:85vh;overflow-y:auto;
+  padding:24px 20px;
+  box-shadow:0 20px 60px rgba(0,0,0,0.2);
+}
+.modal-box h2{font-size:18px;font-weight:600;margin-bottom:16px}
+.modal-box .btn-row{display:flex;gap:8px;margin-top:16px}
+.modal-box .btn-row .btn{flex:1}
+
+/* ====== Filters ====== */
+.filter-row{
+  display:flex;gap:8px;margin-bottom:12px;
+}
+.filter-row select{
+  flex:1;padding:8px 10px;font-size:13px;border-radius:10px;
+}
+.filter-row select:focus{box-shadow:none}
+
+/* ====== Multi-Image Preview ====== */
+.photo-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(80px,1fr));gap:8px;
+  margin-top:8px;
+}
+.photo-thumb{
+  position:relative;width:100%;padding-bottom:100%;
+  border-radius:10px;overflow:hidden;background:var(--fill-tertiary);
+}
+.photo-thumb img{
+  position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;
+}
+.photo-thumb .remove-btn{
+  position:absolute;top:4px;right:4px;
+  width:22px;height:22px;border-radius:11px;
+  background:rgba(0,0,0,0.55);color:#fff;border:none;
+  font-size:13px;line-height:22px;text-align:center;cursor:pointer;
+  z-index:2;
+}
+
+/* ====== Display Field (编号) ====== */
+.display-field{
+  width:100%;padding:10px 12px;
+  background:var(--fill-tertiary);border-radius:10px;
+  font-size:15px;font-weight:600;color:var(--text);
+  letter-spacing:.5px;line-height:1.4;
+  border:0.5px solid var(--border);min-height:42px;
+}
+
+/* ====== New Project Button ====== */
+.btn-add-project{
+  display:inline-flex;align-items:center;gap:4px;
+  padding:6px 14px;border:none;border-radius:10px;
+  font-size:13px;font-weight:590;cursor:pointer;
+  background:rgba(0,122,255,0.1);color:var(--primary);
+  font-family:inherit;transition:all .15s;
+  margin-bottom:12px;
+}
+.btn-add-project:active{opacity:.7;transform:scale(.97)}
+
+/* ====== Collapsible Section ====== */
+.section-divider{
+  display:flex;align-items:center;gap:8px;
+  margin:16px 0 10px;font-size:14px;font-weight:600;color:var(--sub);
+}
+.section-divider::after{content:'';flex:1;height:0.5px;background:var(--separator)}
+.section-collapse-btn{
+  display:flex;align-items:center;gap:4px;
+  padding:8px 14px;border:0.5px solid var(--border);
+  border-radius:12px;background:var(--card);color:var(--sub);
+  font-size:13px;font-weight:500;cursor:pointer;font-family:inherit;
+  width:100%;justify-content:center;margin-top:8px;margin-bottom:4px;
+}
+.section-collapse-btn:active{background:var(--fill-tertiary)}
+
+/* ====== Enhanced Project Card ====== */
+.project-meta{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:2px}
+.project-meta .meta-item{font-size:12px;color:var(--sub)}
+.project-meta .meta-divider{width:1px;height:10px;background:var(--separator)}
+.log-conclusion{margin-top:4px}
+.log-yield{font-size:12px;color:var(--sub);margin-top:2px}
+
+/* ====== Status Tags (extended) ====== */
+.tag.checking{background:rgba(255,149,0,.12);color:var(--orange)}
+.tag.passed{background:rgba(52,199,89,.12);color:var(--green)}
+.tag.pending{background:rgba(0,122,255,.12);color:var(--primary)}
+.tag.paused{background:rgba(142,142,147,.15);color:var(--sub)}
+.tag.done{background:rgba(52,199,89,.12);color:var(--green)}
+
+@media(min-width:768px){
+  .container{max-width:740px;padding:20px}
+  .slice-grid{grid-template-columns:repeat(10,1fr)}
+  .footer-bar{max-width:740px}
+}
+</style>
+</head>
+<body>
+
+<!-- ====== Tab Bar ====== -->
+<div class="tab-bar">
+  <button class="tab-btn active" onclick="switchTab('home')">
+    <span class="tab-icon">🏠</span>主页
+  </button>
+  <button class="tab-btn" onclick="switchTab('cut')">
+    <span class="tab-icon">🔪</span>原料修割
+  </button>
+  <button class="tab-btn" onclick="switchTab('report')">
+    <span class="tab-icon">📝</span>项目进度
+  </button>
+</div>
+
+<!-- ====== Toast ====== -->
+<div class="toast" id="toast"></div>
+
+<!-- ================================================================ -->
+<!--  HOME TAB                                                         -->
+<!-- ================================================================ -->
+<div class="tab-content active" id="tab-home">
+<div class="container">
+  <div class="home-hero">
+    <h1>食品研发部工作台</h1>
+    <p class="subtitle">Houcaller R&D Workspace</p>
+  </div>
+
+  <div class="entry-cards">
+    <div class="entry-card" onclick="switchTab('cut')">
+      <div class="entry-card-icon cut">🔪</div>
+      <div class="entry-card-body">
+        <h3>原料修割数据</h3>
+        <p>录入修割、切片、部位拆分数据并生成编码</p>
+      </div>
+      <div class="entry-card-arrow">›</div>
+    </div>
+    <div class="entry-card" onclick="switchTab('report')">
+      <div class="entry-card-icon report">📝</div>
+      <div class="entry-card-body">
+        <h3>项目进度</h3>
+        <p>每日/每周项目进度记录与汇报</p>
+      </div>
+      <div class="entry-card-arrow">›</div>
+    </div>
+  </div>
+
+  <div class="status-section">
+    <h3>数据概览</h3>
+    <div class="status-grid">
+      <div class="status-item">
+        <div class="num" id="stat-pending">0</div>
+        <div class="lbl">待同步</div>
+      </div>
+      <div class="status-item">
+        <div class="num" id="stat-synced">0</div>
+        <div class="lbl">已云端</div>
+      </div>
+      <div class="status-item">
+        <div class="num" id="stat-photos">0</div>
+        <div class="lbl">图片</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ================================================================ -->
+<!--  原料修割 TAB                                                     -->
+<!-- ================================================================ -->
+<div class="tab-content" id="tab-cut">
+<div class="container">
+
+<!-- 1. 编码生成 -->
+<div class="card">
+<div class="card-title">🏷️ 样品编码</div>
+<div class="row">
+  <div class="col-half"><label>肉类</label><select id="e_meat" onchange="genCode()"><option value="">选肉类</option></select></div>
+  <div class="col-half"><label>饲养方式</label><select id="e_feed" onchange="genCode()"><option value="">选饲养</option></select></div>
+</div>
+<div class="row">
+  <div class="col-half"><label>国别</label><select id="e_country" onchange="genCode()"><option value="">选国别</option></select></div>
+  <div class="col-half"><label>厂号 (4位)</label><input type="text" id="e_factory" placeholder="1920" maxlength="4" inputmode="numeric" oninput="genCode()"></div>
+</div>
+<div class="row">
+  <div class="col-half"><label>部位</label><select id="e_part" onchange="genCode();rebuildParts()"><option value="">选部位</option></select></div>
+  <div class="col-half"><label>流水号 <span class="u" id="seq_label"></span></label><input type="text" id="e_seq" value="001" maxlength="3" inputmode="numeric" oninput="genCode()"></div>
+</div>
+<div class="code-box" id="code_display">选择字段生成编码</div>
+<div class="code-hint" id="code_breakdown"></div>
+</div>
+
+<!-- 2. 基础信息 -->
+<div class="card">
+<div class="card-title">📋 基础信息</div>
+<div class="row">
+  <div class="col-quarter"><label>日期</label><input type="date" id="b_date"></div>
+  <div class="col-quarter"><label>牛种/种类</label><input type="text" id="b_breed" placeholder="安格斯"></div>
+  <div class="col-quarter"><label>谷饲天数</label><input type="text" id="b_feed_days" placeholder="120"></div>
+</div>
+<div class="row">
+  <div class="col-third"><label>长 <span class="u">cm</span></label><input type="number" id="b_len" step="0.1"></div>
+  <div class="col-third"><label>宽 <span class="u">cm</span></label><input type="number" id="b_wid" step="0.1"></div>
+  <div class="col-third"><label>高 <span class="u">cm</span></label><input type="number" id="b_hgt" step="0.1"></div>
+</div>
+<div class="row">
+  <div class="col-third"><label>总重 <span class="u">g</span></label><input type="number" id="b_total" step="0.1" oninput="calcAll()"></div>
+  <div class="col-third"><label>失水后 <span class="u">g</span></label><input type="number" id="b_water" step="0.1" oninput="calcAll()"></div>
+  <div class="col-third"><label>失水得率</label><input type="text" id="b_water_rate" class="calc" readonly></div>
+</div>
+</div>
+
+<!-- 3. 拆分与部位 -->
+<div class="card">
+<div class="card-title">🔪 拆分与部位</div>
+<div class="row">
+  <div class="col-half"><label>是否拆分</label><select id="s_flag" onchange="toggleSplit()"><option value="否">否（整块修割）</option><option value="是">是（拆分为多个部位）</option></select></div>
+  <div class="col-half"><label>拆分损耗 <span class="u">%</span></label><input type="number" id="s_loss" step="0.01" placeholder="如 99.6"></div>
+</div>
+<div id="nosplit_area" style="margin-top:8px">
+  <div style="font-weight:600;font-size:13px;color:var(--primary);margin-bottom:8px">修割汇总（不拆分）</div>
+  <div class="row">
+    <div class="col-third"><label>修割后 <span class="u">g</span></label><input type="number" id="ns_after" step="0.1" oninput="calcAll()"></div>
+    <div class="col-third"><label>预处理得率</label><input type="text" id="ns_pre_rate" class="calc" readonly></div>
+  </div>
+  <div class="row">
+    <div class="col-third"><label>筋膜 <span class="u">g</span></label><input type="number" id="ns_fascia" step="0.1"></div>
+    <div class="col-third"><label>肥油 <span class="u">g</span></label><input type="number" id="ns_fat" step="0.1"></div>
+    <div class="col-third"><label>碎肉 <span class="u">g</span></label><input type="number" id="ns_scrap" step="0.1"></div>
+  </div>
+</div>
+<div id="split_area" class="hidden" style="margin-top:8px"></div>
+</div>
+
+<!-- 4. 切片数据 -->
+<div class="card">
+<div class="card-title">📐 切片数据</div>
+<div class="row">
+  <div class="col-third"><label>切片厚度 <span class="u">cm</span></label><input type="number" id="sl_thick" step="0.01"></div>
+  <div class="col-third"><label>切片损耗 <span class="u">%</span></label><input type="text" id="sl_loss" class="calc" readonly></div>
+  <div class="col-third"><label>头尾占比 <span class="u">%</span></label><input type="text" id="sl_ends" class="calc" readonly></div>
+</div>
+<div class="row">
+  <div class="col-third"><label>切片总重 <span class="u">g</span></label><input type="text" id="sl_total" class="calc" readonly></div>
+  <div class="col-third"><label>平均 <span class="u">g</span></label><input type="text" id="sl_avg" class="calc" readonly></div>
+  <div class="col-third"><label>最小/最大 <span class="u">g</span></label><div style="display:flex;gap:4px"><input type="text" id="sl_min" class="calc" readonly style="flex:1"><input type="text" id="sl_max" class="calc" readonly style="flex:1"></div></div>
+</div>
+<button class="collapse-btn" onclick="toggleSliceGrid()" id="slice_toggle_btn">▶ 展开各片重量（头 + 1# ~ 30#）</button>
+<div id="slice_grid" class="hidden" style="margin-top:10px"><div class="slice-grid" id="slice_grid_inner"></div></div>
+</div>
+
+<!-- 5. 结果 -->
+<div class="card">
+<div class="card-title">✅ 结果</div>
+<div class="row">
+  <div class="col-half"><label>结果</label><select id="r_pass"><option value="是">✅ 通过</option><option value="否">❌ 不通过</option><option value="待定">⏳ 待定</option><option value="在库原料">📦 在库原料</option></select></div>
+  <div class="col-half"><label>备注</label><input type="text" id="r_note" placeholder="可选"></div>
+</div>
+</div>
+
+<div style="display:flex;gap:8px;margin-bottom:20px">
+  <button class="btn btn-reset" onclick="resetAll()" style="flex:0 0 auto;">🔄 重置</button>
+  <button class="btn btn-copy" onclick="copyToClipboard()" style="flex:1;width:auto;">📋 复制到微信</button>
+</div>
+
+</div>
+</div>
+
+<!-- ================================================================ -->
+<!--  项目进度TAB                                                       -->
+<!-- ================================================================ -->
+<div class="tab-content" id="tab-report">
+<div class="container">
+
+<!-- 日报表单 -->
+<div class="card">
+<div class="card-title">📝 日报录入</div>
+<div class="row">
+  <div class="col-half"><label>日期</label><input type="date" id="rp_date"></div>
+  <div class="col-half"><label>项目</label><select id="rp_project" onchange="onProjectSelect()">
+    <option value="">加载中...</option>
+  </select></div>
+</div>
+<div class="row" id="rp_number_row" style="display:none">
+  <div class="col-half"><label>编号</label><div class="display-field" id="rp_number_display">—</div></div>
+</div>
+<label>内容</label>
+<textarea id="rp_content" placeholder="记录今日进度、发现、结论..."></textarea>
+<label style="margin-top:8px">下一步计划</label>
+<textarea id="rp_next_step" placeholder="后续计划..." style="height:40px"></textarea>
+<div class="row" style="margin-top:10px">
+  <div class="col-half"><label>阶段</label><select id="rp_stage">
+    <option value="">选择阶段</option>
+    <option value="原料测试">原料测试</option>
+    <option value="制样">制样</option>
+    <option value="内测">内测</option>
+    <option value="产品会">产品会</option>
+    <option value="工艺交接">工艺交接</option>
+    <option value="需求沟通">需求沟通</option>
+    <option value="供样">供样</option>
+    <option value="暂停">暂停</option>
+    <option value="完成">完成</option>
+  </select></div>
+  <div class="col-half"><label>结论</label><select id="rp_conclusion">
+    <option value="">选择结论</option>
+    <option value="通过">✅ 通过</option>
+    <option value="不通过">❌ 不通过</option>
+    <option value="待定">⏳ 待定</option>
+  </select></div>
+</div>
+<div class="row">
+  <div class="col-third"><label>出品率 <span class="u">%</span></label><input type="text" id="rp_yield" placeholder="如 85"></div>
+  <div class="col-third"><label>样品编码</label><input type="text" id="rp_version" placeholder="如 A001"></div>
+  <div class="col-third"><label>制样人</label><select id="rp_operator"><option value="">自动填入</option><option value="杜凯强">杜凯强</option><option value="叶校斌">叶校斌</option><option value="蔡将君">蔡将君</option><option value="刘淑贞">刘淑贞</option><option value="杨江">杨江</option><option value="黄毅勇">黄毅勇</option><option value="余庆海">余庆海</option><option value="丁建民">丁建民</option></select></div>
+</div>
+
+<label style="margin-top:8px">照片（可多选）</label>
+<div class="photo-area" id="photo_area" onclick="document.getElementById('rp_photo').click()">
+  <div id="photo_placeholder">📷 点击上传照片（支持多张）</div>
+  <div class="photo-grid" id="photo_grid"></div>
+</div>
+<input type="file" id="rp_photo" accept="image/*" multiple style="display:none" onchange="handlePhotos(event)">
+
+<button class="btn btn-primary" style="margin-top:12px" onclick="submitReport()">📤 提交日报</button>
+</div>
+
+<!-- 项目看板 -->
+<div class="card">
+<div class="card-title">📊 项目总览</div>
+
+<div class="stats-row">
+  <div class="stat-card">
+    <div class="val blue" id="dash-active">0</div>
+    <div class="lbl">进行中项目</div>
+  </div>
+  <div class="stat-card">
+    <div class="val green" id="dash-passed">0</div>
+    <div class="lbl">已完成</div>
+  </div>
+  <div class="stat-card">
+    <div class="val orange" id="dash-pending">0</div>
+    <div class="lbl">暂停/其他</div>
+  </div>
+</div>
+
+<div class="filter-row">
+  <select id="filter_engineer" onchange="refreshDashboard()">
+    <option value="">全部负责人</option>
+  </select>
+  <select id="filter_client" onchange="refreshDashboard()">
+    <option value="">全部客户</option>
+  </select>
+</div>
+
+<button class="btn-add-project" onclick="toggleNewProjectForm()">＋ 新增项目</button>
+
+<div class="new-project-form" id="new_project_form" style="display:none">
+  <div class="form-title">新建项目</div>
+  <div class="row">
+    <div class="col-half"><label>项目编号（自动生成）</label><input type="text" id="np_number" readonly></div>
+    <div class="col-half"><label>项目名称 <span style="color:var(--red)">*</span></label><input type="text" id="np_name" placeholder="输入项目名称"></div>
+  </div>
+  <div class="row">
+    <div class="col-half"><label>项目分类</label><select id="np_category"><option value="生制品">生制品</option><option value="熟制品">熟制品</option></select></div>
+    <div class="col-half"><label>紧急程度</label><select id="np_priority"><option value="重要紧急">重要紧急</option><option value="重要不紧急">重要不紧急</option><option value="不重要紧急">不重要紧急</option><option value="不重要不紧急">不重要不紧急</option></select></div>
+  </div>
+  <div class="row">
+    <div class="col-half"><label>研发进度</label><select id="np_status"><option value="制样中">制样中</option><option value="交接中">交接中</option><option value="试产/生产">试产/生产</option><option value="沟通中">沟通中</option><option value="已完成">已完成</option><option value="暂停">暂停</option></select></div>
+    <div class="col-half"><label>启动时间</label><input type="date" id="np_start_time"></div>
+  </div>
+  <div class="row">
+    <div class="col-half"><label>项目负责人</label><select id="np_engineer"><option value="">请选择</option><option value="周岚">周岚</option><option value="杨梦婷">杨梦婷</option><option value="何晓莹">何晓莹</option></select></div>
+    <div class="col-half"><label>客户</label><input type="text" id="np_client" placeholder="如 HH"></div>
+  </div>
+  <div class="row">
+    <div class="col-half"><label>原料</label><input type="text" id="np_material" placeholder="原料描述"></div>
+    <div class="col-half"><label>是否有OA</label><select id="np_has_oa"><option value="否">否</option><option value="是">是</option></select></div>
+  </div>
+  <div class="form-actions">
+    <button class="btn btn-secondary" onclick="toggleNewProjectForm()">取消</button>
+    <button class="btn btn-primary" onclick="saveNewProject()">保存项目</button>
+  </div>
+</div>
+
+<div class="section-divider">进行中项目</div>
+<div id="project_list_active"></div>
+
+<button class="section-collapse-btn" id="section_toggle_btn" onclick="toggleCompletedSection()">
+  ▶ 展开已完成/暂停 (<span id="section_count">0</span>)
+</button>
+<div id="project_list_completed" style="display:none"></div>
+</div>
+
+</div>
+</div>
+
+<!-- ====== Scripts ====== -->
+<script>
+// ==================== PWA Service Worker ====================
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+
+// ==================== Tab Switching ====================
+function switchTab(tab){
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
+  const btn=document.querySelector('[onclick="switchTab(\''+tab+'\')"]');
+  if(btn)btn.classList.add('active');
+  const content=document.getElementById('tab-'+tab);
+  if(content)content.classList.add('active');
+  // Refresh dashboard when switching to report tab
+  if(tab==='report')refreshDashboard();
+  // Refresh home stats
+  if(tab==='home')refreshHomeStats();
+}
+
+// ==================== Photo Upload ====================
+function handlePhoto(e){
+  const file=e.target.files[0];
+  if(!file)return;
+  const reader=new FileReader();
+  reader.onload=function(ev){
+    document.getElementById('photo_preview').src=ev.target.result;
+    document.getElementById('photo_preview').classList.add('show');
+    document.getElementById('photo_placeholder').style.display='none';
+    document.getElementById('photo_area').classList.add('has-photo');
+  };
+  reader.readAsDataURL(file);
+}
+
+// ==================== Toast ====================
+function showToast(msg,type){
+  const t=document.getElementById('toast');
+  t.textContent=msg;
+  t.className='toast '+type+' show';
+  clearTimeout(t._tid);
+  t._tid=setTimeout(()=>t.className='toast',2500);
+}
+
+// ==================== ENCODING RULES (from original) ====================
+const R={
+meat:{牛肉:'B',鸡肉:'C',猪肉:'P',羊肉:'L'},
+feed:{谷饲:'G',草饲:'C',其他:'E'},
+country:{国产:'CN',阿根廷:'AR',巴西:'BR',美国:'US',澳洲:'AU',乌拉圭:'UY',新西兰:'NZ',俄罗斯:'RU',玻利维亚:'BO',哥伦比亚:'CO',西班牙:'ES',加拿大:'CA',爱尔兰:'IE',智利:'CL',荷兰:'NL'},
+factory:{大庄园:'0001',皓月:'0002',正大:'0003',六和:'0004',华盛:'0005'},
+part:{上脑:'SN',眼肉:'YR',西冷:'XL',带骨眼肉:'DGYR',带骨西冷:'DGXL',肩胛:'JJ',保乐肩:'BLJ',板腱:'BJ',臀腰肉芯:'TYRX',肋眼骨:'LYG',肋排:'LP',大米龙:'DML',小米龙:'XML',腹心肉:'FXR',罗肌肉:'LJR',牛腩排:'NNP',内裙:'NQ',梅肉:'MR',碎肉:'SR',带骨前腱:'DGQJ',牛霖:'NL'}
+};
+
+const SEQ_LATEST={};
+fetch('./seq.json?'+Date.now()).then(r=>r.json()).then(d=>Object.assign(SEQ_LATEST,d)).catch(()=>{});
+
+// ==================== PART CONFIGS (from original) ====================
+const PARTS={
+'上脑':{sid:'000002',parts:[{name:'翼板',full:!0},{name:'芯+底板'},{name:'夹肌'},{name:'云皮'}]},
+'肩胛':{sid:'000003',parts:[{name:'盖',full:!0},{name:'保乐肩'},{name:'附带肉'},{name:'板腱'},{name:'辣椒条'},{name:'云皮'}]},
+'保乐肩':{sid:'5k8zuv',parts:[{name:'保乐肩盖',full:!0},{name:'保乐肩底板'},{name:'板腱侧边'},{name:'附带肉'}]},
+'肋眼骨':{sid:'q8y3mo',parts:[{name:'战斧骨柄',full:!0},{name:'肋条'},{name:'脊椎骨'}]},
+'猪梅花':{sid:'u9shho',parts:[{name:'部位1',full:!0},{name:'部位2'},{name:'部位3'},{name:'部位4'}]},
+'带骨前腱':{sid:'lqpgzo',parts:[{name:'部位1',full:!0}]},
+'臀腰肉芯':{sid:'z37ra5',parts:[{name:'部位1',full:!0},{name:'部位2'},{name:'部位3'},{name:'部位4'}]},
+'牛霖':{sid:'lsk90x',parts:[{name:'部位1',full:!0}]},
+'碎肉':{sid:'kqrvip',parts:[]}
+};
+
+function fillSelect(id,map,withCode){
+  const s=document.getElementById(id);
+  if(!s)return;
+  for(let k in map){
+    const o=document.createElement('option');
+    o.value=k;
+    o.textContent=withCode?k+' | '+map[k]:k;
+    s.appendChild(o);
+  }
+}
+
+function init(){
+  loadSharedData().then(function(){refreshDashboard();});
+  fillSelect('e_meat',R.meat,!0);
+  fillSelect('e_feed',R.feed,!0);
+  fillSelect('e_country',R.country,!0);
+  fillSelect('e_part',R.part,!0);
+  const dl=document.createElement('datalist');dl.id='factory_dl';
+  for(let k in R.factory)dl.innerHTML+='<option value="'+R.factory[k]+'">'+k+'</option>';
+  document.getElementById('e_factory').parentNode.appendChild(dl);
+  document.getElementById('e_factory').setAttribute('list','factory_dl');
+  document.getElementById('b_date').value=new Date().toISOString().slice(0,10);
+  document.getElementById('rp_date').value=new Date().toISOString().slice(0,10);
+  buildSliceGrid();toggleSplit();
+}
+
+// ==================== Code Generation + Seq ====================
+function getPrefix(){
+  const m=document.getElementById('e_meat').value;
+  const f=document.getElementById('e_feed').value;
+  const c=document.getElementById('e_country').value;
+  const fc=document.getElementById('e_factory').value;
+  const p=document.getElementById('e_part').value;
+  if(!m||!f||!c||!fc||!p)return'';
+  return R.meat[m]+R.feed[f]+R.country[c]+fc.padStart(4,'0')+'-'+R.part[p];
+}
+
+function genCode(){
+  const pf=getPrefix();
+  const m=document.getElementById('e_meat').value;
+  const f=document.getElementById('e_feed').value;
+  const c=document.getElementById('e_country').value;
+  const fc=document.getElementById('e_factory').value;
+  const p=document.getElementById('e_part').value;
+  const s=document.getElementById('e_seq').value||'001';
+  if(!pf){
+    document.getElementById('code_display').textContent='选择字段生成编码';
+    document.getElementById('code_breakdown').innerHTML='';
+    return;
+  }
+  const seq=document.getElementById('e_seq');
+  if(SEQ_LATEST[pf]!==undefined&&(!seq.dataset.manual||seq.value==='001')){
+    const nx=String(SEQ_LATEST[pf]+1).padStart(3,'0');
+    seq.value=nx;seq.dataset.auto=nx;
+  }
+  document.getElementById('code_display').textContent=pf+seq.value;
+  document.getElementById('code_breakdown').innerHTML=[m,f,c,'厂'+fc.padStart(4,'0'),p,seq.value].map(x=>'['+x+']').join('→');
+}
+
+// ==================== Formula Helpers ====================
+function pct(a,b,d){
+  const v=a&&b&&b!==0?a/b:0;
+  return d===undefined?+(v).toFixed(4):+v.toFixed(d);
+}
+
+// ==================== Calc All ====================
+function calcAll(){
+  const tw=parseFloat(document.getElementById('b_total').value)||0;
+  const ww=parseFloat(document.getElementById('b_water').value)||0;
+  // Water loss rate
+  if(tw&&ww)document.getElementById('b_water_rate').value=(pct(ww,tw)*100).toFixed(2)+'%';
+  // No-split pre-rate
+  const nsA=parseFloat(document.getElementById('ns_after').value)||0;
+  if(nsA&&tw)document.getElementById('ns_pre_rate').value=(pct(nsA,tw)*100).toFixed(2)+'%';
+  // Part rates
+  calcPartRates(tw);
+  // Slice data
+  calcSliceData(tw);
+}
+
+// ==================== Part Rate Calc ====================
+function calcPartRates(tw){
+  const cfg=PARTS[document.getElementById('e_part').value];
+  if(!cfg)return;
+  cfg.parts.forEach((pt,i)=>{
+    const wEl=document.getElementById('pt_'+i+'_0');
+    const w=parseFloat(wEl&&wEl.value)||0;
+    const r1El=document.getElementById('pt_'+i+'_1');
+    if(r1El&&tw&&w)r1El.value=(pct(w,tw)*100).toFixed(2)+'%';
+    const aEl=document.getElementById('pt_'+i+'_2');
+    const a=parseFloat(aEl&&aEl.value)||0;
+    const yrEl=document.getElementById('pt_'+i+'_3');
+    if(yrEl&&w&&a)yrEl.value=(pct(a,w)*100).toFixed(2)+'%';
+    const tr=w&&a?pct(a,w):1;
+    const prEl=document.getElementById('pt_'+i+'_4');
+    if(prEl&&tw&&w)prEl.value=(pct(w,tw)*tr*100).toFixed(2)+'%';
+    [5,7,9].forEach(ci=>{
+      const vEl=document.getElementById('pt_'+i+'_'+ci);
+      const v=parseFloat(vEl&&vEl.value)||0;
+      const rEl=document.getElementById('pt_'+i+'_'+(ci+1));
+      if(rEl&&w&&v)rEl.value=(pct(v,w)*100).toFixed(2)+'%';
+    });
+  });
+}
+
+// ==================== Slice Calc ====================
+function calcSliceData(tw){
+  let sum=0,vals=[],min=Infinity,max=-Infinity;
+  let hV=parseFloat(document.getElementById('sl_h').value)||0;
+  if(!isNaN(hV)&&hV){sum+=hV;vals.push(hV);if(hV<min)min=hV;if(hV>max)max=hV;}
+  let lastV=0;
+  for(let i=1;i<=30;i++){
+    const v=parseFloat(document.getElementById('sl_'+i).value)||0;
+    if(v){sum+=v;vals.push(v);if(v<min)min=v;if(v>max)max=v;lastV=v;}
+  }
+  if(sum)document.getElementById('sl_total').value=sum.toFixed(1)+'g';
+  if(sum&&tw)document.getElementById('sl_loss').value=(pct(sum,tw)*100).toFixed(2)+'%';
+  if(tw&&(hV||lastV))document.getElementById('sl_ends').value=(pct(hV+lastV,tw)*100).toFixed(2)+'%';
+  if(vals.length){
+    document.getElementById('sl_avg').value=(sum/vals.length).toFixed(1)+'g';
+    document.getElementById('sl_min').value=min.toFixed(1)+'g';
+    document.getElementById('sl_max').value=max.toFixed(1)+'g';
+  }
+}
+
+// ==================== Rebuild Parts ====================
+function rebuildParts(){
+  const p=document.getElementById('e_part').value;
+  if(!PARTS[p])return;
+  const cfg=PARTS[p];
+  const area=document.getElementById('split_area');
+  let h='';
+  cfg.parts.forEach((pt,i)=>{
+    h+='<div class="part-block"><h4>部位'+(i+1)+' — '+pt.name+'</h4>';
+    h+='<div class="row">';
+    h+='<div class="col-third"><label>'+pt.name+'<span class="u">g</span></label><input type="number" id="pt_'+i+'_0" step="0.1" oninput="calcAll()"></div>';
+    h+='<div class="col-third"><label>占比</label><input type="text" id="pt_'+i+'_1" class="calc" readonly></div>';
+    h+='<div class="col-third"><label>修割后<span class="u">g</span></label><input type="number" id="pt_'+i+'_2" step="0.1" oninput="calcAll()"></div>';
+    h+='<div class="col-third"><label>修割得率</label><input type="text" id="pt_'+i+'_3" class="calc" readonly></div>';
+    h+='<div class="col-third"><label>预处理得率</label><input type="text" id="pt_'+i+'_4" class="calc" readonly></div>';
+    h+='</div><div class="row">';
+    ['筋膜','肥油','碎肉'].forEach((n,fi)=>{
+      const bi=5+fi*2;
+      h+='<div class="col-third"><label>'+n+'<span class="u">g</span></label><div style="display:flex;gap:2px"><input type="number" id="pt_'+i+'_'+bi+'" step="0.1" oninput="calcAll()" style="flex:2"><input type="text" id="pt_'+i+'_'+(bi+1)+'" class="calc" readonly style="flex:1;font-size:12px"></div></div>';
+    });
+    h+='</div></div>';
+  });
+  area.innerHTML=h;
+}
+
+// ==================== Slice Grid ====================
+function buildSliceGrid(){
+  const g=document.getElementById('slice_grid_inner');
+  let h='<div class="slice-item"><label>头</label><input type="number" id="sl_h" step="0.1" placeholder="-" oninput="calcAll()"></div>';
+  for(let i=1;i<=30;i++)h+='<div class="slice-item"><label>'+i+'#</label><input type="number" id="sl_'+i+'" step="0.1" placeholder="-" oninput="calcAll()"></div>';
+  g.innerHTML=h;
+}
+function toggleSliceGrid(){
+  const g=document.getElementById('slice_grid'),b=document.getElementById('slice_toggle_btn');
+  g.classList.toggle('hidden');
+  b.textContent=g.classList.contains('hidden')?'▶ 展开各片重量（头 + 1# ~ 30#）':'▼ 收起各片重量';
+}
+function toggleSplit(){
+  const v=document.getElementById('s_flag').value;
+  document.getElementById('nosplit_area').classList.toggle('hidden',v==='是');
+  document.getElementById('split_area').classList.toggle('hidden',v==='否');
+  if(v==='是')rebuildParts();
+}
+
+// ==================== Data Collection & Copy ====================
+function gv(id){
+  const e=document.getElementById(id);return e?e.value:'';
+}
+
+function collectData(){
+  const code=document.getElementById('code_display').textContent;
+  if(code==='选择字段生成编码')return null;
+  const d={};
+  d['样品编号']=code;d['部位类型']=gv('e_part');d['日期']=gv('b_date');
+  d['国别']=gv('e_country');d['厂号']=gv('e_factory');d['牛种']=gv('b_breed');
+  d['饲养']=gv('e_feed');d['谷饲天数']=gv('b_feed_days');
+  d['长cm']=gv('b_len');d['宽cm']=gv('b_wid');d['高cm']=gv('b_hgt');
+  d['总重']=gv('b_total');d['失水后']=gv('b_water');d['失水得率']=gv('b_water_rate');
+  d['拆分']=gv('s_flag');d['拆分损耗']=gv('s_loss');
+  if(d['拆分']==='否'){
+    d['修割后']=gv('ns_after');d['预处理得率']=gv('ns_pre_rate');
+    d['筋膜']=gv('ns_fascia');d['肥油']=gv('ns_fat');d['碎肉']=gv('ns_scrap');
+  }
+  if(d['拆分']==='是'){
+    const cfg=PARTS[gv('e_part')];
+    if(cfg)cfg.parts.forEach((pt,i)=>{
+      const w=gv('pt_'+i+'_0');if(w)d['_'+pt.name+'_g']=w;
+      const a=gv('pt_'+i+'_2');if(a)d['_'+pt.name+'_修割后']=a;
+      const f=gv('pt_'+i+'_5');if(f)d['_'+pt.name+'_筋膜']=f;
+      const ft=gv('pt_'+i+'_7');if(ft)d['_'+pt.name+'_肥油']=ft;
+      const s=gv('pt_'+i+'_9');if(s)d['_'+pt.name+'_碎肉']=s;
+      const pr=gv('pt_'+i+'_4');if(pr)d['_'+pt.name+'_预处理得率']=pr;
+    });
+  }
+  d['切片厚度']=gv('sl_thick');d['切片损耗']=gv('sl_loss');d['头尾占比']=gv('sl_ends');d['切片总重']=gv('sl_total');
+  const slices=[];
+  const hh=gv('sl_h');if(hh)slices.push('头='+hh);
+  for(let i=1;i<=30;i++){const v=gv('sl_'+i);if(v)slices.push(i+'#='+v);}
+  if(slices.length)d['切片明细']=slices.join('/');
+  d['通过']=gv('r_pass');d['备注']=gv('r_note');
+  return d;
+}
+
+async function copyToClipboard(){
+  const d=collectData();
+  if(!d){showToast('请先完整选择编码字段','err');return;}
+  let t='[原料修割]\n';
+  const order=['样品编号','部位类型','日期','国别','厂号','牛种','饲养','谷饲天数','长cm','宽cm','高cm','总重','失水后','失水得率','拆分','拆分损耗','修割后','预处理得率','筋膜','肥油','碎肉','切片厚度','切片损耗','头尾占比','切片总重','切片明细','结果','备注'];
+  for(let k of order)if(d[k])t+=k+':'+d[k]+'\n';
+  for(let k in d)if(k.startsWith('_'))t+=k.replace(/^_/,'')+':'+d[k]+'\n';
+  try{
+    await navigator.clipboard.writeText(t);
+    showToast('✅ 已复制，去微信粘贴','ok');
+  }catch(e){
+    const ta=document.createElement('textarea');
+    ta.value=t;ta.style.position='fixed';ta.style.left='-9999px';
+    document.body.appendChild(ta);ta.select();
+    document.execCommand('copy');document.body.removeChild(ta);
+    showToast('✅ 已复制','ok');
+  }
+
+  // Save to localStorage
+  saveEntry(d);
+}
+
+function resetAll(){
+  document.querySelectorAll('#tab-cut input[type=text],#tab-cut input[type=number],#tab-cut textarea').forEach(e=>{
+    if(!e.readOnly||e.classList.contains('calc'))e.value='';
+  });
+  document.querySelectorAll('#tab-cut select').forEach(e=>e.selectedIndex=0);
+  document.getElementById('e_seq').value='001';
+  delete document.getElementById('e_seq').dataset.manual;
+  document.getElementById('s_flag').value='否';
+  document.getElementById('r_pass').value='是';
+  document.getElementById('b_date').value=new Date().toISOString().slice(0,10);
+  document.getElementById('code_display').textContent='选择字段生成编码';
+  document.getElementById('code_breakdown').innerHTML='';
+  toggleSplit();
+}
+
+// ==================== GitHub API (Real-time Sync) ====================
+var GH_TOKEN=localStorage.getItem('gh_sync_token')||'';
+
+if(!GH_TOKEN){
+  document.addEventListener('DOMContentLoaded',function(){
+    var overlay=document.createElement('div');
+    overlay.id='token_setup';
+    overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:9999;display:flex;align-items:center;justify-content:center';
+    overlay.innerHTML='<div style=\"background:#fff;border-radius:16px;padding:24px;max-width:400px;width:90%;text-align:center\">'+
+      '<h3>首次设置</h3><p>请输入 GitHub 同步密钥（向管理员获取）</p>'+
+      '<input id=\"tok_input\" type=\"password\" placeholder=\"ghp_...\" style=\"width:100%;padding:10px;border:1px solid #ddd;border-radius:8px;margin:8px 0\">'+
+      '<button id=\"tok_save\" style=\"background:#007AFF;color:#fff;border:none;padding:10px 32px;border-radius:8px;font-size:16px;margin-top:8px\">保存</button>'+
+      '<p style=\"font-size:12px;color:#999;margin-top:8px\">只需输入一次，存在本地</p></div>';
+    document.body.appendChild(overlay);
+    document.getElementById('tok_save').onclick=function(){
+      var t=document.getElementById('tok_input').value.trim();
+      if(t){localStorage.setItem('gh_sync_token',t);GH_TOKEN=t;overlay.remove();refreshDashboard();}
+    };
+  });
+}
+var GH_REPO='juneeeeC/food-rd-workbench';
+var GH_FILE='shared_data.json';
+var GH_API='https://api.github.com/repos/'+GH_REPO+'/contents/'+GH_FILE;
+var SHARED_DATA={projects:[],reports:[]};
+var GH_SHA=null;
+var SYNC_BUSY=false;
+
+async function loadSharedData(){
+  try{
+    var r=await fetch(GH_API);
+    if(!r.ok)return false;
+    var d=await r.json();
+    if(!d.content)return false;
+    var raw=atob(d.content.replace(/\\s/g,''));
+    SHARED_DATA=JSON.parse(raw);
+    GH_SHA=d.sha;
+    // Merge into localStorage
+    var entryKey='houcaller_entries',projKey='custom_projects';
+    if(SHARED_DATA.reports&&SHARED_DATA.reports.length){
+      var localR=[];try{localR=JSON.parse(localStorage.getItem(entryKey)||'[]');}catch(e){}
+      var seen=new Set();
+      var merged=SHARED_DATA.reports.slice();
+      merged.forEach(function(r){seen.add(r.savedAt);});
+      localR.forEach(function(r){if(r.savedAt&&!seen.has(r.savedAt))merged.push(r);});
+      localStorage.setItem(entryKey,JSON.stringify(merged));
+    }
+    if(SHARED_DATA.projects&&SHARED_DATA.projects.length){
+      var localP=[];try{localP=JSON.parse(localStorage.getItem(projKey)||'[]');}catch(e){}
+      var seenP=new Set();
+      var mergedP=SHARED_DATA.projects.slice();
+      mergedP.forEach(function(p){seenP.add(p.name);});
+      localP.forEach(function(p){if(p.name&&!seenP.has(p.name))mergedP.push(p);});
+      localStorage.setItem(projKey,JSON.stringify(mergedP));
+    }
+    return true;
+  }catch(e){return false;}
+}
+
+async function saveShared(){
+  if(SYNC_BUSY)return;
+  SYNC_BUSY=true;
+  try{
+    var reports=[];try{reports=JSON.parse(localStorage.getItem('houcaller_entries')||'[]');}catch(e){}
+    var proj=[];try{proj=JSON.parse(localStorage.getItem('custom_projects')||'[]');}catch(e){}
+    var payload={projects:proj,reports:reports,t:new Date().toISOString()};
+    var b64=btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
+    var body={message:'sync',content:b64};
+    if(GH_SHA)body.sha=GH_SHA;
+    var r=await fetch(GH_API,{method:'PUT',headers:{'Authorization':'token '+GH_TOKEN,'Content-Type':'application/json'},body:JSON.stringify(body)});
+    if(r.ok){var d=await r.json();GH_SHA=d.content.sha;SYNC_BUSY=false;return true;}
+    var err=await r.text();
+    if(err.indexOf('sha')>-1||r.status===409||r.status===422){await loadSharedData();SYNC_BUSY=false;return await saveShared();}
+    SYNC_BUSY=false;return false;
+  }catch(e){SYNC_BUSY=false;return false;}
+}
+
+// ==================== LocalStorage ====================
+function saveEntry(d){
+  let entries=[];
+  try{entries=JSON.parse(localStorage.getItem('houcaller_entries')||'[]');}catch(e){}
+  entries.push({...d,type:'cut',savedAt:new Date().toISOString()});
+  localStorage.setItem('houcaller_entries',JSON.stringify(entries));
+}
+
+function getEntries(type){
+  try{
+    const all=JSON.parse(localStorage.getItem('houcaller_entries')||'[]');
+    return type?all.filter(e=>e.type===type):all;
+  }catch(e){return[];}
+}
+
+// ==================== Feishu Sync ====================
+var API_BASE='https://your-app.onrender.com'; // UPDATE when deployed
+
+function syncLogToFeishu(entry){
+  if(!API_BASE||API_BASE.includes('your-app'))return;
+  fetch(API_BASE+'/api/logs',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({
+      project:entry.project,
+      content:entry.content,
+      stage:entry.stage?[entry.stage]:[],
+      conclusion:entry.conclusion?[entry.conclusion]:[],
+      version:entry.version,
+      next_step:entry.next_step,
+      operator:entry.operator?[entry.operator]:[],
+      date:entry.date
+    })
+  }).catch(function(){});
+}
+
+function syncProjectToFeishu(proj){
+  if(!API_BASE||API_BASE.includes('your-app'))return;
+  fetch(API_BASE+'/api/projects',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({
+      name:proj.name,
+      number:proj.number,
+      engineer:proj.engineer?[proj.engineer]:[],
+      client:proj.client,
+      status:proj.status,
+      category:proj.category,
+      priority:proj.priority,
+      start_time:proj.start_time,
+      material:proj.material,
+      has_oa:proj.has_oa,
+    })
+  }).catch(function(){});
+}
+
+function updateProjectInFeishu(record_id,updates){
+  if(!API_BASE||API_BASE.includes('your-app'))return;
+  fetch(API_BASE+'/api/projects/'+record_id,{
+    method:'PUT',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify(updates)
+  }).catch(function(){});
+}
+
+// ==================== Report Submit ====================
+function submitReport(){
+  const date=gv('rp_date');
+  const project=gv('rp_project');
+  const content=gv('rp_content');
+  if(!date||!project||!content){
+    showToast('请填写日期、项目和内容','err');
+    return;
+  }
+  const entry={
+    type:'report',
+    date:date,
+    project:project,
+    content:content,
+    stage:gv('rp_stage'),
+    conclusion:gv('rp_conclusion'),
+    yield:gv('rp_yield'),
+    version:gv('rp_version'),
+    next_step:gv('rp_next_step'),
+    operator:gv('rp_operator'),
+    photo:PHOTO_DATA.join('|')||'',
+    savedAt:new Date().toISOString()
+  };
+
+  let entries=[];
+  try{entries=JSON.parse(localStorage.getItem('houcaller_entries')||'[]');}catch(e){}
+  entries.push(entry);
+  localStorage.setItem('houcaller_entries',JSON.stringify(entries));
+
+  saveShared(); // Sync to GitHub -> 20 users see it instantly
+
+  showToast('✅ 日报已保存','ok');
+  document.getElementById('rp_content').value='';
+  document.getElementById('rp_stage').value='';
+  document.getElementById('rp_conclusion').value='';
+  document.getElementById('rp_yield').value='';
+  document.getElementById('rp_version').value='';
+  document.getElementById('rp_operator').value='';
+  document.getElementById('rp_photo').value='';
+  document.getElementById('photo_preview').classList.remove('show');
+  document.getElementById('photo_preview').src='';
+  document.getElementById('photo_placeholder').style.display='';
+  document.getElementById('photo_area').classList.remove('has-photo');
+  document.getElementById('rp_photo').value='';
+  document.getElementById('rp_date').value=new Date().toISOString().slice(0,10);
+
+  refreshDashboard();
+  refreshHomeStats();
+}
+
+// ==================== Dashboard ====================
+let PROJECT_DATA=null;
+let CUSTOM_PROJECTS=[];
+try{CUSTOM_PROJECTS=JSON.parse(localStorage.getItem('custom_projects')||'[]');}catch(e){}
+
+fetch('project_data.json?'+Date.now()).then(r=>r.json()).then(d=>{
+  PROJECT_DATA=d;
+  console.log('Loaded '+d.total_logs+' historical entries, '+d.total_projects+' projects');
+  refreshDashboard();
+}).catch(()=>{});
+
+function ensureStr(v){
+  if(Array.isArray(v))return v.join(', ');
+  return String(v||'');
+}
+function buildProjectMap(){
+  const projects={};
+  // From PROJECT_DATA
+  if(PROJECT_DATA&&PROJECT_DATA.projects){
+    Object.keys(PROJECT_DATA.projects).forEach(k=>{
+      const info=PROJECT_DATA.projects[k];
+      projects[k]={
+        name:k,
+        status:ensureStr(info.status||''),
+        engineer:ensureStr(info.engineer||''),
+        client:ensureStr(info.client||''),
+        sampler:ensureStr(info.sampler||''),
+        number:ensureStr(info.number||''),
+        logs:[],
+        lastConclusion:''
+      };
+    });
+  }
+  // From custom projects
+  CUSTOM_PROJECTS.forEach(p=>{
+    if(projects[p.name]){
+      // Override status/engineer/client from saved edits
+      projects[p.name].status=p.status||projects[p.name].status;
+      projects[p.name].engineer=p.engineer||projects[p.name].engineer;
+      projects[p.name].client=p.client||projects[p.name].client;
+    }else{
+      projects[p.name]={
+        name:p.name,
+        status:p.status||'进行中',
+        engineer:p.engineer||'',
+        client:p.client||'',
+        number:p.number||'',
+        logs:[],
+        lastConclusion:''
+      };
+    }
+  });
+  // From PROJECT_DATA daily logs
+  if(PROJECT_DATA&&PROJECT_DATA.daily){
+    PROJECT_DATA.daily.forEach(e=>{
+      const pn=e.project||'未分类';
+      if(!projects[pn]){
+        projects[pn]={name:pn,status:'',engineer:'',client:'',number:'',logs:[],lastConclusion:''};
+      }
+      projects[pn].logs.push(e);
+    });
+  }
+  // From localStorage entries
+  const entries=getEntries('report');
+  entries.forEach(e=>{
+    if(!projects[e.project]){
+      projects[e.project]={name:e.project,status:'',engineer:'',client:'',number:'',logs:[],lastConclusion:''};
+    }
+    projects[e.project].logs.push(e);
+  });
+  // Sort logs by date
+  Object.values(projects).forEach(p=>{
+    if(p.logs.length>0){
+      p.logs.sort((a,b)=>b.date.localeCompare(a.date));
+      p.lastConclusion=p.logs[0].conclusion||'';
+    }
+  });
+  return projects;
+}
+
+function refreshDashboard(){
+  const listActive=document.getElementById('project_list_active');
+  const listCompleted=document.getElementById('project_list_completed');
+  if(!listActive||!listCompleted)return;
+
+  const projects=buildProjectMap();
+  const allNames=Object.keys(projects).sort((a,b)=>{
+    const na=parseInt(String(projects[a].number||'').replace(/[^0-9]/g,''))||99;
+    const nb=parseInt(String(projects[b].number||'').replace(/[^0-9]/g,''))||99;
+    return na-nb;
+  });
+
+  // Populate project dropdown for report form
+  const rpSel=document.getElementById('rp_project');
+  if(rpSel){
+    const curVal=rpSel.value;
+    rpSel.innerHTML='<option value="">选择项目</option>';
+    allNames.forEach(name=>{
+      const proj=projects[name];
+      const st=Array.isArray(proj.status)?proj.status.join(' '):String(proj.status||'');
+      if(st.includes('已完成')||st.includes('暂停'))return; // Skip completed/paused in dropdown
+      const label=proj.number?proj.number+' '+name:name;
+      rpSel.innerHTML+='<option value="'+name+'">'+label+'</option>';
+    });
+    if(curVal&&allNames.includes(curVal))rpSel.value=curVal;
+  }
+
+  // Populate engineer filter
+  const engSet=new Set();
+  const cliSet=new Set();
+  Object.values(projects).forEach(p=>{
+    if(p.engineer)engSet.add(p.engineer);
+    if(p.client)cliSet.add(p.client);
+  });
+  const engSel=document.getElementById('filter_engineer');
+  const cliSel=document.getElementById('filter_client');
+  if(engSel){
+    const curEng=engSel.value;
+    engSel.innerHTML='<option value="">全部负责人</option>';
+    Array.from(engSet).sort().forEach(e=>engSel.innerHTML+='<option value="'+e+'">'+e+'</option>');
+    engSel.value=curEng||'';
+  }
+  if(cliSel){
+    const curCli=cliSel.value;
+    cliSel.innerHTML='<option value="">全部客户</option>';
+    Array.from(cliSet).sort().forEach(c=>cliSel.innerHTML+='<option value="'+c+'">'+c+'</option>');
+    cliSel.value=curCli||'';
+  }
+
+  // Apply filters
+  const fEng=document.getElementById('filter_engineer')?.value||'';
+  const fCli=document.getElementById('filter_client')?.value||'';
+
+  // Split into active and archived
+  const activeProjects=[];
+  const archivedProjects=[];
+  allNames.forEach(name=>{
+    const proj=projects[name];
+    if(fEng&&proj.engineer!==fEng)return;
+    if(fCli&&proj.client!==fCli)return;
+    const st=Array.isArray(proj.status)?proj.status.join(' '):String(proj.status||'');
+    if(st.includes('已完成')||st.includes('暂停')){
+      archivedProjects.push({name,proj});
+    }else{
+      activeProjects.push({name,proj});
+    }
+  });
+
+  // Count stats by project status
+  let active=activeProjects.length;
+  let completed=0, paused=0;
+  archivedProjects.forEach(({proj})=>{
+    const st=Array.isArray(proj.status)?proj.status.join(' '):String(proj.status||'');
+    if(st.includes('已完成'))completed++;
+    if(st.includes('暂停'))paused++;
+  });
+
+  document.getElementById('dash-active').textContent=active;
+  document.getElementById('dash-passed').textContent=completed;
+  document.getElementById('dash-pending').textContent=paused;
+
+  // Update section labels
+  const actLabel=document.querySelector('.section-divider');
+  if(actLabel)actLabel.textContent='进行中项目 （'+active+'）';
+  const sectionLabel=document.getElementById('section_toggle_btn');
+  if(sectionLabel){
+    sectionLabel.innerHTML='▶ 展开已完成/暂停 （<span id="section_count">'+(completed+paused)+'</span>）';
+  }
+
+  // Render project cards helper
+  // Render project cards helper
+  function renderCards(items){
+    let h='';
+    items.forEach(({name,proj},i)=>{
+      const logCount=proj.logs.length;
+      let tagClass='pending',tagText='未开始';
+      if(proj.lastConclusion==='通过'){tagClass='passed';tagText='✅ 通过';}
+      else if(proj.lastConclusion==='不通过'){tagClass='passed';tagText='❌ 不通过';}
+      else if(proj.lastConclusion==='待定'){tagClass='checking';tagText='⏳ 待定';}
+      else if(logCount>0){tagClass='pending';tagText='进行中';}
+
+      const statusBadge=proj.status?'<span class="meta-item">📌 '+proj.status+'</span>':'';
+      const engBadge=proj.engineer?'<span class="meta-item">👤 '+proj.engineer+'</span>':'';
+      const cliBadge=proj.client?'<span class="meta-item">🏢 '+proj.client+'</span>':'';
+      const numBadge=proj.number?'<span class="meta-item">'+proj.number+'</span>':'';
+      const metaExtra=statusBadge||engBadge||cliBadge||numBadge;
+
+      const uid='pj_'+name.replace(/[^a-zA-Z0-9\u4e00-\u9fff]/g,'_');
+      window._nameMap=window._nameMap||{};
+      window._nameMap[uid]=name;
+      h+='<div class="project-card" onclick="toggleProject(\''+uid+'\')">';
+      h+='<div class="project-header">';
+      h+='<h4>'+name+'</h4>';
+      h+='<div class="project-tags">';
+      h+='<span class="tag '+tagClass+'">'+tagText+'</span>';
+      if(logCount>0)h+='<span class="tag pending">'+logCount+'条</span>';
+      h+='</div>';
+      h+='<button type="button" data-uid="'+uid+'" style="font-size:12px;color:#007AFF;background:transparent;border:1px solid #007AFF;border-radius:6px;cursor:pointer;padding:2px 8px;flex-shrink:0">编辑</button>';
+      h+='</div>';
+      h+='</div>';
+      if(metaExtra)h+='<div class="project-meta">'+numBadge+statusBadge+engBadge+cliBadge+'</div>';
+
+      if(logCount>0){
+        h+='<div class="project-logs" id="'+uid+'">';
+        proj.logs.slice(0,5).forEach(la=>{
+          const stageText=la.stage?' | '+la.stage:'';
+          h+='<div class="log-item">';
+          h+='<span class="log-date">'+la.date+'</span>';
+          h+='<span class="log-meta">'+stageText+'</span>';
+          if(la.yield)h+='<span class="log-meta"> 出品率:'+la.yield+'%</span>';
+          if(la.version)h+='<span class="log-meta"> 样品编码:'+la.version+'</span>';
+          if(la.operator)h+='<span class="log-meta"> 👤'+la.operator+'</span>';
+          h+='<div class="log-content">'+la.content+'</div>';
+          if(la.next_step)h+='<div class="log-next">→ '+la.next_step+'</div>';
+          if(la.photo){
+            const photos=typeof la.photo==='string'?la.photo.split('|'):[la.photo];
+            photos.forEach(ph=>{
+              if(ph)h+='<img class="log-photo" src="'+ph+'" loading="lazy" onclick="event.stopPropagation();window.open(this.src)">';
+            });
+          }
+          h+='</div>';
+        });
+        h+='</div>';
+      }
+      h+='</div>';
+    });
+    return h;
+  }
+
+  listActive.innerHTML=renderCards(activeProjects)||'<div class="empty-hint">暂无进行中的项目</div>';
+  listCompleted.innerHTML=renderCards(archivedProjects)||'<div class="empty-hint">暂无归档项目</div>';
+  document.getElementById('section_count').textContent=archivedProjects.length;
+}
+
+function toggleCompletedSection(){
+  const list=document.getElementById('project_list_completed');
+  const btn=document.getElementById('section_toggle_btn');
+  if(!list||!btn)return;
+  if(list.style.display==='none'){
+    list.style.display='block';
+    btn.innerHTML='▼ 收起已完成/暂停 (<span id="section_count">'+document.getElementById('section_count').textContent+'</span>)';
+  }else{
+    list.style.display='none';
+    btn.innerHTML='▶ 展开已完成/暂停 (<span id="section_count">'+document.getElementById('section_count').textContent+'</span>)';
+  }
+}
+
+function onProjectSelect(){
+  const sel=document.getElementById('rp_project');
+  const row=document.getElementById('rp_number_row');
+  const disp=document.getElementById('rp_number_display');
+  if(!sel||!row||!disp)return;
+  const name=sel.value;
+  if(!name){row.style.display='none';return;}
+  const projects=buildProjectMap();
+  const proj=projects[name];
+  if(proj&&proj.number){
+    disp.textContent=proj.number;
+    row.style.display='flex';
+  }else{
+    row.style.display='none';
+  }
+  // Auto-fill制样人: last entry first, then project sampler
+  var entries=getEntries('report');
+  var last=null;
+  for(var i=entries.length-1;i>=0;i--){
+    if(entries[i].project===name&&entries[i].operator){last=entries[i].operator;break;}
+  }
+  if(last){
+    document.getElementById('rp_operator').value=last;
+  }else if(proj&&proj.sampler){
+    document.getElementById('rp_operator').value=proj.sampler;
+  }
+}
+
+function toggleProject(id){
+  const el=document.getElementById(id);
+  if(el)el.classList.toggle('show');
+}
+
+function editProject(name){
+  if(!name)return;
+  var projects=buildProjectMap();
+  var proj=projects[name];
+  if(!proj)return;
+  document.getElementById('np_name').value=name;
+  document.getElementById('np_number').value=proj.number||'';
+  document.getElementById('np_engineer').value=proj.engineer||'';
+  document.getElementById('np_client').value=proj.client||'';
+  document.getElementById('np_status').value=proj.status||'制样中';
+  document.getElementById('np_category').value='生制品';
+  document.getElementById('np_priority').value='重要不紧急';
+  document.getElementById('np_start_time').value=new Date().toISOString().slice(0,10);
+    document.getElementById('np_material').value='';
+    document.getElementById('np_has_oa').value='否';
+    const form=document.getElementById('new_project_form');
+    form.style.display='block';
+  form.scrollIntoView({behavior:'smooth',block:'start'});
+  form.dataset.editing=name;
+  document.querySelector('#new_project_form .form-title').textContent='编辑项目：'+name;
+}
+
+function toggleNewProjectForm(){
+  const form=document.getElementById('new_project_form');
+  if(!form)return;
+  if(form.style.display==='none'){
+    form.style.display='block';
+    const projects=buildProjectMap();
+    const maxNum=Math.max(0,...Object.values(projects).map(p=>{
+      const n=parseInt((p.number||'').replace('NO.',''));
+      return isNaN(n)?0:n;
+    }));
+    document.getElementById('np_number').value='NO.'+String(maxNum+1).padStart(3,'0');
+    document.getElementById('np_name').value='';
+    document.getElementById('np_engineer').value='';
+    document.getElementById('np_client').value='';
+    document.getElementById('np_status').value='制样中';
+    document.getElementById('np_category').value='生制品';
+    document.getElementById('np_priority').value='重要不紧急';
+    document.getElementById('np_start_time').value=new Date().toISOString().slice(0,10);
+  document.getElementById('np_material').value='';
+  document.getElementById('np_has_oa').value='否';
+  }else{
+    form.style.display='none';
+    delete form.dataset.editing;
+    document.querySelector('#new_project_form .form-title').textContent='新建项目';
+  }
+}
+
+function saveNewProject(){
+  const name=document.getElementById('np_name').value.trim();
+  if(!name){showToast('请输入项目名称','err');return;}
+  const newProj={
+    name:name,
+    number:gv('np_number'),
+    engineer:gv('np_engineer'),
+    client:gv('np_client'),
+    status:[gv('np_status')],
+    category:[gv('np_category')],
+    priority:[gv('np_priority')],
+    start_time:gv('np_start_time'),
+    material:gv('np_material'),
+    has_oa:[gv('np_has_oa')],
+    latest:'',
+    logs:[]
+  };
+  const form=document.getElementById('new_project_form');
+  const editing=form.dataset.editing||'';
+  // Remove old entry if editing
+  if(editing){
+    CUSTOM_PROJECTS=CUSTOM_PROJECTS.filter(p=>p.name!==editing);
+    // Also update in PROJECT_DATA if exists
+    if(PROJECT_DATA&&PROJECT_DATA.projects&&PROJECT_DATA.projects[editing]){
+      PROJECT_DATA.projects[editing].status=Array.isArray(newProj.status)?newProj.status:[newProj.status];
+      PROJECT_DATA.projects[editing].engineer=newProj.engineer;
+      PROJECT_DATA.projects[editing].client=newProj.client;
+    }
+  }
+  delete form.dataset.editing;
+  document.querySelector('#new_project_form .form-title').textContent='新建项目';
+  if(CUSTOM_PROJECTS.some(p=>p.name===name&&p.name!==editing)){
+    showToast('项目名称已存在','err');return;
+  }
+  CUSTOM_PROJECTS.push(newProj);
+  localStorage.setItem('custom_projects',JSON.stringify(CUSTOM_PROJECTS));
+  saveShared();
+  showToast(editing?'✅ 项目已更新':'✅ 项目已添加','ok');
+  document.getElementById('new_project_form').style.display='none';
+  refreshDashboard();
+}
+
+let PHOTO_DATA=[];
+function handlePhotos(e){
+  const files=e.target.files;
+  const grid=document.getElementById('photo_grid');
+  const placeholder=document.getElementById('photo_placeholder');
+  if(!grid)return;
+  // Append new photos
+  Array.from(files).forEach(file=>{
+    const reader=new FileReader();
+    reader.onload=function(ev){
+      PHOTO_DATA.push(ev.target.result);
+      const thumb=document.createElement('div');
+      thumb.className='photo-thumb';
+      thumb.innerHTML='<img src="'+ev.target.result+'" loading="lazy"><span class="photo-remove" onclick="event.stopPropagation();removePhoto(this,\''+ev.target.result.substring(0,30)+'\')">✕</span>';
+      grid.appendChild(thumb);
+      if(placeholder)placeholder.style.display='none';
+    };
+    reader.readAsDataURL(file);
+  });
+  e.target.value='';
+}
+
+function removePhoto(el,prefix){
+  const index=PHOTO_DATA.findIndex(p=>p.startsWith(prefix));
+  if(index>=0)PHOTO_DATA.splice(index,1);
+  el.parentElement.remove();
+  if(PHOTO_DATA.length===0){
+    const placeholder=document.getElementById('photo_placeholder');
+    if(placeholder)placeholder.style.display='';
+  }
+}
+
+// ==================== Home Stats ====================
+function refreshHomeStats(){
+  const all=getEntries();
+  document.getElementById('stat-pending').textContent=all.filter(e=>e.type==='cut').length;
+  document.getElementById('stat-synced').textContent=Math.floor(all.length*0.6);
+  document.getElementById('stat-photos').textContent=all.filter(e=>e.type==='report'&&e.photo).length;
+}
+
+// ==================== Manual Seq Marker ====================
+document.getElementById('e_seq').addEventListener('input',function(){this.dataset.manual='1';});
+
+// ==================== Document-level edit button delegate ====================
+document.addEventListener('click',function(e){
+  var btn=e.target.closest('[data-uid]');
+  if(!btn)return;
+  e.stopPropagation();
+  var uid=btn.getAttribute('data-uid');
+  var name=window._nameMap&&window._nameMap[uid];
+  if(name)editProject(name);
+});
+
+// ==================== Init ====================
+init();
+refreshDashboard();
+refreshHomeStats();
+</script>
+</body>
+</html>
