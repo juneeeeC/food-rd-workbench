@@ -373,30 +373,6 @@
       "record_id": "recvr7hTkcCmjn"
     },
     {
-      "date": "2026-07-25",
-      "project": "",
-      "content": "输出报价给餐饮研发",
-      "stage": "需求沟通",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "待餐饮研发反馈",
-      "source": "feishu_import",
-      "record_id": "recvrzqgQNJ151"
-    },
-    {
-      "date": "2026-07-25",
-      "project": "",
-      "content": "原料研究，制样静腌牛排",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "下周一呈报产品会",
-      "source": "feishu_import",
-      "record_id": "recvrzqhq1EjGE"
-    },
-    {
       "date": "2026-07-24",
       "project": "原切肥牛片",
       "content": "添加D异抗方案制样完成，预计周一可刨片。",
@@ -467,54 +443,6 @@
       "next_step": "周一上午内测，确定产品会版本",
       "source": "feishu_import",
       "record_id": "recvqwCXM6ZCN1"
-    },
-    {
-      "date": "2026-07-24",
-      "project": "",
-      "content": "添加D异抗方案制样完成，预计周一可刨片。",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "周一内测，产品会呈报",
-      "source": "feishu_import",
-      "record_id": "recvrzqhTgUMTd"
-    },
-    {
-      "date": "2026-07-24",
-      "project": "",
-      "content": "翔安工厂预计7/29-8/5生产百胜产品，产能紧张，沟通试产时间暂停8/6-8/7",
-      "stage": "需求沟通",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "7/29追踪到货",
-      "source": "feishu_import",
-      "record_id": "recvrzqirrLQFY"
-    },
-    {
-      "date": "2026-07-24",
-      "project": "",
-      "content": "取消小苏打版本制样完毕",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "下周一呈报产品会",
-      "source": "feishu_import",
-      "record_id": "recvrzqiUXBWz7"
-    },
-    {
-      "date": "2026-07-24",
-      "project": "",
-      "content": "制样PR2版本，测试静腌效果",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "周一上午内测，确定产品会版本",
-      "source": "feishu_import",
-      "record_id": "recvrzqkmGUasM"
     },
     {
       "date": "2026-07-23",
@@ -589,78 +517,6 @@
       "record_id": "recvqbCHDKSrOu"
     },
     {
-      "date": "2026-07-23",
-      "project": "",
-      "content": "方案①滚揉TG酶(酶水=1:4)时添加D异抗坏血酸（0.4%）；方案②沟通采购送样海隆华送样迷迭香提取物（助剂，用于抗氧化）。",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "7/24修割原料（避免重复解冻影响肉质），制样完成方案①",
-      "source": "feishu_import",
-      "record_id": "recvrzqmfY4aE0"
-    },
-    {
-      "date": "2026-07-23",
-      "project": "",
-      "content": "使用安格斯谷饲80vl碎肉制样（乌拉圭379）BGUY0379-SR001。碎肉中含有血管、淤血、肥油、筋膜，总重1597g，失水得率98.87%，修割后1076g（得率68.14%），去除筋膜451g；预处理得率67.40%。",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "依照谷饲丹佛滚揉30%配方制样",
-      "source": "feishu_import",
-      "record_id": "recvrzqmIWKMS3"
-    },
-    {
-      "date": "2026-07-23",
-      "project": "",
-      "content": "内测：芯+底板不通过有内筋",
-      "stage": "内测",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "待确认周一是否呈报",
-      "source": "feishu_import",
-      "record_id": "recvrzqncA4YUI"
-    },
-    {
-      "date": "2026-07-23",
-      "project": "",
-      "content": "锯割原料BGAR1920-DGQJ001,已录入锯割数据，测试原切，中段带骨量大，原切口感韧，贴骨有筋有油，有油脂香气",
-      "stage": "原料测试",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "静腌测试",
-      "source": "feishu_import",
-      "record_id": "recvrzqnFSZbvo"
-    },
-    {
-      "date": "2026-07-23",
-      "project": "",
-      "content": "制样完成①不保水版本，工艺增加静腌2h②保水版本。内测：口感嫩，保水版本（滚揉115%），口感嫩。表面较湿润，对比竞品山姆帕斯雀表面湿润，袋内有液体。切片厚度1.4/1.8/2.0mm",
-      "stage": "内测",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "调整制样，调整水分，二次确认方案可行",
-      "source": "feishu_import",
-      "record_id": "recvrzqo94njGc"
-    },
-    {
-      "date": "2026-07-23",
-      "project": "",
-      "content": "内测：1.5cm/保水20%版本分切后出水严重，略有碱味。1.8cm/30%碱味更重，口感过嫩。",
-      "stage": "内测",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "1.5cm/保水20%取消小苏打再次制样确认",
-      "source": "feishu_import",
-      "record_id": "recvrzqoCdjlcc"
-    },
-    {
       "date": "2026-07-22",
       "project": "原切肥牛片",
       "content": "内测：通过横剖方案",
@@ -695,54 +551,6 @@
       "next_step": "追踪采购包材报价",
       "source": "feishu_import",
       "record_id": "recvq6A9267tdi"
-    },
-    {
-      "date": "2026-07-22",
-      "project": "",
-      "content": "内测：通过横剖方案",
-      "stage": "内测",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "产品会呈报",
-      "source": "feishu_import",
-      "record_id": "recvrzqp5ph8rr"
-    },
-    {
-      "date": "2026-07-22",
-      "project": "",
-      "content": "肋眼骨追踪未按原计划7/20到货，沟通采购确认因生产新品未按时发货，今日已装车，预计7/29到货。已沟通按7/30试产50kg推进",
-      "stage": "需求沟通",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "追踪原料到货，确认试产时间",
-      "source": "feishu_import",
-      "record_id": "recvrzqpAE4hbP"
-    },
-    {
-      "date": "2026-07-22",
-      "project": "",
-      "content": "沟通采购确认果葡糖浆报价4.5元/kg为底价，无降价空间。另沟通包材变更为软包装是否有降价空间。",
-      "stage": "需求沟通",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "追踪采购包材报价",
-      "source": "feishu_import",
-      "record_id": "recvrzqq5u2P96"
-    },
-    {
-      "date": "2026-07-22",
-      "project": "",
-      "content": "1、盐度复检结果与第一次基本一致，约0.4%2、试产时间暂定为7/30",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzs0htW1Hy"
     },
     {
       "date": "2026-07-21",
@@ -809,132 +617,12 @@
       "project": "鸡肉小食",
       "content": "鸡肉类休闲小食产品开发",
       "stage": "需求沟通",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvq5t12zSFn6"
-    },
-    {
-      "date": "2026-07-21",
-      "project": "",
-      "content": "制样横刨、切断两个方案，制样完成",
-      "stage": "制样",
       "conclusion": "待定",
       "yield": "",
       "version": "",
       "next_step": "",
       "source": "feishu_import",
-      "record_id": "recvrzqqxI6QsU"
-    },
-    {
-      "date": "2026-07-21",
-      "project": "",
-      "content": "1、猪肋排磷酸盐送检通过",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqr2qRCxx"
-    },
-    {
-      "date": "2026-07-21",
-      "project": "",
-      "content": "已供样餐饮研发：YX20260717猪排，前中后段各2份",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqruSrHhB"
-    },
-    {
-      "date": "2026-07-21",
-      "project": "",
-      "content": "V4版本内测不通过：藤椒味不足，测算添加量约0.2%，可继续加大添加量",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqrZEACTs"
-    },
-    {
-      "date": "2026-07-21",
-      "project": "",
-      "content": "1、拆解草饲上脑BCBR1365-SN004，精修上脑芯+底板分开滚揉原料（翼板30%配方）",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqst55vwg"
-    },
-    {
-      "date": "2026-07-21",
-      "project": "",
-      "content": "鸡肉类休闲小食产品开发",
-      "stage": "需求沟通",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqsWGkHqb"
-    },
-    {
-      "date": "2026-07-21",
-      "project": "",
-      "content": "1、调整保水配方，取消sd03、NP-1，使用05制样1.5cm/20%方案。2、修割原料BGUY0012-BLJ004，切片1.5cm，取样制样。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzs29U03t9"
-    },
-    {
-      "date": "2026-07-21",
-      "project": "",
-      "content": "1、制样两版黑明配方醋肉：①未腌②已腌2、内测通过（160℃/3分钟）3、供样餐饮产品会（HY20260721醋肉（已腌/未腌））",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzs3yOKU0g"
-    },
-    {
-      "date": "2026-07-21",
-      "project": "",
-      "content": "1、原料确认：①鸭边腿（鸭后腿带胸骨）②鸭全腿（鸭后腿全腿）2、沟通采购，询样华英原料",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzs40RVRQs"
-    },
-    {
-      "date": "2026-07-21",
-      "project": "",
-      "content": "1、外购18.67元/2.5kg（7.73/kg）2、研发报价：①850g：7.08元（8.33/kg）②3.4kg：27.58元（8.11/kg）已沟通采购降本",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzs4WR7loM"
+      "record_id": "recvrRunuVkpv0"
     },
     {
       "date": "2026-07-20",
@@ -965,108 +653,12 @@
       "project": "牛肉饼",
       "content": "谷饲原料碎肉用于制作牛肉饼，揉球出品，餐厅成型",
       "stage": "需求沟通",
-      "conclusion": "",
+      "conclusion": "待定",
       "yield": "",
       "version": "",
       "next_step": "",
       "source": "feishu_import",
-      "record_id": "recvq5t12zTOIh"
-    },
-    {
-      "date": "2026-07-20",
-      "project": "",
-      "content": "产品会决议：取消儿童丹佛牛排，调整为儿童谷饲保乐肩牛排",
-      "stage": "产品会",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "1、儿童丹佛暂停，调整为谷饲保乐肩。",
-      "source": "feishu_import",
-      "record_id": "recvrzqtpUEBgz"
-    },
-    {
-      "date": "2026-07-20",
-      "project": "",
-      "content": "V3版本内测不通过",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqtVqt9qg"
-    },
-    {
-      "date": "2026-07-20",
-      "project": "",
-      "content": "谷饲原料碎肉用于制作牛肉饼，揉球出品，餐厅成型",
-      "stage": "需求沟通",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzquoPWwoD"
-    },
-    {
-      "date": "2026-07-20",
-      "project": "",
-      "content": "产品会会议决议：1、儿童丹佛暂停，调整为谷饲保乐肩。下期待办：【制样方案】①1.8cm30%保水②1.5cm20%保水；同步调整保水配方调整，去除涩味（改用05）下期出品①1.8cm/30%（05版）②1.5cm/20%（05版）③1.8cm原配方",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzs7diJLZx"
-    },
-    {
-      "date": "2026-07-20",
-      "project": "",
-      "content": "产品会议决议：确认不精修原料，降低肥油投料比例，规格改回1.5cm。按现有工艺生产，挑选三面肥油。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzs7HoqwBa"
-    },
-    {
-      "date": "2026-07-20",
-      "project": "",
-      "content": "产品会会议决议：1、猪排样品供样餐饮研发2、询样猪颈肉，启动原料研究",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzs8cZOjQc"
-    },
-    {
-      "date": "2026-07-20",
-      "project": "",
-      "content": "产品会会议决议：1、参考百胜版本静腌配方调整制样2、采购部：确认W闻达PR6是否可采购，或寻找其他同价位氨基酸无磷保水剂（如05）下期待办：【制样方案】1、优化厚切静腌眼肉牛排涩感：风味参考现有，取消磷酸盐，调整为05保水。下期出品：①标样②优化样品",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzs9eviIyj"
-    },
-    {
-      "date": "2026-07-20",
-      "project": "",
-      "content": "产品会会议决议：1、通过不修三拼版本，保水版本55%配方2、颜色较浅、口感略有涩味，调整制样。下期待办：1、供样餐饮研发：①三拼保水55%1.4mm/1.6mm厚度。2、【制样方案】颜色调深，涩味优化：优化保水配方：①使用05；②降磷酸盐，使用np-1辅助下期出品：待制样后确认",
-      "stage": "制样",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzsahAZzpx"
+      "record_id": "recvrRunuVGM9K"
     },
     {
       "date": "2026-07-18",
@@ -1079,18 +671,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvq5t12zskof"
-    },
-    {
-      "date": "2026-07-18",
-      "project": "",
-      "content": "1、周六试产成功，牛小排边骨脱骨率高，得率低于预期，下周一供样餐饮研发确认。",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzquSOU8y6"
     },
     {
       "date": "2026-07-17",
@@ -1189,126 +769,6 @@
       "record_id": "recvq5t12zRvGs"
     },
     {
-      "date": "2026-07-17",
-      "project": "",
-      "content": "原料研究（位置确认），切割、图片数据收集",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqvmNWLCi"
-    },
-    {
-      "date": "2026-07-17",
-      "project": "",
-      "content": "玉米汤测算下来没有成本优势，有在重新调整样品。",
-      "stage": "需求沟通",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "餐饮研发调整制样中",
-      "source": "feishu_import",
-      "record_id": "recvrzqvUFIkHt"
-    },
-    {
-      "date": "2026-07-17",
-      "project": "",
-      "content": "儿童丹佛牛排带筋膜，内测不可通过，周一产品会呈报。",
-      "stage": "内测",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "产品会呈报",
-      "source": "feishu_import",
-      "record_id": "recvrzqwo5flSU"
-    },
-    {
-      "date": "2026-07-17",
-      "project": "",
-      "content": "1、周六试产成功，下周一供样餐饮研发确认。",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqwRupn1Q"
-    },
-    {
-      "date": "2026-07-17",
-      "project": "",
-      "content": "1、原料已到货。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqxkFsJKp"
-    },
-    {
-      "date": "2026-07-17",
-      "project": "",
-      "content": "藤椒香精已到货。下周安排制样测试。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqxOaKrzH"
-    },
-    {
-      "date": "2026-07-17",
-      "project": "",
-      "content": "浓缩版发起报价。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqyhjvwsA"
-    },
-    {
-      "date": "2026-07-17",
-      "project": "",
-      "content": "1、谷饲原料内测：上脑不通过，保乐肩通过。同步启动测试草饲上脑芯",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqyKEzYlA"
-    },
-    {
-      "date": "2026-07-17",
-      "project": "",
-      "content": "1、使用现有四种保水剂单体制样：①三聚磷酸盐②NP-1③05④小苏打。确认涩味来源。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqzd1PiaX"
-    },
-    {
-      "date": "2026-07-17",
-      "project": "",
-      "content": "1、记录静腌数据，预估可用，下周测试评估，输出结论 2、战斧牛排输出样品通过单，试产按老饕可用于拼块推进。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzscIMio3W"
-    },
-    {
       "date": "2026-07-16",
       "project": "原切肥牛片",
       "content": "调理方向暂停",
@@ -1393,90 +853,6 @@
       "record_id": "recvq5t12zuCXu"
     },
     {
-      "date": "2026-07-16",
-      "project": "",
-      "content": "调理方向暂停",
-      "stage": "需求沟通",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqzGuUl6r"
-    },
-    {
-      "date": "2026-07-16",
-      "project": "",
-      "content": "内测：版本HY20260715，不通过，麻辣味有增加，但风味不够，待藤椒香精到货后进一步制样",
-      "stage": "内测",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "待藤椒香精到货后进一步制样",
-      "source": "feishu_import",
-      "record_id": "recvrzqAbeFjVR"
-    },
-    {
-      "date": "2026-07-16",
-      "project": "",
-      "content": "精修谷饲上脑芯牛排方向暂停；制样儿童丹佛牛排，区分前中后段，内测前中后段原切，确认靠近脖子段肥油周边存在筋膜",
-      "stage": "需求沟通",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqAFk520Y"
-    },
-    {
-      "date": "2026-07-16",
-      "project": "",
-      "content": "数据收集静腌",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqB8ifzvY"
-    },
-    {
-      "date": "2026-07-16",
-      "project": "",
-      "content": "1、优化不修三拼牛肉粒制样完成。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqBBKZFH0"
-    },
-    {
-      "date": "2026-07-16",
-      "project": "",
-      "content": "1、试产成功，已供样餐饮研发确认。",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqC6TbFgR"
-    },
-    {
-      "date": "2026-07-16",
-      "project": "",
-      "content": "会议决议：1、以下原料用于餐饮半筋半肉-筋：①PBA10044 副产品-板腱筋②PBA11007 副产品-板腱粗筋膜③PBA10089 副产品-西冷筋2、以下原料用于餐饮半筋半肉-肉：①PBA10870 副产品-板腱头②PBA10109 副产品一-西冷侧链③PBA10719 副产品-板腱头尾(MD)④PBA10110 副产品一-眼肉芯侧链",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzsiGAzP2g"
-    },
-    {
       "date": "2026-07-15",
       "project": "川香腌料拆解",
       "content": "内测不通过，藤椒风味弱",
@@ -1499,30 +875,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvpvtZ8pof0O"
-    },
-    {
-      "date": "2026-07-15",
-      "project": "",
-      "content": "内测不通过，藤椒风味弱",
-      "stage": "内测",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "采购询样藤椒香精",
-      "source": "feishu_import",
-      "record_id": "recvrzqD3fIaNy"
-    },
-    {
-      "date": "2026-07-15",
-      "project": "",
-      "content": "锯割阿根廷2082肋眼骨，原料带脊椎骨，预估明日泡腌测试",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqDw4OsDP"
     },
     {
       "date": "2026-07-14",
@@ -1607,90 +959,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvq5t12ztmML"
-    },
-    {
-      "date": "2026-07-14",
-      "project": "",
-      "content": "修割原料BGAR1920-SN015/16/17，取SN015(修割)、SN017(未修)制样测试韦伯：①SN015(修割)：1.4mm/区分前后段/错开摆放（塑料托片）②SN017(未修)：1.6mm/区分前后段/叠放（美团托盒）",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "明日供样餐饮研发确认",
-      "source": "feishu_import",
-      "record_id": "recvrzqDYI0Oee"
-    },
-    {
-      "date": "2026-07-14",
-      "project": "",
-      "content": "内测豪客来现有梅花猪排，煎制后卷曲，肉感不均匀。按现有配方调整保水方案，提高厚度至2.0cm，定重170g",
-      "stage": "内测",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "预计周四7.16制样",
-      "source": "feishu_import",
-      "record_id": "recvrzqEs9MYKy"
-    },
-    {
-      "date": "2026-07-14",
-      "project": "",
-      "content": "内测不通过，风味弱，对比标样味道淡，藤椒麻辣味不足",
-      "stage": "内测",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "调整制样",
-      "source": "feishu_import",
-      "record_id": "recvrzqEUPqhzf"
-    },
-    {
-      "date": "2026-07-14",
-      "project": "",
-      "content": "样品编码：HY20260713 糖水罐头850g，3罐；供样时间：20260714",
-      "stage": "供样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqFoIPiBv"
-    },
-    {
-      "date": "2026-07-14",
-      "project": "",
-      "content": "1、夹肌、芯+底板牛肉粒砖制样完成。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqFShpVsG"
-    },
-    {
-      "date": "2026-07-14",
-      "project": "",
-      "content": "1、供样餐饮研发。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqGmHr0nw"
-    },
-    {
-      "date": "2026-07-14",
-      "project": "",
-      "content": "1、试产：带骨西冷170kg拼21kg带骨眼肉-无骨眼肉；库存300kg原料：10吨，前段用于战斧，剩余约7.5吨，≤250g原料3.8吨，按比例预计需475kg原料",
-      "stage": "工艺交接",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzsna2l6Hb"
     },
     {
       "date": "2026-07-13",
@@ -1799,126 +1067,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvq5t12zkf5a"
-    },
-    {
-      "date": "2026-07-13",
-      "project": "",
-      "content": "产品会：精修芯+底板，区分前后段制样，2.0cm/滚揉20%，确认前后段口感差异。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqHjH72h0"
-    },
-    {
-      "date": "2026-07-13",
-      "project": "",
-      "content": "产品会：①原切：韦伯测试麻冻1.4/1.6mm，区分前后段确认口感差异，测试错开摆盘（塑料托板），原料修割/不修确认碎肉情况及后续修割标准。②调理：通过48%版本，供样1.4mm餐饮测试。",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqHNfd3gP"
-    },
-    {
-      "date": "2026-07-13",
-      "project": "",
-      "content": "项目暂停",
-      "stage": "暂停",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqIgjXhr4"
-    },
-    {
-      "date": "2026-07-13",
-      "project": "",
-      "content": "1、产品会决议：调整制样：目标以现有工艺达成帕斯雀口感，用于餐厅三明治、沙拉、能量碗。要求：表面干爽，不能有血水，尽量保障粉嫩外观，同步评估是否保水。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqIJb9du7"
-    },
-    {
-      "date": "2026-07-13",
-      "project": "",
-      "content": "1、使用现有已腌猪碎肉制样醋肉。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqJd43J9X"
-    },
-    {
-      "date": "2026-07-13",
-      "project": "",
-      "content": "供样浓缩版。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqJERavhj"
-    },
-    {
-      "date": "2026-07-13",
-      "project": "",
-      "content": "产品会决议：试产：降盐20%版本200kg，供部分区域测试，待测试反馈确认是否进一步降低盐度。",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqK9087YS"
-    },
-    {
-      "date": "2026-07-13",
-      "project": "",
-      "content": "产品会沟通：评估使用谷饲原料制样。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqKBXhRFI"
-    },
-    {
-      "date": "2026-07-13",
-      "project": "",
-      "content": "1、产品会决议：项目暂停",
-      "stage": "暂停",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqL4jBN1e"
-    },
-    {
-      "date": "2026-07-13",
-      "project": "",
-      "content": "1、黑椒牛肉粒/草饲肥牛片分为两块不同的牛肉砖制样 2、陈香贵调理肥牛片、草饲肥牛砖切片厚度调整为1.6mm，草饲肥牛片肥瘦比3:7，降低保水。3、后续牛肉粒肥牛砖使用夹肌+芯+底板进行制作4、餐饮研发：确认单包份数。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzsqcPei4h"
     },
     {
       "date": "2026-07-10",
@@ -2065,150 +1213,6 @@
       "record_id": "recvpjIwxsTum1"
     },
     {
-      "date": "2026-07-10",
-      "project": "",
-      "content": "建议使用谷饲原料制作",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqLxebR0e"
-    },
-    {
-      "date": "2026-07-10",
-      "project": "",
-      "content": "内测通过夹肌不修版本，包装确认揉团",
-      "stage": "内测",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqM2c3Tdz"
-    },
-    {
-      "date": "2026-07-10",
-      "project": "",
-      "content": "确认下周一供样",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqMyMQ2be"
-    },
-    {
-      "date": "2026-07-10",
-      "project": "",
-      "content": "送检磷酸盐",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqN2KI3tu"
-    },
-    {
-      "date": "2026-07-10",
-      "project": "",
-      "content": "制样低温慢煮牛排片用于沙拉，内测不通过口感柴",
-      "stage": "产品会",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "下周一产品会呈报",
-      "source": "feishu_import",
-      "record_id": "recvrzqNw3tanX"
-    },
-    {
-      "date": "2026-07-10",
-      "project": "",
-      "content": "确认方案：维持美式风味优化口感，厚度2.0cm+，克重170g+，取样内测后确定",
-      "stage": "需求沟通",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqNY3PVze"
-    },
-    {
-      "date": "2026-07-10",
-      "project": "",
-      "content": "原料3种形态各2kg，延迟到货，预计下周一",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqOqoOiS1"
-    },
-    {
-      "date": "2026-07-10",
-      "project": "",
-      "content": "制样内测不通过，风味较淡，需调整",
-      "stage": "内测",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqOSBydk5"
-    },
-    {
-      "date": "2026-07-10",
-      "project": "",
-      "content": "制样降低20%/40%两个梯度样品",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqPkZnOAA"
-    },
-    {
-      "date": "2026-07-10",
-      "project": "",
-      "content": "内测口感筋道不足，部位油脂偏高。设备缺打浆机/成型机/水煮线",
-      "stage": "内测",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqPOfgDNQ"
-    },
-    {
-      "date": "2026-07-10",
-      "project": "",
-      "content": "调理155%保水内测通过但成本超限；原切叠放不可接受需改错位平铺",
-      "stage": "内测",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "产品会呈报",
-      "source": "feishu_import",
-      "record_id": "recvrzqQhb6nER"
-    },
-    {
-      "date": "2026-07-10",
-      "project": "",
-      "content": "翼板测试有筋，后期修割确认筋位；参考草饲上脑芯+底板修割方式，切片2.0cm，谷饲丹佛配方制样，滚揉保水20%",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "下周一产品会呈报",
-      "source": "feishu_import",
-      "record_id": "recvrzqQKRDxoo"
-    },
-    {
       "date": "2026-07-09",
       "project": "谷饲上脑牛排",
       "content": "交接测试中，发现有含内筋，需餐饮研发确认是否可接受",
@@ -2279,78 +1283,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvoVYyXzwo1r"
-    },
-    {
-      "date": "2026-07-09",
-      "project": "",
-      "content": "交接测试中，发现有含内筋，需餐饮研发确认是否可接受",
-      "stage": "工艺交接",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqRcX2Twl"
-    },
-    {
-      "date": "2026-07-09",
-      "project": "",
-      "content": "调理注射方向暂停，调整滚揉保水配方，减少磷酸盐投放，使用无磷保水辅助配合，目标55%",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqRGkrUD5"
-    },
-    {
-      "date": "2026-07-09",
-      "project": "",
-      "content": "新物料苹果暂未找到符合要求的供应商引入，首批按来样方式到货6kg试产使用，试产时间7/18，同步产出北墨酱汁。",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqS90Ellu"
-    },
-    {
-      "date": "2026-07-09",
-      "project": "",
-      "content": "试产时间暂定7/16。",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqSBHU8HJ"
-    },
-    {
-      "date": "2026-07-09",
-      "project": "",
-      "content": "首批按潘帕斯牛肋排卤汁生产，试产时间7/18。",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqT3YzcYn"
-    },
-    {
-      "date": "2026-07-09",
-      "project": "",
-      "content": "餐饮研发内测不通过，反映同等用量甜度不足，建议浓缩，浓缩比例待餐饮确认。",
-      "stage": "内测",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqTwQ0qLZ"
     },
     {
       "date": "2026-07-08",
@@ -2437,90 +1369,6 @@
       "record_id": "recvq5t12zZ2Rt"
     },
     {
-      "date": "2026-07-08",
-      "project": "",
-      "content": "原切韦伯测试，麻冻方案不可行；冷冻解冻至-4℃，1.4mm片型完整，设备可定重",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqU3aDJBp"
-    },
-    {
-      "date": "2026-07-08",
-      "project": "",
-      "content": "物料预计于7/14齐套，待牛肋排确认后确认试产时间。（试产量小，需与其他产品安排同步试产）",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqUvUNqkx"
-    },
-    {
-      "date": "2026-07-08",
-      "project": "",
-      "content": "餐饮研发配方已确认，与儿童慢炖牛肋排共用卤制配方，卤汁回收用于制作卤香牛骨汁。卤香牛骨汁后续有3个来源：①卤牛肋排220g-卤汁产出②卤香牛肋排/儿童牛肋排-卤汁产出③单独配方制作",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqUYpMDJA"
-    },
-    {
-      "date": "2026-07-08",
-      "project": "",
-      "content": "追踪物料预计周五到货",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqVr3oD5D"
-    },
-    {
-      "date": "2026-07-08",
-      "project": "",
-      "content": "蔬菜汁牛肉条原料不足，需单独制作配方",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqVYeCEhU"
-    },
-    {
-      "date": "2026-07-08",
-      "project": "",
-      "content": "现有传奇牛排降低盐度，制样不同盐度用于测试确认",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqWqz0ShY"
-    },
-    {
-      "date": "2026-07-08",
-      "project": "",
-      "content": "1、项目启动，待oa确认",
-      "stage": "完成",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqWSZstgi"
-    },
-    {
       "date": "2026-07-07",
       "project": "玉米汤料",
       "content": "沟通确认餐饮研发已通过样品，报价沟通中，待方向确认后启动制样",
@@ -2591,78 +1439,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvq5t12zl28P"
-    },
-    {
-      "date": "2026-07-07",
-      "project": "",
-      "content": "沟通确认餐饮研发已通过样品，报价沟通中，待方向确认后启动制样",
-      "stage": "原料测试",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqXoAJa99"
-    },
-    {
-      "date": "2026-07-07",
-      "project": "",
-      "content": "调理滚揉方向制样目标保水55%失败，最终保水48%，磷酸盐即将超限，保水55%制样方案取消",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqXQDfOCo"
-    },
-    {
-      "date": "2026-07-07",
-      "project": "",
-      "content": "跟产1.4cm多规格战斧牛排、带骨眼肉牛排：拼块肉剔骨环节已遗漏，拼块带骨可能性高",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqYklUVpP"
-    },
-    {
-      "date": "2026-07-07",
-      "project": "",
-      "content": "按现有配方工艺，夹肌不修割，肥油上限约13%，制样完成",
-      "stage": "",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqYMJBEio"
-    },
-    {
-      "date": "2026-07-07",
-      "project": "",
-      "content": "交接完成，B+门店上市使用68包已制样完毕",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqZfHyHTO"
-    },
-    {
-      "date": "2026-07-07",
-      "project": "",
-      "content": "工艺配方交接",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzqZIDFJ7Y"
     },
     {
       "date": "2026-07-06",
@@ -2747,90 +1523,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvq5t12zga1d"
-    },
-    {
-      "date": "2026-07-06",
-      "project": "",
-      "content": "①原切：产品会通过1.4mm平铺方案，夹肌不可使用，预计周三车间测试韦伯设备：修割-麻冻-切片-称重-包装。②调理：重启启动制样，使用上脑芯+底板+夹肌+修割碎肉筋膜肥油 制样：注射45/55%；滚揉",
-      "stage": "产品会",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr0bJ7oxu"
-    },
-    {
-      "date": "2026-07-06",
-      "project": "",
-      "content": "2个新物料已追踪到货",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr0DT5Ehg"
-    },
-    {
-      "date": "2026-07-06",
-      "project": "",
-      "content": "产品会通过国产通脊原料，配方交接；继续测试进口巴西西冷原料（参考法式滚揉配方）。",
-      "stage": "产品会",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr17PpYMT"
-    },
-    {
-      "date": "2026-07-06",
-      "project": "",
-      "content": "上周制样方案肥油分布过于均匀，餐饮研发预计周二测试；同步周二车间制样：①不修割夹肌肉（保留油），不额外添加肥油；②纯肉方案：修割夹肌肥油，不额外添加油",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr1Bkx7su"
-    },
-    {
-      "date": "2026-07-06",
-      "project": "",
-      "content": "孜然牛肉条方案内测通过，加入备选，待牛肉丸方案制样完成同步呈报。",
-      "stage": "内测",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr24EuL1f"
-    },
-    {
-      "date": "2026-07-06",
-      "project": "",
-      "content": "使用上脑部位制作牛肉丸",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr2wTSZOo"
-    },
-    {
-      "date": "2026-07-06",
-      "project": "",
-      "content": "1、产品会通过2.0cm/滚揉保水30%配方，翼板附带肉不拆分，预计周二启动配方交接。待肥牛片方案确定后启动试产。",
-      "stage": "产品会",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr30bighp"
     },
     {
       "date": "2026-07-03",
@@ -2929,102 +1621,6 @@
       "record_id": "recvoVYyXzTpUi"
     },
     {
-      "date": "2026-07-03",
-      "project": "",
-      "content": "确认转回制样。",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr3theAso"
-    },
-    {
-      "date": "2026-07-03",
-      "project": "",
-      "content": "已交接，交接量成品约20份，试产时间待确认。",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr3VKX52x"
-    },
-    {
-      "date": "2026-07-03",
-      "project": "",
-      "content": "已交接，试产时间待确认，",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr4oW1Z4C"
-    },
-    {
-      "date": "2026-07-03",
-      "project": "",
-      "content": "拆解豪客来现有川香腌料配方，目前2个物料无库存：①豆瓣酱粉②麻辣香精；已沟通采购紧急来样",
-      "stage": "需求沟通",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr4S3Wglw"
-    },
-    {
-      "date": "2026-07-03",
-      "project": "",
-      "content": "进口西冷（巴西）、通脊、原版样品制样完毕",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr5l1mfbq"
-    },
-    {
-      "date": "2026-07-03",
-      "project": "",
-      "content": "原计划3种制样方案测试不通过：①切5mm丁肥油无法散开②5mm丁压板无法成片，孔洞多③夹肌肥油不均匀，无法直接使用；现场调整制样方向，圆盘切肥油片，制样夹肌icut切片/横刨2版样品，预计下周一刨片测",
-      "stage": "制样",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr5OtkGi6"
-    },
-    {
-      "date": "2026-07-03",
-      "project": "",
-      "content": "订单量14w，已沟通无法完成，按实际生产量交付，已生产完毕，共计1382.1件 箱规24，一包做3份，一共99504份。",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr6hYIESE"
-    },
-    {
-      "date": "2026-07-03",
-      "project": "",
-      "content": "制样已完成，原料切割标准：4-7cm，宽度0.7-1cm，条状。滚揉增重29.25%",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr6LpvFjO"
-    },
-    {
       "date": "2026-07-02",
       "project": "原切肥牛片",
       "content": "调理肥牛片暂停，调整为原切，制样方案：谷饲上脑芯+底板（AR1920）1.4mm等厚，揉团、平铺不同包装方式，样品须体现原料肥油、碎的特性。",
@@ -3085,66 +1681,6 @@
       "record_id": "recvoVYyXz9R58"
     },
     {
-      "date": "2026-07-02",
-      "project": "",
-      "content": "调理肥牛片暂停，调整为原切，制样方案：谷饲上脑芯+底板（AR1920）1.4mm等厚，揉团、平铺不同包装方式，样品须体现原料肥油、碎的特性。",
-      "stage": "原料测试",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr7eACOvX"
-    },
-    {
-      "date": "2026-07-02",
-      "project": "",
-      "content": "饭和主菜的应用，手枪腿，大腿+小腿，风味餐饮给意见，熟制，卤鸭腿",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr7HjqFV0"
-    },
-    {
-      "date": "2026-07-02",
-      "project": "",
-      "content": "加厚，饭和主菜的应用，解决注射不均匀的问题，猪扒饭，片型如何好看，（顺便看是否还膻味重，是否改为国产了），口味餐饮给意见，生制",
-      "stage": "需求沟通",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr88WJBou"
-    },
-    {
-      "date": "2026-07-02",
-      "project": "",
-      "content": "供样餐饮研发，包含不同拼块方式，待餐饮确认标准：①拼块数量②拼块克重下限③老饕是否可用，可接受拼块数量",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr8CvRY3e"
-    },
-    {
-      "date": "2026-07-02",
-      "project": "",
-      "content": "梅花肉的边角料做醋肉，裹粉生制品餐厅炸，参考黑明的醋肉",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr96G8wZ2"
-    },
-    {
       "date": "2026-07-01",
       "project": "半筋半肉料理包【副产品】",
       "content": "报价已通过，样品通过确认单发出",
@@ -3193,66 +1729,6 @@
       "record_id": "recvoVYyXzDVEg"
     },
     {
-      "date": "2026-07-01",
-      "project": "",
-      "content": "报价已通过，样品通过确认单发出",
-      "stage": "原料测试",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzr9zrcvPW"
-    },
-    {
-      "date": "2026-07-01",
-      "project": "",
-      "content": "供样HY20260701果葡糖浆850g 3罐",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzra2F1I4j"
-    },
-    {
-      "date": "2026-07-01",
-      "project": "",
-      "content": "交接样品制样完成。定重后剩余老饕",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzravslpvs"
-    },
-    {
-      "date": "2026-07-01",
-      "project": "",
-      "content": "周五生产上脑时取样",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzraY4qBNf"
-    },
-    {
-      "date": "2026-07-01",
-      "project": "",
-      "content": "沟通周五制样方案：1、肥油切5mm丁，按现有工艺2、肥油切5mm丁，加酶滚揉，压5mm板，铺3层肥油板，夹肌横切片3、夹肌肥油滚揉酶，直接铺3层（现场确认）",
-      "stage": "",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzsT2zt7xG"
-    },
-    {
       "date": "2026-06-30",
       "project": "带骨西冷牛排",
       "content": "国产朴朴通脊原料为碎肉不可用",
@@ -3287,30 +1763,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvoVYyXzDU9T"
-    },
-    {
-      "date": "2026-06-30",
-      "project": "",
-      "content": "国产朴朴通脊原料为碎肉不可用",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrbr9aqmw"
-    },
-    {
-      "date": "2026-06-30",
-      "project": "",
-      "content": "配方已交接发起报价",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrbTuzYLJ"
     },
     {
       "date": "2026-06-29",
@@ -3359,42 +1811,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvoVYyXzJ18J"
-    },
-    {
-      "date": "2026-06-29",
-      "project": "",
-      "content": "产品会会议决议：原切方案暂停；调理肥牛片，加深颜色①评估是否通过调整配方，提升滚揉得率②注射不同梯度样品",
-      "stage": "产品会",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrcMVAVrO"
-    },
-    {
-      "date": "2026-06-29",
-      "project": "",
-      "content": "产品会决议：餐饮产品评估应用方案",
-      "stage": "产品会",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrdkOkzN3"
-    },
-    {
-      "date": "2026-06-29",
-      "project": "",
-      "content": "产品会决议：1、通过1.8cm尺寸，工艺同步调整，餐饮研发同步调整验收标准2、取消修改为原味，维持现有黑胡椒风味",
-      "stage": "产品会",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzsXsgeqDD"
     },
     {
       "date": "2026-06-26",
@@ -3505,138 +1921,6 @@
       "record_id": "recvoVYyXzy4qw"
     },
     {
-      "date": "2026-06-26",
-      "project": "",
-      "content": "餐厅规划：后续有2款肥牛：①普通②谷饲，目前陈香贵",
-      "stage": "产品会",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrefH2uHF"
-    },
-    {
-      "date": "2026-06-26",
-      "project": "",
-      "content": "餐饮研发反馈成本过高：报价38.16元（报价依据350g肉+100g汤）",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzreIPbt87"
-    },
-    {
-      "date": "2026-06-26",
-      "project": "",
-      "content": "报价已通过",
-      "stage": "工艺交接",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrfcoCCAz"
-    },
-    {
-      "date": "2026-06-26",
-      "project": "",
-      "content": "280g以下规格取消，改为拼块；需使用进口原料测试拼块",
-      "stage": "内测",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrfF4NU0p"
-    },
-    {
-      "date": "2026-06-26",
-      "project": "",
-      "content": "重新调整制样，以豪客来优先使用原料重新输出配方。",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrgzpCzuY"
-    },
-    {
-      "date": "2026-06-26",
-      "project": "",
-      "content": "物料反馈原料不足，原沟通订单量为10w份，订单输出14w份，确认以原料最终生产量为准交付；原料肉已足量。",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrh5pSWkh"
-    },
-    {
-      "date": "2026-06-26",
-      "project": "",
-      "content": "餐饮研发内测决议：不可使用肋条作为骨柄使用",
-      "stage": "产品会",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrhA9x389"
-    },
-    {
-      "date": "2026-06-26",
-      "project": "",
-      "content": "修割成本过高，需使用不精修原料制样",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzri4bVHPx"
-    },
-    {
-      "date": "2026-06-26",
-      "project": "",
-      "content": "制样完成。",
-      "stage": "产品会",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzriwLSnb3"
-    },
-    {
-      "date": "2026-06-26",
-      "project": "",
-      "content": "熟制品：竞品试吃，信息收集；保水版本已制样",
-      "stage": "产品会",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzriZJCQr4"
-    },
-    {
-      "date": "2026-06-26",
-      "project": "",
-      "content": "1、原味已制样，锯割梯度1.8/2.0cm2、下周一供样",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzt1yLYQrp"
-    },
-    {
       "date": "2026-06-25",
       "project": "贵州酸汤风味酱",
       "content": "样品通过单已发出",
@@ -3673,30 +1957,6 @@
       "record_id": "recvoVYyXzgE0G"
     },
     {
-      "date": "2026-06-25",
-      "project": "",
-      "content": "样品通过单已发出",
-      "stage": "制样",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrjsKVOBT"
-    },
-    {
-      "date": "2026-06-25",
-      "project": "",
-      "content": "带骨眼肉2.0cm、皓月肋眼骨静腌已完成",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrknBH9dv"
-    },
-    {
       "date": "2026-06-24",
       "project": "带骨西冷牛排",
       "content": "内测不通过，色泽浅，厚度薄",
@@ -3731,42 +1991,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvoVYyXz2P4p"
-    },
-    {
-      "date": "2026-06-24",
-      "project": "",
-      "content": "内测不通过，色泽浅，厚度薄",
-      "stage": "内测",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrkQe2Exe"
-    },
-    {
-      "date": "2026-06-24",
-      "project": "",
-      "content": "制样完成",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrlieHNUd"
-    },
-    {
-      "date": "2026-06-24",
-      "project": "",
-      "content": "竞品试吃，信息收集",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrlL1165S"
     },
     {
       "date": "2026-06-23",
@@ -3829,66 +2053,6 @@
       "record_id": "recvoVYyXzi7ap"
     },
     {
-      "date": "2026-06-23",
-      "project": "",
-      "content": "报价中",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrmdHZb1a"
-    },
-    {
-      "date": "2026-06-23",
-      "project": "",
-      "content": "进口西冷原料用于国产带骨西冷配种制样完成",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrmI2Jbjq"
-    },
-    {
-      "date": "2026-06-23",
-      "project": "",
-      "content": "皓月肋眼骨锯割",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrnb63KNh"
-    },
-    {
-      "date": "2026-06-23",
-      "project": "",
-      "content": "沟通工艺留样不精修版本夹肌肉",
-      "stage": "需求沟通",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrnFn6SCy"
-    },
-    {
-      "date": "2026-06-23",
-      "project": "",
-      "content": "竞品已到样",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzro8WdcCr"
-    },
-    {
       "date": "2026-06-22",
       "project": "猪肋排",
       "content": "餐饮研发反馈成本过高：报价38.16元（报价依据350g肉+100g汤）",
@@ -3947,30 +2111,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvoVYyXzJU0I"
-    },
-    {
-      "date": "2026-06-22",
-      "project": "",
-      "content": "工艺反馈280g可用于拼块原料不足，需使用进口原料补充，口感差异大需确认差异。",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrp4oRT8O"
-    },
-    {
-      "date": "2026-06-22",
-      "project": "",
-      "content": "试产样内测通过",
-      "stage": "内测",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrpZBjF7d"
     },
     {
       "date": "2026-06-18",
@@ -4103,138 +2243,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvoVYyXzy0GR"
-    },
-    {
-      "date": "2026-06-18",
-      "project": "",
-      "content": "产品会：暂定350g，确定试产",
-      "stage": "产品会",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrqSczPQ8"
-    },
-    {
-      "date": "2026-06-18",
-      "project": "",
-      "content": "酸汤通过泡姜水替代泡椒水版本",
-      "stage": "制样",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrrkJKPmB"
-    },
-    {
-      "date": "2026-06-18",
-      "project": "",
-      "content": "083试产通过",
-      "stage": "工艺交接",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrrO0Anby"
-    },
-    {
-      "date": "2026-06-18",
-      "project": "",
-      "content": "产品会决议：280g以下规格取消，改为拼块 2、样品通过确认单已发出",
-      "stage": "产品会",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrsgelZyu"
-    },
-    {
-      "date": "2026-06-18",
-      "project": "",
-      "content": "产品会决议： 通过卤香牛肋排150g规格、骨长≤5cm；按牛肋排、牛小排边骨库存量匹配单份规格包装。",
-      "stage": "产品会",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrsHpcwUP"
-    },
-    {
-      "date": "2026-06-18",
-      "project": "",
-      "content": "试产已完成。",
-      "stage": "内测",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrtaBTs9T"
-    },
-    {
-      "date": "2026-06-18",
-      "project": "",
-      "content": "重新调整制样方案：肉和筋比例1：1；前期制样老板试品时反馈原味西冷头尾口感偏烂，需要改善；另外，反馈肉与咖喱酱味道不融合，需要改善，建议卤制时可增加一点咖喱味",
-      "stage": "内测",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrtCjNCgN"
-    },
-    {
-      "date": "2026-06-18",
-      "project": "",
-      "content": "试产完成",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzru5rr2li"
-    },
-    {
-      "date": "2026-06-18",
-      "project": "",
-      "content": "产品会决议：皓月带脊椎骨原料不使用，大庄园原料等厚2.0cm锯割后静腌，与无骨柄原料配重360g",
-      "stage": "产品会",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzruysthJZ"
-    },
-    {
-      "date": "2026-06-18",
-      "project": "",
-      "content": "夹肌精修后制样完成",
-      "stage": "制样",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrv113Xg2"
-    },
-    {
-      "date": "2026-06-18",
-      "project": "",
-      "content": "产品会决议：",
-      "stage": "产品会",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrvtE6FtS"
     },
     {
       "date": "2026-06-12",
@@ -4381,150 +2389,6 @@
       "record_id": "recvoVYyXzPOCm"
     },
     {
-      "date": "2026-06-12",
-      "project": "",
-      "content": "配方交接，确认单份规格暂定350g",
-      "stage": "产品会",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrvWrLmnR"
-    },
-    {
-      "date": "2026-06-12",
-      "project": "",
-      "content": "配方上传，待交接",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrwoEdDF4"
-    },
-    {
-      "date": "2026-06-12",
-      "project": "",
-      "content": "产品会：测试2.2/2.5/2.9cm梯度样品，通过2.9cm版本",
-      "stage": "产品会",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrwRTxwQ3"
-    },
-    {
-      "date": "2026-06-12",
-      "project": "",
-      "content": "进口牛肋排（阿根廷2083）试产：",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrxkHZOvq"
-    },
-    {
-      "date": "2026-06-12",
-      "project": "",
-      "content": "4种原料得率及报价核算，预估豪客来供价10元可搭配110g原料，餐饮研发反馈肉量太少，取消86r原料后，预估单份规格可提升至150g",
-      "stage": "产品会",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrxNGY5Iq"
-    },
-    {
-      "date": "2026-06-12",
-      "project": "",
-      "content": "原料粉渣感强，项目暂停",
-      "stage": "原料测试",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzryh5EOyH"
-    },
-    {
-      "date": "2026-06-12",
-      "project": "",
-      "content": "产品会决议：2、55、104、394厂原料通过，启动配方交接；预计采购200kg乌拉圭12厂原料试产",
-      "stage": "产品会",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzryJRJOpY"
-    },
-    {
-      "date": "2026-06-12",
-      "project": "",
-      "content": "工艺制样版本人工高，形态过于人造，油炸后分层无法保持，需重新调整制样方案",
-      "stage": "内测",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrzcrZzYD"
-    },
-    {
-      "date": "2026-06-12",
-      "project": "",
-      "content": "下周配方交接",
-      "stage": "工艺交接",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrzFl6qvS"
-    },
-    {
-      "date": "2026-06-12",
-      "project": "",
-      "content": "产品会：原料碎肉大小不一，通过挑拣大块肉斩拌版本",
-      "stage": "产品会",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrA7AYSm7"
-    },
-    {
-      "date": "2026-06-12",
-      "project": "",
-      "content": "产品会：定重320-360g/无骨柄原料外购骨柄搭配使用",
-      "stage": "产品会",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrAB8OLv1"
-    },
-    {
-      "date": "2026-06-12",
-      "project": "",
-      "content": "用于半筋半肉，牛肉串应用方案取消。",
-      "stage": "制样",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrB42h82r"
-    },
-    {
       "date": "2026-06-05",
       "project": "保乐肩牛排",
       "content": "厂号检测已制样完成",
@@ -4549,30 +2413,6 @@
       "record_id": "recvoVYyXzgUvn"
     },
     {
-      "date": "2026-06-05",
-      "project": "",
-      "content": "厂号检测已制样完成",
-      "stage": "产品会",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrBwWRle6"
-    },
-    {
-      "date": "2026-06-05",
-      "project": "",
-      "content": "产品会：口感较嫩",
-      "stage": "产品会",
-      "conclusion": "待定",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrC000ewu"
-    },
-    {
       "date": "2026-05-15",
       "project": "带骨西冷牛排",
       "content": "参访大庄园",
@@ -4583,18 +2423,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvoVYyXz7ajn"
-    },
-    {
-      "date": "2026-05-15",
-      "project": "",
-      "content": "参访大庄园",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrCtHnCgD"
     },
     {
       "date": "2026-04-10",
@@ -4609,18 +2437,6 @@
       "record_id": "recvoVYyXz83fL"
     },
     {
-      "date": "2026-04-10",
-      "project": "",
-      "content": "产品会通过：CJ20260403-2",
-      "stage": "产品会",
-      "conclusion": "通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrCWz3bvV"
-    },
-    {
       "date": "2026-04-03",
       "project": "带骨西冷牛排",
       "content": "品评结论：不通过，配方优化",
@@ -4631,18 +2447,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvoVYyXzTrYd"
-    },
-    {
-      "date": "2026-04-03",
-      "project": "",
-      "content": "品评结论：不通过，配方优化",
-      "stage": "内测",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrDoYj5a0"
     },
     {
       "date": "2026-03-27",
@@ -4657,18 +2461,6 @@
       "record_id": "recvoVYyXzjjCq"
     },
     {
-      "date": "2026-03-27",
-      "project": "",
-      "content": "品评结论：不通过，风味调整为原味",
-      "stage": "内测",
-      "conclusion": "不通过",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrDQTSw6C"
-    },
-    {
       "date": "2026-03-20",
       "project": "带骨西冷牛排",
       "content": "开发方向：国产原料替代",
@@ -4679,42 +2471,6 @@
       "next_step": "",
       "source": "feishu_import",
       "record_id": "recvoVYyXzcmIX"
-    },
-    {
-      "date": "2026-03-20",
-      "project": "",
-      "content": "开发方向：国产原料替代",
-      "stage": "原料测试",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzrEjJpz4R"
-    },
-    {
-      "date": "",
-      "project": "",
-      "content": "[工作台同步测试] upsert写入",
-      "stage": "制样中",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzcdKAV6tT"
-    },
-    {
-      "date": "",
-      "project": "",
-      "content": "",
-      "stage": "",
-      "conclusion": "",
-      "yield": "",
-      "version": "",
-      "next_step": "",
-      "source": "feishu_import",
-      "record_id": "recvrzf2MDyZGp"
     }
   ],
   "projects": {
@@ -7760,84 +5516,6 @@
       "start_time": "2026-07-13 00:00:00",
       "sampler": "刘淑贞"
     },
-    "牛肉饼": {
-      "logs": [
-        {
-          "date": "2026-07-20",
-          "project": "牛肉饼",
-          "content": "谷饲原料碎肉用于制作牛肉饼，揉球出品，餐厅成型",
-          "stage": "需求沟通",
-          "conclusion": "",
-          "yield": "",
-          "version": "",
-          "next_step": "",
-          "source": "feishu_import",
-          "record_id": "recvq5t12zTOIh"
-        }
-      ],
-      "number": "NO.031",
-      "status": [
-        "沟通中"
-      ],
-      "client": "HH",
-      "latest": "2026/07/20｜谷饲原料碎肉用于制作牛肉饼，揉球出品，餐厅成型",
-      "engineer": "周岚",
-      "category": [
-        "生制品"
-      ],
-      "priority": [
-        "不重要不紧急"
-      ],
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": [
-        "否"
-      ],
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "2026-07-20 00:00:00",
-      "sampler": "待定"
-    },
-    "鸡肉小食": {
-      "logs": [
-        {
-          "date": "2026-07-21",
-          "project": "鸡肉小食",
-          "content": "鸡肉类休闲小食产品开发",
-          "stage": "需求沟通",
-          "conclusion": "",
-          "yield": "",
-          "version": "",
-          "next_step": "",
-          "source": "feishu_import",
-          "record_id": "recvq5t12zSFn6"
-        }
-      ],
-      "number": "NO.032",
-      "status": [
-        "沟通中"
-      ],
-      "client": "HH",
-      "latest": "2026/07/21｜鸡肉类休闲小食产品开发",
-      "engineer": "周岚",
-      "category": [
-        "生制品"
-      ],
-      "priority": [
-        "不重要不紧急"
-      ],
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": [
-        "否"
-      ],
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "2026-07-20 00:00:00",
-      "sampler": "待定"
-    },
     "带骨牛腱": {
       "logs": [
         {
@@ -8015,6 +5693,84 @@
       "start_time": "2026-07-27 00:00:00",
       "sampler": "杜凯强"
     },
+    "鸡肉小食": {
+      "logs": [
+        {
+          "date": "2026-07-21",
+          "project": "鸡肉小食",
+          "content": "鸡肉类休闲小食产品开发",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "",
+          "source": "feishu_import",
+          "record_id": "recvrRunuVkpv0"
+        }
+      ],
+      "number": "NO.032",
+      "status": [
+        "沟通中"
+      ],
+      "client": "HH",
+      "latest": "2026/07/21｜鸡肉类休闲小食产品开发",
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "不重要不紧急"
+      ],
+      "material": "",
+      "water_rate": "",
+      "version": "",
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": "",
+      "local_path": "",
+      "start_time": "2026-07-20 00:00:00",
+      "sampler": "待定"
+    },
+    "牛肉饼": {
+      "logs": [
+        {
+          "date": "2026-07-20",
+          "project": "牛肉饼",
+          "content": "谷饲原料碎肉用于制作牛肉饼，揉球出品，餐厅成型",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "",
+          "source": "feishu_import",
+          "record_id": "recvrRunuVGM9K"
+        }
+      ],
+      "number": "NO.031",
+      "status": [
+        "沟通中"
+      ],
+      "client": "HH",
+      "latest": "2026/07/20｜谷饲原料碎肉用于制作牛肉饼，揉球出品，餐厅成型",
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "不重要不紧急"
+      ],
+      "material": "",
+      "water_rate": "",
+      "version": "",
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": "",
+      "local_path": "",
+      "start_time": "2026-07-20 00:00:00",
+      "sampler": "待定"
+    },
     "T骨牛排": {
       "logs": [],
       "number": "NO.036",
@@ -8068,7 +5824,7 @@
       "sampler": "刘淑贞"
     }
   },
-  "imported_at": "2026-08-11T08:19:49.849698",
-  "total_logs": 393,
+  "imported_at": "2026-08-11T09:12:13.371612",
+  "total_logs": 206,
   "total_projects": 37
 }
