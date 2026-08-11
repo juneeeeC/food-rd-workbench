@@ -134,6 +134,18 @@
     },
     {
       "date": "2026-07-31",
+      "project": "卤香牛肋排【副产品】",
+      "content": "牛肋排和牛小排边骨投料量之前是依据原料库存量换算投料比例（牛肋排35%:牛小排边骨65%），\n因试产的时候牛小排边骨脱骨的情况比较严重，工艺把一部分骨头扔掉了，导致牛小排边骨的得率降低，如果按照原本比例的话，就会剩下很多牛肋排（保质期到8月）\n现在有两个方案：①脱骨的骨头继续添加，极限状况单包会有30g纯骨头（单包220g）；②提高牛肋排的投料比例，成本有可能会上涨。\n可能优化的点是：原本勇哥配方是卤制2小时，杨江调整的版本是1小时，脱骨情况可能会减轻。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "8/7试产杨江版本，确定优化情况后评估",
+      "source": "feishu_import",
+      "record_id": "recvr7gtDCocP5"
+    },
+    {
+      "date": "2026-07-31",
       "project": "川香腌料拆解",
       "content": "V5版本内测不通过：藤椒味弱，无标样浓郁口感",
       "stage": "内测",
@@ -356,7 +368,7 @@
       "conclusion": "不通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvqKkcz2ztnI"
     },
@@ -530,6 +542,18 @@
     },
     {
       "date": "2026-07-22",
+      "project": "传奇牛排",
+      "content": "1、盐度复检结果与第一次基本一致，约0.4%\n2、试产时间暂定为7/30",
+      "stage": "工艺交接",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12zsqtO"
+    },
+    {
+      "date": "2026-07-22",
       "project": "战斧牛排",
       "content": "肋眼骨追踪未按原计划7/20到货，沟通采购确认因生产新品未按时发货，今日已装车，预计7/29到货。已沟通按7/30试产50kg推进",
       "stage": "需求沟通",
@@ -560,9 +584,21 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12z9Eu3"
+    },
+    {
+      "date": "2026-07-21",
+      "project": "保乐肩牛排",
+      "content": "1、调整保水配方，取消sd03、NP-1，使用05制样1.5cm/20%方案。\n2、修割原料BGUY0012-BLJ004，切片1.5cm，取样制样。",
+      "stage": "制样",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12zZ1Nx"
     },
     {
       "date": "2026-07-21",
@@ -572,7 +608,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zdXUV"
     },
@@ -584,9 +620,33 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zybA1"
+    },
+    {
+      "date": "2026-07-21",
+      "project": "闽南醋肉",
+      "content": "1、制样两版黑明配方醋肉：①未腌②已腌\n2、内测通过（160℃/3分钟）\n3、供样餐饮产品会（HY20260721醋肉（已腌/未腌））",
+      "stage": "制样",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12zxyjj"
+    },
+    {
+      "date": "2026-07-21",
+      "project": "卤鸭腿",
+      "content": "1、原料确认：\n①鸭边腿（鸭后腿带胸骨）\n②鸭全腿（鸭后腿全腿）\n2、沟通采购，询样华英原料",
+      "stage": "制样",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12zBkF7"
     },
     {
       "date": "2026-07-21",
@@ -596,9 +656,21 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zNdS1"
+    },
+    {
+      "date": "2026-07-21",
+      "project": "果葡糖浆风味饮料",
+      "content": "1、外购18.67元/2.5kg（7.73/kg）\n2、研发报价：\n①850g：7.08元（8.33/kg）\n②3.4kg：27.58元（8.11/kg）\n已沟通采购降本",
+      "stage": "制样",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12z8xEW"
     },
     {
       "date": "2026-07-21",
@@ -608,7 +680,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zovcI"
     },
@@ -620,7 +692,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvrRunuVkpv0"
     },
@@ -638,15 +710,75 @@
     },
     {
       "date": "2026-07-20",
+      "project": "保乐肩牛排",
+      "content": "产品会会议决议：\n1、儿童丹佛暂停，调整为谷饲保乐肩。\n下期待办：\n【制样方案】\n①1.8cm30%保水②1.5cm20%保水；\n同步调整保水配方调整，去除涩味（改用05）\n下期出品\n①1.8cm/30%（05版）②1.5cm/20%（05版）③1.8cm原配方",
+      "stage": "工艺交接",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12zj9U1"
+    },
+    {
+      "date": "2026-07-20",
+      "project": "黑椒牛肉粒",
+      "content": "产品会议决议：\n确认不精修原料，降低肥油投料比例，规格改回1.5cm。按现有工艺生产，挑选三面肥油。",
+      "stage": "制样",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12zDSAz"
+    },
+    {
+      "date": "2026-07-20",
+      "project": "猪排",
+      "content": "产品会会议决议：\n1、猪排样品供样餐饮研发\n2、询样猪颈肉，启动原料研究",
+      "stage": "制样",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12z6dMZ"
+    },
+    {
+      "date": "2026-07-20",
       "project": "川香腌料拆解",
       "content": "V3版本内测不通过",
       "stage": "制样",
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zESKw"
+    },
+    {
+      "date": "2026-07-20",
+      "project": "静腌配方优化",
+      "content": "产品会会议决议：\n1、参考百胜版本静腌配方调整制样\n2、采购部：确认W闻达PR6是否可采购，或寻找其他同价位氨基酸无磷保水剂（如05）\n下期待办：\n【制样方案】\n1、优化厚切静腌眼肉牛排涩感：\n风味参考现有，取消磷酸盐，调整为05保水。\n下期出品：\n①标样②优化样品",
+      "stage": "制样",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12zRq3E"
+    },
+    {
+      "date": "2026-07-20",
+      "project": "草饲肥牛片",
+      "content": "产品会会议决议：\n1、通过不修三拼版本，保水版本55%配方\n2、颜色较浅、口感略有涩味，调整制样。\n下期待办：\n1、供样餐饮研发：①三拼保水55%1.4mm/1.6mm厚度。\n2、【制样方案】\n颜色调深，涩味优化：\n优化保水配方：①使用05；②降磷酸盐，使用np-1辅助\n下期出品：\n待制样后确认",
+      "stage": "制样",
+      "conclusion": "不通过",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12z5V1i"
     },
     {
       "date": "2026-07-20",
@@ -656,7 +788,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvrRunuVGM9K"
     },
@@ -668,7 +800,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zskof"
     },
@@ -680,7 +812,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvpBx7FNZ6PT"
     },
@@ -710,13 +842,25 @@
     },
     {
       "date": "2026-07-17",
+      "project": "战斧牛排",
+      "content": "1、记录静腌数据，预估可用，下周测试评估，输出结论\n 2、战斧牛排输出样品通过单，试产按老饕可用于拼块推进。",
+      "stage": "制样",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12ziyiv"
+    },
+    {
+      "date": "2026-07-17",
       "project": "猪肋排",
       "content": "1、周六试产成功，下周一供样餐饮研发确认。",
       "stage": "工艺交接",
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zGLK3"
     },
@@ -728,7 +872,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12z1ejz"
     },
@@ -740,7 +884,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12z5EeW"
     },
@@ -752,7 +896,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zl4RW"
     },
@@ -764,7 +908,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zRvGs"
     },
@@ -776,7 +920,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvpvoHtDi92X"
     },
@@ -800,7 +944,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvpvtzeMw9vK"
     },
@@ -812,7 +956,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zMpW2"
     },
@@ -824,9 +968,21 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zIjBD"
+    },
+    {
+      "date": "2026-07-16",
+      "project": "半筋半肉料理包【副产品】",
+      "content": "会议决议：\n1、以下原料用于餐饮半筋半肉-筋：\n①PBA10044 副产品-板腱筋\n②PBA11007 副产品-板腱粗筋膜\n③PBA10089 副产品-西冷筋\n2、以下原料用于餐饮半筋半肉-肉：\n①PBA10870 副产品-板腱头\n②PBA10109 副产品一-西冷侧链\n③PBA10719 副产品-板腱头尾(MD)\n④PBA10110 副产品一-眼肉芯侧链",
+      "stage": "制样",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12zvYD2"
     },
     {
       "date": "2026-07-16",
@@ -836,7 +992,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zcPBR"
     },
@@ -848,7 +1004,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zuCXu"
     },
@@ -872,7 +1028,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvpvtZ8pof0O"
     },
@@ -920,9 +1076,21 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvpBzal8tAd6"
+    },
+    {
+      "date": "2026-07-14",
+      "project": "带骨西冷牛排",
+      "content": "1、试产：带骨西冷170kg拼21kg带骨眼肉-无骨眼肉；库存300kg\n原料：10吨，前段用于战斧，剩余约7.5吨，≤250g原料3.8吨，按比例预计需475kg原料",
+      "stage": "工艺交接",
+      "conclusion": "通过",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12zgzGo"
     },
     {
       "date": "2026-07-14",
@@ -932,7 +1100,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12znJc6"
     },
@@ -944,7 +1112,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zMIEI"
     },
@@ -956,7 +1124,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12ztmML"
     },
@@ -968,7 +1136,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zpybg"
     },
@@ -980,9 +1148,21 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zmdYx"
+    },
+    {
+      "date": "2026-07-13",
+      "project": "黑椒牛肉粒",
+      "content": "1、黑椒牛肉粒/草饲肥牛片分为两块不同的牛肉砖制样 \n2、陈香贵调理肥牛片、草饲肥牛砖切片厚度调整为1.6mm，草饲肥牛片肥瘦比3:7，降低保水。\n3、后续牛肉粒肥牛砖使用夹肌+芯+底板进行制作\n4、餐饮研发：确认单包份数。",
+      "stage": "制样",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvq5t12zCrsq"
     },
     {
       "date": "2026-07-13",
@@ -992,7 +1172,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zEzPR"
     },
@@ -1004,7 +1184,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zfPEj"
     },
@@ -1016,7 +1196,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zvnde"
     },
@@ -1028,7 +1208,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zRox9"
     },
@@ -1040,7 +1220,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zvclb"
     },
@@ -1052,7 +1232,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12z0Pxf"
     },
@@ -1064,7 +1244,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zkf5a"
     },
@@ -1076,7 +1256,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzXBVe"
     },
@@ -1088,7 +1268,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvp51MqgwuQT"
     },
@@ -1100,7 +1280,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvp51Mqgi6ZQ"
     },
@@ -1112,7 +1292,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvp51MqgyypT"
     },
@@ -1136,7 +1316,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvp51Mqg8R4Y"
     },
@@ -1148,7 +1328,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvp51MqgPz2I"
     },
@@ -1160,7 +1340,7 @@
       "conclusion": "不通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvp51MqgExXb"
     },
@@ -1172,7 +1352,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvp51MqgxQFA"
     },
@@ -1184,7 +1364,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvp51MqgEUBb"
     },
@@ -1220,7 +1400,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoRf6Fbx2pF"
     },
@@ -1232,7 +1412,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXziehH"
     },
@@ -1244,7 +1424,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzT8Wn"
     },
@@ -1256,7 +1436,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz6NHh"
     },
@@ -1268,7 +1448,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz7OCk"
     },
@@ -1280,7 +1460,7 @@
       "conclusion": "不通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzwo1r"
     },
@@ -1292,7 +1472,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzSXrr"
     },
@@ -1304,7 +1484,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz21am"
     },
@@ -1316,7 +1496,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXza3bf"
     },
@@ -1328,7 +1508,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzAmX4"
     },
@@ -1340,7 +1520,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzDxTb"
     },
@@ -1352,7 +1532,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzpibo"
     },
@@ -1364,7 +1544,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zZ2Rt"
     },
@@ -1376,7 +1556,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzxIlK"
     },
@@ -1388,7 +1568,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzpG5V"
     },
@@ -1400,7 +1580,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzV3dh"
     },
@@ -1412,7 +1592,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvp51MqgUg7X"
     },
@@ -1424,7 +1604,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvp51MqgxPO6"
     },
@@ -1436,7 +1616,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zl28P"
     },
@@ -1448,7 +1628,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzBDp4"
     },
@@ -1460,7 +1640,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz83j2"
     },
@@ -1472,7 +1652,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXznHpk"
     },
@@ -1484,7 +1664,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzFhXv"
     },
@@ -1496,7 +1676,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz8mHx"
     },
@@ -1508,7 +1688,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvp51Mqgbqdr"
     },
@@ -1520,7 +1700,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zga1d"
     },
@@ -1532,7 +1712,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzVX2t"
     },
@@ -1544,7 +1724,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzKlHx"
     },
@@ -1556,7 +1736,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzTkWg"
     },
@@ -1568,7 +1748,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzH8nu"
     },
@@ -1580,7 +1760,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzWwzW"
     },
@@ -1592,7 +1772,7 @@
       "conclusion": "不通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzdY2N"
     },
@@ -1604,7 +1784,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzwco2"
     },
@@ -1616,7 +1796,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzTpUi"
     },
@@ -1628,7 +1808,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz8XcV"
     },
@@ -1640,7 +1820,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz1Mg5"
     },
@@ -1652,7 +1832,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzXV9U"
     },
@@ -1664,7 +1844,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzaOvn"
     },
@@ -1676,9 +1856,21 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz9R58"
+    },
+    {
+      "date": "2026-07-01",
+      "project": "黑椒牛肉粒",
+      "content": "沟通周五制样方案：\n1、肥油切5mm丁，按现有工艺\n2、肥油切5mm丁，加酶滚揉，压5mm板，铺3层肥油板，夹肌横切片\n3、夹肌肥油滚揉酶，直接铺3层（现场确认）",
+      "stage": "需求沟通",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvoVYyXzwivG"
     },
     {
       "date": "2026-07-01",
@@ -1688,7 +1880,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzKoFk"
     },
@@ -1700,7 +1892,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzVsWG"
     },
@@ -1712,7 +1904,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz24yF"
     },
@@ -1724,9 +1916,21 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzDVEg"
+    },
+    {
+      "date": "2026-07-01",
+      "project": "黑椒牛肉粒",
+      "content": "沟通周五制样方案：\n1、肥油切5mm丁，按现有工艺\n2、肥油切5mm丁，加酶滚揉，压5mm板，铺3层肥油板，夹肌横切片\n3、夹肌肥油滚揉酶，直接铺3层（现场确认）",
+      "stage": "",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvrReJbUQ391"
     },
     {
       "date": "2026-06-30",
@@ -1736,7 +1940,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz5nJh"
     },
@@ -1748,7 +1952,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzBbIN"
     },
@@ -1760,7 +1964,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzDU9T"
     },
@@ -1772,9 +1976,21 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzb8Ci"
+    },
+    {
+      "date": "2026-06-29",
+      "project": "黑椒牛肉粒",
+      "content": "产品会决议：\n1、通过1.8cm尺寸，工艺同步调整，餐饮研发同步调整验收标准\n2、取消修改为原味，维持现有黑胡椒风味",
+      "stage": "产品会",
+      "conclusion": "通过",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvoVYyXzHV3Q"
     },
     {
       "date": "2026-06-29",
@@ -1784,7 +2000,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzi973"
     },
@@ -1796,7 +2012,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzX6lH"
     },
@@ -1808,7 +2024,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzJ18J"
     },
@@ -1820,7 +2036,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzeGLH"
     },
@@ -1832,7 +2048,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzGsUQ"
     },
@@ -1844,7 +2060,7 @@
       "conclusion": "不通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzJNAX"
     },
@@ -1856,9 +2072,21 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzpc3q"
+    },
+    {
+      "date": "2026-06-26",
+      "project": "黑椒牛肉粒",
+      "content": "1、原味已制样，锯割梯度1.8/2.0cm\n2、下周一供样",
+      "stage": "制样",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvoVYyXzEqRG"
     },
     {
       "date": "2026-06-26",
@@ -1868,7 +2096,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzUf6V"
     },
@@ -1880,7 +2108,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz2PHZ"
     },
@@ -1892,7 +2120,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzD9Zt"
     },
@@ -1904,7 +2132,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzoctn"
     },
@@ -1916,7 +2144,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzy4qw"
     },
@@ -1928,7 +2156,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXznn8t"
     },
@@ -1940,7 +2168,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz3DO2"
     },
@@ -1952,7 +2180,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzgE0G"
     },
@@ -1964,7 +2192,7 @@
       "conclusion": "不通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzop4c"
     },
@@ -1976,7 +2204,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzyO1U"
     },
@@ -1988,7 +2216,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz2P4p"
     },
@@ -2000,7 +2228,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzkVQY"
     },
@@ -2012,7 +2240,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzv2o0"
     },
@@ -2024,7 +2252,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzOi1H"
     },
@@ -2036,7 +2264,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzz4np"
     },
@@ -2048,7 +2276,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzi7ap"
     },
@@ -2060,7 +2288,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz7IKt"
     },
@@ -2072,7 +2300,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzrwIm"
     },
@@ -2084,7 +2312,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzMDrR"
     },
@@ -2096,7 +2324,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzXHBt"
     },
@@ -2108,7 +2336,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzJU0I"
     },
@@ -2120,7 +2348,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzCbUR"
     },
@@ -2132,7 +2360,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzWVTF"
     },
@@ -2144,7 +2372,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzka7o"
     },
@@ -2156,7 +2384,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzjlqo"
     },
@@ -2168,7 +2396,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzH67a"
     },
@@ -2180,7 +2408,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzZyKA"
     },
@@ -2192,7 +2420,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzyClH"
     },
@@ -2204,7 +2432,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzOMaH"
     },
@@ -2216,7 +2444,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzYPk9"
     },
@@ -2228,7 +2456,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzc55c"
     },
@@ -2240,7 +2468,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzy0GR"
     },
@@ -2252,7 +2480,7 @@
       "conclusion": "不通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzf1gb"
     },
@@ -2264,7 +2492,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz1kHF"
     },
@@ -2276,7 +2504,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzRWo8"
     },
@@ -2288,7 +2516,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzrqnE"
     },
@@ -2300,7 +2528,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzlYGW"
     },
@@ -2312,7 +2540,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzFGdJ"
     },
@@ -2324,7 +2552,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzS9eJ"
     },
@@ -2336,7 +2564,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzln31"
     },
@@ -2348,7 +2576,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzVRDH"
     },
@@ -2360,7 +2588,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzlOqD"
     },
@@ -2372,7 +2600,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzj3gp"
     },
@@ -2384,7 +2612,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzPOCm"
     },
@@ -2396,7 +2624,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzhKSx"
     },
@@ -2408,7 +2636,7 @@
       "conclusion": "待定",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzgUvn"
     },
@@ -2420,7 +2648,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz7ajn"
     },
@@ -2432,7 +2660,7 @@
       "conclusion": "通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXz83fL"
     },
@@ -2444,7 +2672,7 @@
       "conclusion": "不通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzTrYd"
     },
@@ -2456,7 +2684,7 @@
       "conclusion": "不通过",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzjjCq"
     },
@@ -2468,7 +2696,7 @@
       "conclusion": "",
       "yield": "",
       "version": "",
-      "next_step": "",
+      "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzcmIX"
     }
@@ -2484,7 +2712,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoRf6Fbx2pF"
         },
@@ -2508,7 +2736,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvpvtzeMw9vK"
         },
@@ -2520,7 +2748,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zga1d"
         },
@@ -2532,7 +2760,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zl28P"
         },
@@ -2544,7 +2772,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zpybg"
         },
@@ -2587,7 +2815,7 @@
         "重要紧急"
       ],
       "material": "谷饲上脑 / 阿根廷1920",
-      "water_rate": "30",
+      "water_rate": 30,
       "version": "v5 - 2.0cm/滚揉30%",
       "has_oa": [
         "是"
@@ -2607,7 +2835,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzVX2t"
         },
@@ -2619,7 +2847,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzxIlK"
         },
@@ -2650,13 +2878,13 @@
         "重要紧急"
       ],
       "material": "-",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-03-09 00:00:00",
       "sampler": "黄毅勇"
     },
@@ -2670,7 +2898,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzeGLH"
         },
@@ -2682,7 +2910,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzb8Ci"
         },
@@ -2694,7 +2922,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz8XcV"
         },
@@ -2706,7 +2934,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzBDp4"
         },
@@ -2718,7 +2946,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzpG5V"
         },
@@ -2730,7 +2958,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzSXrr"
         },
@@ -2742,7 +2970,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXziehH"
         },
@@ -2778,7 +3006,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvpvoHtDi92X"
         },
@@ -2790,7 +3018,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zmdYx"
         },
@@ -2802,7 +3030,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12z9Eu3"
         },
@@ -2905,13 +3133,13 @@
         "重要紧急"
       ],
       "material": "谷饲上脑",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "是"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-06-17 00:00:00",
       "sampler": "叶校斌"
     },
@@ -2925,7 +3153,7 @@
           "conclusion": "不通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzf1gb"
         },
@@ -2937,7 +3165,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzCbUR"
         },
@@ -2949,7 +3177,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz7IKt"
         },
@@ -2961,7 +3189,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzKlHx"
         },
@@ -2973,7 +3201,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz21am"
         },
@@ -2985,7 +3213,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzT8Wn"
         },
@@ -2997,7 +3225,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvp51MqgyypT"
         },
@@ -3009,7 +3237,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zGLK3"
         },
@@ -3021,26 +3249,34 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zdXUV"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.010",
+      "status": [
+        "试产/生产"
+      ],
+      "client": "HH",
+      "latest": "2026/07/21｜1、猪肋排磷酸盐送检通过",
+      "engineer": "周岚",
+      "category": [
+        "熟制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "猪肋排\n西班牙",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-04-13 00:00:00",
+      "sampler": "黄毅勇"
     },
     "贵州酸汤风味酱": {
       "logs": [
@@ -3052,7 +3288,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz1kHF"
         },
@@ -3064,7 +3300,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzWVTF"
         },
@@ -3076,7 +3312,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzkVQY"
         },
@@ -3088,7 +3324,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXznn8t"
         },
@@ -3100,7 +3336,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzGsUQ"
         },
@@ -3112,7 +3348,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzTkWg"
         },
@@ -3124,7 +3360,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz6NHh"
         },
@@ -3136,7 +3372,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zcPBR"
         }
@@ -3155,13 +3391,13 @@
         "重要紧急"
       ],
       "material": "-",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-04-28 00:00:00",
       "sampler": "余庆海"
     },
@@ -3175,7 +3411,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzRWo8"
         }
@@ -3194,13 +3430,13 @@
         "重要不紧急"
       ],
       "material": "板腱",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-01-01 00:00:00",
       "sampler": "杜凯强"
     },
@@ -3214,7 +3450,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzrqnE"
         },
@@ -3226,7 +3462,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzka7o"
         },
@@ -3238,26 +3474,34 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zZ2Rt"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.016",
+      "status": [
+        "已完成"
+      ],
+      "client": "HH",
+      "latest": "2026/07/08｜1、项目启动，待oa确认",
+      "engineer": "周岚",
+      "category": [
+        "熟制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "牛肋排\n阿根廷3270\n阿根廷2083",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-01-01 00:00:00",
+      "sampler": "黄毅勇"
     },
     "川香腌料拆解": {
       "logs": [
@@ -3269,7 +3513,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzH8nu"
         },
@@ -3281,7 +3525,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz83j2"
         },
@@ -3293,7 +3537,7 @@
           "conclusion": "不通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvp51MqgExXb"
         },
@@ -3341,7 +3585,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12z5EeW"
         },
@@ -3353,7 +3597,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zESKw"
         },
@@ -3365,7 +3609,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zNdS1"
         },
@@ -3408,13 +3652,13 @@
         "重要紧急"
       ],
       "material": "-",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-07-03 00:00:00",
       "sampler": "黄毅勇"
     },
@@ -3428,7 +3672,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzcmIX"
         },
@@ -3440,7 +3684,7 @@
           "conclusion": "不通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzjjCq"
         },
@@ -3452,7 +3696,7 @@
           "conclusion": "不通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzTrYd"
         },
@@ -3464,7 +3708,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz83fL"
         },
@@ -3476,7 +3720,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz7ajn"
         },
@@ -3488,7 +3732,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzjlqo"
         },
@@ -3500,7 +3744,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzrwIm"
         },
@@ -3512,7 +3756,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzv2o0"
         },
@@ -3524,7 +3768,7 @@
           "conclusion": "不通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzop4c"
         },
@@ -3536,7 +3780,7 @@
           "conclusion": "不通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzJNAX"
         },
@@ -3548,7 +3792,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz5nJh"
         },
@@ -3560,7 +3804,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzWwzW"
         },
@@ -3572,26 +3816,46 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXznHpk"
+        },
+        {
+          "date": "2026-07-14",
+          "project": "带骨西冷牛排",
+          "content": "1、试产：带骨西冷170kg拼21kg带骨眼肉-无骨眼肉；库存300kg\n原料：10吨，前段用于战斧，剩余约7.5吨，≤250g原料3.8吨，按比例预计需475kg原料",
+          "stage": "工艺交接",
+          "conclusion": "通过",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12zgzGo"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.004",
+      "status": [
+        "交接中"
+      ],
+      "client": "HH",
+      "latest": "2026/07/14｜1、试产：带骨西冷170kg拼21kg带骨眼肉-无骨眼肉；库存300kg\n原料：10吨，前段用于战斧，剩余约7.5吨，≤250g原料3.8吨，按比例预计需475kg原料",
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "带骨西冷\n大庄园",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-03-16 00:00:00",
+      "sampler": "蔡将君"
     },
     "卤香牛肋排【副产品】": {
       "logs": [
@@ -3603,7 +3867,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzlYGW"
         },
@@ -3615,7 +3879,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzH67a"
         },
@@ -3627,7 +3891,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzMDrR"
         },
@@ -3639,7 +3903,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz3DO2"
         },
@@ -3651,7 +3915,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzpc3q"
         },
@@ -3663,7 +3927,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXza3bf"
         },
@@ -3675,7 +3939,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz7OCk"
         },
@@ -3687,26 +3951,46 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zskof"
+        },
+        {
+          "date": "2026-07-31",
+          "project": "卤香牛肋排【副产品】",
+          "content": "牛肋排和牛小排边骨投料量之前是依据原料库存量换算投料比例（牛肋排35%:牛小排边骨65%），\n因试产的时候牛小排边骨脱骨的情况比较严重，工艺把一部分骨头扔掉了，导致牛小排边骨的得率降低，如果按照原本比例的话，就会剩下很多牛肋排（保质期到8月）\n现在有两个方案：①脱骨的骨头继续添加，极限状况单包会有30g纯骨头（单包220g）；②提高牛肋排的投料比例，成本有可能会上涨。\n可能优化的点是：原本勇哥配方是卤制2小时，杨江调整的版本是1小时，脱骨情况可能会减轻。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "8/7试产杨江版本，确定优化情况后评估",
+          "source": "feishu_import",
+          "record_id": "recvr7gtDCocP5"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.012",
+      "status": [
+        "试产/生产"
+      ],
+      "client": "HH",
+      "latest": "2026/07/27｜牛肋排和牛小排边骨投料量之前是依据原料库存量换算投料比例（牛肋排35%:牛小排边骨65%），\n因试产的时候牛小排边骨脱骨的情况比较严重，工艺把一部分骨头扔掉了，导致牛小排边骨的得率降低，如果按照原本比例的话，就会剩下很多牛肋排（保质期到8月）\n现在有两个方案：①脱骨的骨头继续添加，极限状况单包会有30g纯骨头（单包220g）；②提高牛肋排的投料比例，成本有可能会上涨。\n可能优化的点是：原本勇哥配方是卤制2小时，杨江调整的版本是1小时，脱骨情况可能会减轻。 结论： 下一步：",
+      "engineer": "周岚",
+      "category": [
+        "熟制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "牛肋排\n334、3270\n牛小排边骨",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-04-28 00:00:00",
+      "sampler": "黄毅勇"
     },
     "猪战斧": {
       "logs": [
@@ -3718,26 +4002,34 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzFGdJ"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.017",
+      "status": [
+        "暂停"
+      ],
+      "client": "HH",
+      "latest": "2026/06/12｜原料粉渣感强，项目暂停 结论：待定",
+      "engineer": "周岚",
+      "category": [
+        "熟制品"
+      ],
+      "priority": [
+        "不重要不紧急"
+      ],
+      "material": "猪战斧\n金锣",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-04-13 00:00:00",
+      "sampler": "黄毅勇"
     },
     "保乐肩牛排": {
       "logs": [
@@ -3749,7 +4041,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzhKSx"
         },
@@ -3761,7 +4053,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzS9eJ"
         },
@@ -3773,7 +4065,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzZyKA"
         },
@@ -3785,9 +4077,33 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzXHBt"
+        },
+        {
+          "date": "2026-07-20",
+          "project": "保乐肩牛排",
+          "content": "产品会会议决议：\n1、儿童丹佛暂停，调整为谷饲保乐肩。\n下期待办：\n【制样方案】\n①1.8cm30%保水②1.5cm20%保水；\n同步调整保水配方调整，去除涩味（改用05）\n下期出品\n①1.8cm/30%（05版）②1.5cm/20%（05版）③1.8cm原配方",
+          "stage": "工艺交接",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12zj9U1"
+        },
+        {
+          "date": "2026-07-21",
+          "project": "保乐肩牛排",
+          "content": "1、调整保水配方，取消sd03、NP-1，使用05制样1.5cm/20%方案。\n2、修割原料BGUY0012-BLJ004，切片1.5cm，取样制样。",
+          "stage": "制样",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12zZ1Nx"
         },
         {
           "date": "2026-07-23",
@@ -3826,21 +4142,29 @@
           "record_id": "recvqK6QonQJTu"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.005",
+      "status": [
+        "交接中"
+      ],
+      "client": "HH",
+      "latest": "2026/07/29｜儿童保乐肩餐饮思考应用方案 结论：待定 下一步：待餐饮决策，供样测试",
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要不紧急"
+      ],
+      "material": "安格斯\n谷饲上脑",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-04-29 00:00:00",
+      "sampler": "杜凯强"
     },
     "卤鸭腿": {
       "logs": [
@@ -3852,7 +4176,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz1Mg5"
         },
@@ -3864,7 +4188,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzAmX4"
         },
@@ -3876,7 +4200,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvp51MqgPz2I"
         },
@@ -3888,9 +4212,21 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12z1ejz"
+        },
+        {
+          "date": "2026-07-21",
+          "project": "卤鸭腿",
+          "content": "1、原料确认：\n①鸭边腿（鸭后腿带胸骨）\n②鸭全腿（鸭后腿全腿）\n2、沟通采购，询样华英原料",
+          "stage": "制样",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12zBkF7"
         },
         {
           "date": "2026-07-29",
@@ -3943,13 +4279,13 @@
         "不重要不紧急"
       ],
       "material": "鸭全腿",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-07-02 00:00:00",
       "sampler": "黄毅勇"
     },
@@ -3963,9 +4299,45 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzln31"
+        },
+        {
+          "date": "2026-06-26",
+          "project": "黑椒牛肉粒",
+          "content": "1、原味已制样，锯割梯度1.8/2.0cm\n2、下周一供样",
+          "stage": "制样",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvoVYyXzEqRG"
+        },
+        {
+          "date": "2026-06-29",
+          "project": "黑椒牛肉粒",
+          "content": "产品会决议：\n1、通过1.8cm尺寸，工艺同步调整，餐饮研发同步调整验收标准\n2、取消修改为原味，维持现有黑胡椒风味",
+          "stage": "产品会",
+          "conclusion": "通过",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvoVYyXzHV3Q"
+        },
+        {
+          "date": "2026-07-01",
+          "project": "黑椒牛肉粒",
+          "content": "沟通周五制样方案：\n1、肥油切5mm丁，按现有工艺\n2、肥油切5mm丁，加酶滚揉，压5mm板，铺3层肥油板，夹肌横切片\n3、夹肌肥油滚揉酶，直接铺3层（现场确认）",
+          "stage": "需求沟通",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvoVYyXzwivG"
         },
         {
           "date": "2026-07-03",
@@ -3975,7 +4347,7 @@
           "conclusion": "不通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzdY2N"
         },
@@ -3987,7 +4359,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzFhXv"
         },
@@ -3999,7 +4371,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvp51MqgUg7X"
         },
@@ -4011,9 +4383,21 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvp51MqgwuQT"
+        },
+        {
+          "date": "2026-07-13",
+          "project": "黑椒牛肉粒",
+          "content": "1、黑椒牛肉粒/草饲肥牛片分为两块不同的牛肉砖制样 \n2、陈香贵调理肥牛片、草饲肥牛砖切片厚度调整为1.6mm，草饲肥牛片肥瘦比3:7，降低保水。\n3、后续牛肉粒肥牛砖使用夹肌+芯+底板进行制作\n4、餐饮研发：确认单包份数。",
+          "stage": "制样",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12zCrsq"
         },
         {
           "date": "2026-07-14",
@@ -4023,7 +4407,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12znJc6"
         },
@@ -4035,26 +4419,58 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zIjBD"
+        },
+        {
+          "date": "2026-07-20",
+          "project": "黑椒牛肉粒",
+          "content": "产品会议决议：\n确认不精修原料，降低肥油投料比例，规格改回1.5cm。按现有工艺生产，挑选三面肥油。",
+          "stage": "制样",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12zDSAz"
+        },
+        {
+          "date": "2026-07-01",
+          "project": "黑椒牛肉粒",
+          "content": "沟通周五制样方案：\n1、肥油切5mm丁，按现有工艺\n2、肥油切5mm丁，加酶滚揉，压5mm板，铺3层肥油板，夹肌横切片\n3、夹肌肥油滚揉酶，直接铺3层（现场确认）",
+          "stage": "",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvrReJbUQ391"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.006",
+      "status": [
+        "制样中"
+      ],
+      "client": "HH",
+      "latest": "2026/07/20｜产品会议决议：\n确认不精修原料，降低肥油投料比例，规格改回1.5cm。按现有工艺生产，挑选三面肥油。",
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "上脑夹肌\n巴西",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-06-25 00:00:00",
+      "sampler": "蔡将君"
     },
     "半筋半肉料理包【副产品】": {
       "logs": [
@@ -4066,7 +4482,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzVRDH"
         },
@@ -4078,7 +4494,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzyClH"
         },
@@ -4090,7 +4506,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzUf6V"
         },
@@ -4102,7 +4518,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzBbIN"
         },
@@ -4114,7 +4530,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzKoFk"
         },
@@ -4126,26 +4542,46 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvp51MqgxPO6"
+        },
+        {
+          "date": "2026-07-16",
+          "project": "半筋半肉料理包【副产品】",
+          "content": "会议决议：\n1、以下原料用于餐饮半筋半肉-筋：\n①PBA10044 副产品-板腱筋\n②PBA11007 副产品-板腱粗筋膜\n③PBA10089 副产品-西冷筋\n2、以下原料用于餐饮半筋半肉-肉：\n①PBA10870 副产品-板腱头\n②PBA10109 副产品一-西冷侧链\n③PBA10719 副产品-板腱头尾(MD)\n④PBA10110 副产品一-眼肉芯侧链",
+          "stage": "制样",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12zvYD2"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.007",
+      "status": [
+        "试产/生产"
+      ],
+      "client": "HH",
+      "latest": "2026/07/16｜会议决议：\n1、以下原料用于餐饮半筋半肉-筋：\n①PBA10044 副产品-板腱筋\n②PBA11007 副产品-板腱粗筋膜\n③PBA10089 副产品-西冷筋\n2、以下原料用于餐饮半筋半肉-肉：\n①PBA10870 副产品-板腱头\n②PBA10109 副产品一-西冷侧链\n③PBA10719 副产品-板腱头尾(MD)\n④PBA10110 副产品一-眼肉芯侧链",
+      "engineer": "周岚",
+      "category": [
+        "熟制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "副产品消耗",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-04-28 00:00:00",
+      "sampler": "黄毅勇"
     },
     "儿童牛肉条": {
       "logs": [
@@ -4157,7 +4593,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzDxTb"
         },
@@ -4169,7 +4605,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzXBVe"
         },
@@ -4181,7 +4617,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12z0Pxf"
         },
@@ -4193,7 +4629,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zRvGs"
         },
@@ -4205,7 +4641,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zovcI"
         },
@@ -4271,14 +4707,14 @@
       "priority": [
         "重要紧急"
       ],
-      "material": "",
-      "water_rate": "",
-      "version": "",
+      "material": null,
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "是"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-07-08 00:00:00",
       "sampler": "杜凯强"
     },
@@ -4292,7 +4728,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzlOqD"
         },
@@ -4304,7 +4740,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzOMaH"
         },
@@ -4316,7 +4752,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz2PHZ"
         },
@@ -4328,7 +4764,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzwco2"
         }
@@ -4347,13 +4783,13 @@
         "重要紧急"
       ],
       "material": "副产品消耗",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "是"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-04-28 00:00:00",
       "sampler": "黄毅勇"
     },
@@ -4367,7 +4803,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzXV9U"
         },
@@ -4379,7 +4815,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvp51Mqg8R4Y"
         },
@@ -4403,9 +4839,21 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvpBx7FNZ6PT"
+        },
+        {
+          "date": "2026-07-20",
+          "project": "猪排",
+          "content": "产品会会议决议：\n1、猪排样品供样餐饮研发\n2、询样猪颈肉，启动原料研究",
+          "stage": "制样",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12z6dMZ"
         },
         {
           "date": "2026-07-21",
@@ -4415,7 +4863,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zybA1"
         }
@@ -4434,13 +4882,13 @@
         "重要不紧急"
       ],
       "material": "猪梅花",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "是"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-07-02 00:00:00",
       "sampler": "杜凯强"
     },
@@ -4454,7 +4902,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzVsWG"
         },
@@ -4466,7 +4914,7 @@
           "conclusion": "不通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzwo1r"
         },
@@ -4478,7 +4926,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvpBzal8tAd6"
         },
@@ -4490,7 +4938,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zRox9"
         },
@@ -4502,9 +4950,21 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zl4RW"
+        },
+        {
+          "date": "2026-07-21",
+          "project": "果葡糖浆风味饮料",
+          "content": "1、外购18.67元/2.5kg（7.73/kg）\n2、研发报价：\n①850g：7.08元（8.33/kg）\n②3.4kg：27.58元（8.11/kg）\n已沟通采购降本",
+          "stage": "制样",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12z8xEW"
         },
         {
           "date": "2026-07-22",
@@ -4545,13 +5005,13 @@
         "重要不紧急"
       ],
       "material": "F90",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "是"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-03-09 00:00:00",
       "sampler": "黄毅勇"
     },
@@ -4565,7 +5025,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzj3gp"
         },
@@ -4577,7 +5037,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzYPk9"
         },
@@ -4589,7 +5049,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzOi1H"
         },
@@ -4601,7 +5061,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzgE0G"
         },
@@ -4613,7 +5073,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzD9Zt"
         },
@@ -4625,7 +5085,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzi973"
         },
@@ -4637,7 +5097,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzDU9T"
         },
@@ -4649,7 +5109,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz24yF"
         },
@@ -4661,7 +5121,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzaOvn"
         },
@@ -4673,7 +5133,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzV3dh"
         },
@@ -4685,7 +5145,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvpvtZ8pof0O"
         },
@@ -4697,9 +5157,21 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zMpW2"
+        },
+        {
+          "date": "2026-07-17",
+          "project": "战斧牛排",
+          "content": "1、记录静腌数据，预估可用，下周测试评估，输出结论\n 2、战斧牛排输出样品通过单，试产按老饕可用于拼块推进。",
+          "stage": "制样",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12ziyiv"
         },
         {
           "date": "2026-07-22",
@@ -4762,21 +5234,29 @@
           "record_id": "recvrjHpiD77hW"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.003",
+      "status": [
+        "制样中"
+      ],
+      "client": "HH",
+      "latest": "2026/08/04｜确认试产规格400g，试产量：肋眼骨60kg，带骨眼肉150kg。肋条单独取出，肋条规格确认150-170g/份，可拼块≥15g，单份保鲜膜后，4份包一个拉伸膜。标准：克重470-500g原料不拼块出520g规格40份；拼块去除老饕；其余规格原料拼块400g，老饕部位斜切，老饕拼块仅可拼1块。 结论：待定 下一步：8/6试产",
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "带骨眼肉芯\n大庄园",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-04-29 00:00:00",
+      "sampler": "杜凯强"
     },
     "夹肌牛肉条": {
       "logs": [
@@ -4788,7 +5268,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzc55c"
         },
@@ -4800,7 +5280,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzJU0I"
         },
@@ -4812,7 +5292,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzz4np"
         },
@@ -4824,7 +5304,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzDVEg"
         },
@@ -4836,7 +5316,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzTpUi"
         },
@@ -4848,7 +5328,7 @@
           "conclusion": "通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz8mHx"
         },
@@ -4860,7 +5340,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvp51Mqgi6ZQ"
         },
@@ -4872,26 +5352,34 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zEzPR"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.009",
+      "status": [
+        "暂停"
+      ],
+      "client": "HH",
+      "latest": "2026/07/13｜项目暂停",
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "不重要不紧急"
+      ],
+      "material": "草饲上脑\n巴西",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-06-08 00:00:00",
+      "sampler": "黄毅勇"
     },
     "鸡全腿": {
       "logs": [
@@ -4903,7 +5391,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzyO1U"
         },
@@ -4915,7 +5403,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzoctn"
         },
@@ -4927,7 +5415,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzX6lH"
         },
@@ -4939,7 +5427,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zMIEI"
         },
@@ -4980,21 +5468,29 @@
           "record_id": "recvrjJb5jvc0S"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.013",
+      "status": [
+        "制样中"
+      ],
+      "client": "HH",
+      "latest": "2026/08/03｜1、不通过，调整制样（优化肉感、加强风味）2、目前原料块型大，沟通是否有200-220g原料 结论：不通过 下一步：【制样】：降低保水，加强风味。",
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要不紧急"
+      ],
+      "material": "六和\n去骨鸡全腿",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-06-10 00:00:00",
+      "sampler": "杜凯强"
     },
     "闽南醋肉": {
       "logs": [
@@ -5006,7 +5502,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz9R58"
         },
@@ -5018,9 +5514,21 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zvnde"
+        },
+        {
+          "date": "2026-07-21",
+          "project": "闽南醋肉",
+          "content": "1、制样两版黑明配方醋肉：①未腌②已腌\n2、内测通过（160℃/3分钟）\n3、供样餐饮产品会（HY20260721醋肉（已腌/未腌））",
+          "stage": "制样",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12zxyjj"
         },
         {
           "date": "2026-07-29",
@@ -5049,13 +5557,13 @@
         "重要不紧急"
       ],
       "material": "梅花猪碎肉",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-07-02 00:00:00",
       "sampler": "黄毅勇"
     },
@@ -5069,7 +5577,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzy0GR"
         },
@@ -5081,7 +5589,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzi7ap"
         },
@@ -5093,7 +5601,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXz2P4p"
         },
@@ -5105,7 +5613,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzy4qw"
         },
@@ -5117,7 +5625,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzJ18J"
         },
@@ -5129,7 +5637,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12ztmML"
         },
@@ -5158,21 +5666,29 @@
           "record_id": "recvr7huKHO0Xr"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.014",
+      "status": [
+        "制样中"
+      ],
+      "client": "HH",
+      "latest": "2026/07/30｜增加保水至35% 结论： 下一步：",
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要不紧急"
+      ],
+      "material": "正大\n鸡小胸",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-06-15 00:00:00",
+      "sampler": "杜凯强"
     },
     "胸部肋条【副产品】": {
       "logs": [
@@ -5184,7 +5700,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzPOCm"
         }
@@ -5203,13 +5719,13 @@
         "重要紧急"
       ],
       "material": "副产品消耗",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-04-28 00:00:00",
       "sampler": "黄毅勇"
     },
@@ -5223,7 +5739,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzpibo"
         },
@@ -5235,7 +5751,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvp51MqgxQFA"
         },
@@ -5247,26 +5763,46 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zvclb"
+        },
+        {
+          "date": "2026-07-22",
+          "project": "传奇牛排",
+          "content": "1、盐度复检结果与第一次基本一致，约0.4%\n2、试产时间暂定为7/30",
+          "stage": "工艺交接",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12zsqtO"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.027",
+      "status": [
+        "试产/生产"
+      ],
+      "client": "HH",
+      "latest": "2026/07/22｜1、盐度复检结果与第一次基本一致，约0.4%\n2、试产时间暂定为7/30",
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要不紧急"
+      ],
+      "material": "眼肉",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-08 00:00:00",
+      "sampler": "杜凯强"
     },
     "臀腰肉芯经典牛排": {
       "logs": [
@@ -5278,26 +5814,34 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvoVYyXzgUvn"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.020",
+      "status": [
+        "暂停"
+      ],
+      "client": "HH",
+      "latest": "2026/06/05｜产品会：口感较嫩 结论：待定",
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "臀腰肉芯\n巴西51",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-01-01 00:00:00",
+      "sampler": "杜凯强"
     },
     "低温慢煮牛肉片": {
       "logs": [
@@ -5321,7 +5865,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zfPEj"
         },
@@ -5362,21 +5906,29 @@
           "record_id": "recvrjJb5j89XZ"
         }
       ],
-      "number": "",
-      "status": "",
-      "client": "",
-      "latest": "",
-      "engineer": "",
-      "category": "",
-      "priority": "",
-      "material": "",
-      "water_rate": "",
-      "version": "",
-      "has_oa": "",
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "",
-      "sampler": ""
+      "number": "NO.018",
+      "status": [
+        "制样中"
+      ],
+      "client": "HH",
+      "latest": "2026/08/03｜决议：牛排方向暂停，牛肉片不通过，需降本，表面状态、颜色维持现有 结论：不通过 下一步：【制样】：保水方案调整为注射55%。",
+      "engineer": "周岚",
+      "category": [
+        "熟制品"
+      ],
+      "priority": [
+        "不重要不紧急"
+      ],
+      "material": "肩胛\n巴西2015",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-04-29 00:00:00",
+      "sampler": "黄毅勇"
     },
     "牛肉丸": {
       "logs": [
@@ -5388,7 +5940,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvp51Mqgbqdr"
         },
@@ -5400,7 +5952,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvp51MqgEUBb"
         },
@@ -5412,7 +5964,7 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zkf5a"
         }
@@ -5431,13 +5983,13 @@
         "不重要不紧急"
       ],
       "material": "上脑",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-07-06 00:00:00",
       "sampler": "刘淑贞"
     },
@@ -5451,9 +6003,21 @@
           "conclusion": "",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zuCXu"
+        },
+        {
+          "date": "2026-07-20",
+          "project": "静腌配方优化",
+          "content": "产品会会议决议：\n1、参考百胜版本静腌配方调整制样\n2、采购部：确认W闻达PR6是否可采购，或寻找其他同价位氨基酸无磷保水剂（如05）\n下期待办：\n【制样方案】\n1、优化厚切静腌眼肉牛排涩感：\n风味参考现有，取消磷酸盐，调整为05保水。\n下期出品：\n①标样②优化样品",
+          "stage": "制样",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvq5t12zRq3E"
         },
         {
           "date": "2026-07-24",
@@ -5475,7 +6039,7 @@
           "conclusion": "不通过",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvqKkcz2ztnI"
         },
@@ -5505,82 +6069,31 @@
       "priority": [
         "重要紧急"
       ],
-      "material": "",
-      "water_rate": "",
-      "version": "",
+      "material": null,
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-07-13 00:00:00",
       "sampler": "刘淑贞"
     },
-    "带骨牛腱": {
+    "草饲肥牛片": {
       "logs": [
         {
-          "date": "2026-07-23",
-          "project": "带骨牛腱",
-          "content": "锯割原料BGAR1920-DGQJ001,已录入锯割数据，测试原切，中段带骨量大，原切口感韧，贴骨有筋有油，有油脂香气",
-          "stage": "原料测试",
-          "conclusion": "待定",
-          "yield": "",
-          "version": "",
-          "next_step": "静腌测试",
-          "source": "feishu_import",
-          "record_id": "recvqbAvy5vkX0"
-        },
-        {
-          "date": "2026-07-24",
-          "project": "带骨牛腱",
-          "content": "原料研究，制样静腌牛排",
+          "date": "2026-07-20",
+          "project": "草饲肥牛片",
+          "content": "产品会会议决议：\n1、通过不修三拼版本，保水版本55%配方\n2、颜色较浅、口感略有涩味，调整制样。\n下期待办：\n1、供样餐饮研发：①三拼保水55%1.4mm/1.6mm厚度。\n2、【制样方案】\n颜色调深，涩味优化：\n优化保水配方：①使用05；②降磷酸盐，使用np-1辅助\n下期出品：\n待制样后确认",
           "stage": "制样",
-          "conclusion": "待定",
-          "yield": "",
-          "version": "",
-          "next_step": "下周一呈报产品会",
-          "source": "feishu_import",
-          "record_id": "recvqwCXejSXZ6"
-        },
-        {
-          "date": "2026-08-04",
-          "project": "带骨牛腱",
-          "content": "滚揉后组织松散，卤制后几乎脱骨，原型态几乎不存在，卖相不佳",
-          "stage": "内测",
           "conclusion": "不通过",
           "yield": "",
           "version": "",
-          "next_step": "内部沟通",
+          "next_step": null,
           "source": "feishu_import",
-          "record_id": "recvrjHpiDEE0T"
-        }
-      ],
-      "number": "NO.034",
-      "status": [
-        "制样中"
-      ],
-      "client": "HH",
-      "latest": "2026/08/04｜滚揉后组织松散，卤制后几乎脱骨，原型态几乎不存在，卖相不佳 结论：不通过 下一步：内部沟通",
-      "engineer": "周岚",
-      "category": [
-        "生制品"
-      ],
-      "priority": [
-        "重要不紧急"
-      ],
-      "material": "牛腱",
-      "water_rate": "",
-      "version": "",
-      "has_oa": [
-        "否"
-      ],
-      "doc_link": "",
-      "local_path": "",
-      "start_time": "2026-07-20 00:00:00",
-      "sampler": "杜凯强"
-    },
-    "草饲肥牛片": {
-      "logs": [
+          "record_id": "recvq5t12z5V1i"
+        },
         {
           "date": "2026-07-29",
           "project": "草饲肥牛片",
@@ -5643,16 +6156,79 @@
       "priority": [
         "重要紧急"
       ],
-      "material": "",
-      "water_rate": "",
-      "version": "",
+      "material": null,
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-06-17 00:00:00",
       "sampler": "叶校斌"
+    },
+    "带骨牛腱": {
+      "logs": [
+        {
+          "date": "2026-07-23",
+          "project": "带骨牛腱",
+          "content": "锯割原料BGAR1920-DGQJ001,已录入锯割数据，测试原切，中段带骨量大，原切口感韧，贴骨有筋有油，有油脂香气",
+          "stage": "原料测试",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "静腌测试",
+          "source": "feishu_import",
+          "record_id": "recvqbAvy5vkX0"
+        },
+        {
+          "date": "2026-07-24",
+          "project": "带骨牛腱",
+          "content": "原料研究，制样静腌牛排",
+          "stage": "制样",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "下周一呈报产品会",
+          "source": "feishu_import",
+          "record_id": "recvqwCXejSXZ6"
+        },
+        {
+          "date": "2026-08-04",
+          "project": "带骨牛腱",
+          "content": "滚揉后组织松散，卤制后几乎脱骨，原型态几乎不存在，卖相不佳",
+          "stage": "内测",
+          "conclusion": "不通过",
+          "yield": "",
+          "version": "",
+          "next_step": "内部沟通",
+          "source": "feishu_import",
+          "record_id": "recvrjHpiDEE0T"
+        }
+      ],
+      "number": "NO.034",
+      "status": [
+        "制样中"
+      ],
+      "client": "HH",
+      "latest": "2026/08/04｜滚揉后组织松散，卤制后几乎脱骨，原型态几乎不存在，卖相不佳 结论：不通过 下一步：内部沟通",
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要不紧急"
+      ],
+      "material": "牛腱",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-20 00:00:00",
+      "sampler": "杜凯强"
     },
     "臀腰肉芯牛排": {
       "logs": [
@@ -5682,14 +6258,14 @@
       "priority": [
         "重要不紧急"
       ],
-      "material": "",
-      "water_rate": "",
-      "version": "",
+      "material": null,
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-07-27 00:00:00",
       "sampler": "杜凯强"
     },
@@ -5703,7 +6279,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvrRunuVkpv0"
         }
@@ -5721,14 +6297,14 @@
       "priority": [
         "不重要不紧急"
       ],
-      "material": "",
-      "water_rate": "",
-      "version": "",
+      "material": null,
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-07-20 00:00:00",
       "sampler": "待定"
     },
@@ -5742,7 +6318,7 @@
           "conclusion": "待定",
           "yield": "",
           "version": "",
-          "next_step": "",
+          "next_step": null,
           "source": "feishu_import",
           "record_id": "recvrRunuVGM9K"
         }
@@ -5760,14 +6336,14 @@
       "priority": [
         "不重要不紧急"
       ],
-      "material": "",
-      "water_rate": "",
-      "version": "",
+      "material": null,
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-07-20 00:00:00",
       "sampler": "待定"
     },
@@ -5778,7 +6354,7 @@
         "沟通中"
       ],
       "client": "HH",
-      "latest": "",
+      "latest": null,
       "engineer": "周岚",
       "category": [
         "生制品"
@@ -5786,14 +6362,14 @@
       "priority": [
         "重要不紧急"
       ],
-      "material": "",
-      "water_rate": "",
-      "version": "",
+      "material": null,
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "否"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-07-29 00:00:00",
       "sampler": "杜凯强"
     },
@@ -5804,7 +6380,7 @@
         "沟通中"
       ],
       "client": "HH",
-      "latest": "",
+      "latest": null,
       "engineer": "周岚",
       "category": [
         "生制品"
@@ -5813,18 +6389,18 @@
         "重要紧急"
       ],
       "material": "眼肉芯",
-      "water_rate": "",
-      "version": "",
+      "water_rate": null,
+      "version": null,
       "has_oa": [
         "是"
       ],
-      "doc_link": "",
-      "local_path": "",
+      "doc_link": null,
+      "local_path": null,
       "start_time": "2026-08-03 00:00:00",
       "sampler": "刘淑贞"
     }
   },
-  "imported_at": "2026-08-11T10:05:03.013552",
-  "total_logs": 206,
+  "imported_at": "2026-08-11T10:20:55.165468",
+  "total_logs": 225,
   "total_projects": 37
 }
