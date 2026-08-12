@@ -1920,18 +1920,16 @@ function genInvCode(){
   var code=mat+prc+stg+prd+op+'-'+dat+'-'+proj+seq;
   document.getElementById('sp_code_display').textContent='编码：'+code;
 
-  // Name: [饲养方式] + 工艺 + 风味 + [和牛] + [主料] + 类型 + (部位)
+  // Name: [饲养方式] + 工艺 + 风味 + 类型 + (部位)
   var proc=gv('sp_process');
   var flavor=gv('sp_flavor')||'原味';
   var type=gv('sp_prodtype');
   var part=gv('sp_part');
   var feed=gv('sp_feed');
-  var breed=gv('sp_breed');
   if(!proc||!type){return;}
   var name='';
   if(feed==='谷饲')name+='谷饲';
   name+=proc+flavor;
-  if(breed==='和牛')name+='和牛';
   if(INV_SELF_REF[type]){name+=type;}else{name+=gv('sp_material')+type;}
   if(part)name+='('+part+')';
   document.getElementById('sp_name_display').textContent='名称：'+name;
