@@ -1,6 +1,54 @@
 {
   "daily": [
     {
+      "date": "2026-08-12",
+      "project": "保乐肩牛排",
+      "content": "2、55、104、394厂原料检测报告发出",
+      "stage": "需求沟通",
+      "conclusion": "通过",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvs2UpvueIRI"
+    },
+    {
+      "date": "2026-08-11",
+      "project": "保乐肩牛排",
+      "content": "供样儿童保乐肩牛排115g，4份。餐厅用于出品测试。",
+      "stage": "供样",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "待餐厅出品测试反馈",
+      "source": "feishu_import",
+      "record_id": "recvs2TMiKZv5e"
+    },
+    {
+      "date": "2026-08-11",
+      "project": "保乐肩牛排",
+      "content": "餐饮预估未来半年TC40，保乐肩牛排330,000份，儿童牛排60,000份，预估需要原料80t",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "安格斯谷饲保乐肩原料检测报告发出",
+      "source": "feishu_import",
+      "record_id": "recvs2UeUPaBF1"
+    },
+    {
+      "date": "2026-08-11",
+      "project": "鸡胸",
+      "content": "餐饮反馈35%版本测试通过，待餐饮产品确认产品应用方案后推进",
+      "stage": "需求沟通",
+      "conclusion": "通过",
+      "yield": "",
+      "version": "",
+      "next_step": "待餐饮通知",
+      "source": "feishu_import",
+      "record_id": "recvs37J95PQnM"
+    },
+    {
       "date": "2026-08-10",
       "project": "原切肥牛片",
       "content": "餐饮上周五门店测试不通过：肉是当着消费者的面前加熟，口感偏干柴，整体效果不理想；也打不了原切的概念，所以想要试下肥牛片做低保水。",
@@ -23,6 +71,66 @@
       "next_step": "制样，预计本周四8/13完成。",
       "source": "feishu_import",
       "record_id": "recvs2LRMcruSw"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "卤香牛肋排【副产品】",
+      "content": "8/7试产结果如图，沟通餐饮确认标准：1、每份可拼入1块光骨，一块脱骨大肉；2、卤牛肋排脱骨肉可用于添称；3、边骨牛肋排不区分，拼重按照骨长≥3.5cm区分大小块，不能接受整份全部都是小块；4、后续牛肋排生产完毕后搭配半筋半肉用于鲜蔬锅。",
+      "stage": "试产",
+      "conclusion": "通过",
+      "yield": "",
+      "version": "",
+      "next_step": "量产",
+      "source": "feishu_import",
+      "record_id": "recvs2Zwr3I1iD"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "战斧牛排",
+      "content": "试产战斧400/520g，静腌牛肋条150g，试产数据如图。",
+      "stage": "工艺交接",
+      "conclusion": "通过",
+      "yield": "",
+      "version": "",
+      "next_step": "试产样交付餐厅测试。",
+      "source": "feishu_import",
+      "record_id": "recvs2TqtzwIZP"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "半筋半肉料理包【副产品】",
+      "content": "咖喱半筋半肉产品餐厅退市，转为半筋半肉鲜蔬锅，进度待餐厅反馈。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "餐饮研发反馈。",
+      "source": "feishu_import",
+      "record_id": "recvs2VikS3Vnx"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "低温慢煮牛肉片",
+      "content": "保水效果不如预期，注射保水150%。口感测试通过，下周一产品会呈报",
+      "stage": "内测",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "1、工艺交接配方：确认量产障碍点；2、核算价格",
+      "source": "feishu_import",
+      "record_id": "recvs3ccf1suMn"
+    },
+    {
+      "date": "2026-08-06",
+      "project": "鸡胸",
+      "content": "盲测对比20/30/35%不同保水梯度样品，确认口感有较嫩改善，供样35%样品200g，2包。",
+      "stage": "内测",
+      "conclusion": "通过",
+      "yield": "",
+      "version": "",
+      "next_step": "待餐饮测试反馈",
+      "source": "feishu_import",
+      "record_id": "recvs37hzBOqMP"
     },
     {
       "date": "2026-08-04",
@@ -243,7 +351,7 @@
     {
       "date": "2026-07-30",
       "project": "鸡胸",
-      "content": "增加保水至35%",
+      "content": "增加保水至35%，收集单条原料重量，预估2块小胸定重约为100g左右",
       "stage": "制样",
       "conclusion": "待定",
       "yield": "",
@@ -1612,7 +1720,7 @@
       "date": "2026-07-07",
       "project": "黑椒牛肉粒",
       "content": "按现有配方工艺，夹肌不修割，肥油上限约13%，制样完成",
-      "stage": "",
+      "stage": "制样",
       "conclusion": "",
       "yield": "",
       "version": "",
@@ -1948,7 +2056,7 @@
       "date": "2026-07-01",
       "project": "黑椒牛肉粒",
       "content": "沟通周五制样方案：\n1、肥油切5mm丁，按现有工艺\n2、肥油切5mm丁，加酶滚揉，压5mm板，铺3层肥油板，夹肌横切片\n3、夹肌肥油滚揉酶，直接铺3层（现场确认）",
-      "stage": "",
+      "stage": "需求沟通",
       "conclusion": "待定",
       "yield": "",
       "version": "",
@@ -4014,6 +4122,18 @@
           "next_step": "8/7试产杨江版本，确定优化情况后评估",
           "source": "feishu_import",
           "record_id": "recvr7gtDCocP5"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "卤香牛肋排【副产品】",
+          "content": "8/7试产结果如图，沟通餐饮确认标准：1、每份可拼入1块光骨，一块脱骨大肉；2、卤牛肋排脱骨肉可用于添称；3、边骨牛肋排不区分，拼重按照骨长≥3.5cm区分大小块，不能接受整份全部都是小块；4、后续牛肋排生产完毕后搭配半筋半肉用于鲜蔬锅。",
+          "stage": "试产",
+          "conclusion": "通过",
+          "yield": "",
+          "version": "",
+          "next_step": "量产",
+          "source": "feishu_import",
+          "record_id": "recvs2Zwr3I1iD"
         }
       ],
       "number": "NO.012",
@@ -4188,6 +4308,42 @@
           "next_step": "待餐饮决策，供样测试",
           "source": "feishu_import",
           "record_id": "recvqK6QonQJTu"
+        },
+        {
+          "date": "2026-08-11",
+          "project": "保乐肩牛排",
+          "content": "供样儿童保乐肩牛排115g，4份。餐厅用于出品测试。",
+          "stage": "供样",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "待餐厅出品测试反馈",
+          "source": "feishu_import",
+          "record_id": "recvs2TMiKZv5e"
+        },
+        {
+          "date": "2026-08-11",
+          "project": "保乐肩牛排",
+          "content": "餐饮预估未来半年TC40，保乐肩牛排330,000份，儿童牛排60,000份，预估需要原料80t",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "安格斯谷饲保乐肩原料检测报告发出",
+          "source": "feishu_import",
+          "record_id": "recvs2UeUPaBF1"
+        },
+        {
+          "date": "2026-08-12",
+          "project": "保乐肩牛排",
+          "content": "2、55、104、394厂原料检测报告发出",
+          "stage": "需求沟通",
+          "conclusion": "通过",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvs2UpvueIRI"
         }
       ],
       "number": "NO.005",
@@ -4415,7 +4571,7 @@
           "date": "2026-07-07",
           "project": "黑椒牛肉粒",
           "content": "按现有配方工艺，夹肌不修割，肥油上限约13%，制样完成",
-          "stage": "",
+          "stage": "制样",
           "conclusion": "",
           "yield": "",
           "version": "",
@@ -4487,7 +4643,7 @@
           "date": "2026-07-01",
           "project": "黑椒牛肉粒",
           "content": "沟通周五制样方案：\n1、肥油切5mm丁，按现有工艺\n2、肥油切5mm丁，加酶滚揉，压5mm板，铺3层肥油板，夹肌横切片\n3、夹肌肥油滚揉酶，直接铺3层（现场确认）",
-          "stage": "",
+          "stage": "需求沟通",
           "conclusion": "待定",
           "yield": "",
           "version": "",
@@ -4605,6 +4761,18 @@
           "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zvYD2"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "半筋半肉料理包【副产品】",
+          "content": "咖喱半筋半肉产品餐厅退市，转为半筋半肉鲜蔬锅，进度待餐厅反馈。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "餐饮研发反馈。",
+          "source": "feishu_import",
+          "record_id": "recvs2VikS3Vnx"
         }
       ],
       "number": "NO.007",
@@ -5280,6 +5448,18 @@
           "next_step": "8/6试产",
           "source": "feishu_import",
           "record_id": "recvrjHpiD77hW"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "战斧牛排",
+          "content": "试产战斧400/520g，静腌牛肋条150g，试产数据如图。",
+          "stage": "工艺交接",
+          "conclusion": "通过",
+          "yield": "",
+          "version": "",
+          "next_step": "试产样交付餐厅测试。",
+          "source": "feishu_import",
+          "record_id": "recvs2TqtzwIZP"
         }
       ],
       "number": "NO.003",
@@ -5704,7 +5884,7 @@
         {
           "date": "2026-07-30",
           "project": "鸡胸",
-          "content": "增加保水至35%",
+          "content": "增加保水至35%，收集单条原料重量，预估2块小胸定重约为100g左右",
           "stage": "制样",
           "conclusion": "待定",
           "yield": "",
@@ -5712,6 +5892,30 @@
           "next_step": "对比内测后供样",
           "source": "feishu_import",
           "record_id": "recvr7huKHO0Xr"
+        },
+        {
+          "date": "2026-08-06",
+          "project": "鸡胸",
+          "content": "盲测对比20/30/35%不同保水梯度样品，确认口感有较嫩改善，供样35%样品200g，2包。",
+          "stage": "内测",
+          "conclusion": "通过",
+          "yield": "",
+          "version": "",
+          "next_step": "待餐饮测试反馈",
+          "source": "feishu_import",
+          "record_id": "recvs37hzBOqMP"
+        },
+        {
+          "date": "2026-08-11",
+          "project": "鸡胸",
+          "content": "餐饮反馈35%版本测试通过，待餐饮产品确认产品应用方案后推进",
+          "stage": "需求沟通",
+          "conclusion": "通过",
+          "yield": "",
+          "version": "",
+          "next_step": "待餐饮通知",
+          "source": "feishu_import",
+          "record_id": "recvs37J95PQnM"
         }
       ],
       "number": "NO.014",
@@ -5952,6 +6156,18 @@
           "next_step": "【制样】：保水方案调整为注射55%。",
           "source": "feishu_import",
           "record_id": "recvrjJb5j89XZ"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "低温慢煮牛肉片",
+          "content": "保水效果不如预期，注射保水150%。口感测试通过，下周一产品会呈报",
+          "stage": "内测",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "1、工艺交接配方：确认量产障碍点；2、核算价格",
+          "source": "feishu_import",
+          "record_id": "recvs3ccf1suMn"
         }
       ],
       "number": "NO.018",
@@ -6448,7 +6664,7 @@
       "sampler": "刘淑贞"
     }
   },
-  "imported_at": "2026-08-12T10:09:16.454670",
-  "total_logs": 227,
+  "imported_at": "2026-08-12T11:46:18.569448",
+  "total_logs": 236,
   "total_projects": 37
 }
