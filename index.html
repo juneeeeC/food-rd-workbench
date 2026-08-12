@@ -791,22 +791,21 @@ textarea{resize:vertical;min-height:60px}
 
 <!-- ====== 样品库存TAB ====== -->
 <div class="tab-content" id="tab-inventory">
+<div class="container">
+
 <div class="card">
 <div class="card-title">📦 新增样品</div>
-
 <div class="row">
-  <div class="col-third"><label>制样人</label><select id="sp_operator" onchange="genInvCode()">
+  <div class="col-half"><label>制样人</label><select id="sp_operator" onchange="genInvCode()">
     <option value="">选制样人</option>
     <option value="杜凯强">杜凯强 07</option><option value="叶校斌">叶校斌 06</option>
     <option value="蔡将君">蔡将君 08</option><option value="刘淑贞">刘淑贞 04</option>
     <option value="杨江">杨江 09</option><option value="黄毅勇">黄毅勇 01</option>
     <option value="余庆海">余庆海 05</option><option value="丁建民">丁建民 02</option>
   </select></div>
-  <div class="col-third"><label>制样日期</label><input type="date" id="sp_date" onchange="genInvCode()"></div>
-  <div class="col-third"><label>规格(g)</label><input type="number" id="sp_size" placeholder="如 200"></div>
+  <div class="col-half"><label>制样日期</label><input type="date" id="sp_date" onchange="genInvCode()"></div>
 </div>
-
-<div class="row" style="margin-top:8px">
+<div class="row">
   <div class="col-half"><label>主料</label><select id="sp_material" onchange="genInvCode();updateFlavor()">
     <option value="">选主料</option><option value="牛">牛 B</option><option value="猪">猪 P</option>
     <option value="鸡">鸡 C</option><option value="鸭">鸭 D</option><option value="羊">羊 L</option>
@@ -818,21 +817,20 @@ textarea{resize:vertical;min-height:60px}
     <option value="卤制">卤制 L</option><option value="煮制">煮制 C</option><option value="裹粉">裹粉 F</option>
   </select></div>
 </div>
-
-<div class="row" style="margin-top:8px">
-  <div class="col-third"><label>种类</label><select id="sp_breed" onchange="genInvCode();updateFeed()">
+<div class="row">
+  <div class="col-quarter"><label>种类</label><select id="sp_breed" onchange="genInvCode();updateFeed()">
     <option value="">选种类</option><option value="和牛">和牛</option>
     <option value="安格斯">安格斯</option><option value="伊比利亚猪">伊比利亚猪</option>
     <option value="盐池滩羊">盐池滩羊</option><option value="黄牛">黄牛</option>
     <option value="无">无</option>
   </select></div>
-  <div class="col-third"><label>饲养方式</label><select id="sp_feed" onchange="genInvCode()">
+  <div class="col-quarter"><label>饲养方式</label><select id="sp_feed" onchange="genInvCode()">
     <option value="无">无</option><option value="谷饲">谷饲</option>
   </select></div>
-  <div class="col-third"><label>风味</label><input type="text" id="sp_flavor" placeholder="原味、黑椒" oninput="genInvCode()"></div>
+  <div class="col-quarter"><label>风味</label><input type="text" id="sp_flavor" placeholder="原味" oninput="genInvCode()"></div>
+  <div class="col-quarter"><label>规格<span class="u">g</span></label><input type="number" id="sp_size" placeholder="200"></div>
 </div>
-
-<div class="row" style="margin-top:8px">
+<div class="row">
   <div class="col-half"><label>储存方式</label><select id="sp_storage" onchange="genInvCode();updateShelf()">
     <option value="冷冻">冷冻 F</option><option value="冷藏">冷藏 C</option><option value="常温">常温 R</option>
   </select></div>
@@ -847,49 +845,48 @@ textarea{resize:vertical;min-height:60px}
     </optgroup>
   </select></div>
 </div>
-
-<div class="row" style="margin-top:8px">
-  <div class="col-half"><label>部位（可选）</label><input type="text" id="sp_part" placeholder="上脑、肋排、全腿" oninput="genInvCode()"></div>
-</div>
-
-<div class="row" style="margin-top:8px">
-  <div class="col-quarter"><label>项目流水</label><input type="text" id="sp_project" value="A" maxlength="1" oninput="genInvCode()" style="text-transform:uppercase"></div>
+<div class="row">
+  <div class="col-quarter"><label>部位</label><input type="text" id="sp_part" placeholder="(可选)" oninput="genInvCode()"></div>
+  <div class="col-quarter"><label>项目<span class="u">流水</span></label><input type="text" id="sp_project" value="A" maxlength="1" oninput="genInvCode()" style="text-transform:uppercase"></div>
   <div class="col-quarter"><label>保质期<span class="u">天</span></label><input type="number" id="sp_shelf" value="365" readonly></div>
-  <div class="col-quarter"><label>初始数量</label><input type="number" id="sp_count" value="1" min="1"></div>
   <div class="col-quarter"><label>储存位置</label><select id="sp_location">
     <option value="同安研发室">同安研发室</option><option value="同安冻库">同安冻库</option><option value="翔安工厂">翔安工厂</option>
   </select></div>
 </div>
-
-<div class="code-box" id="sp_name_display" style="margin-top:8px">选择字段生成名称</div>
-<div class="code-box" id="sp_code_display" style="margin-top:4px">编码：选择字段自动生成</div>
-<div class="code-hint" id="sp_warning" style="margin-top:2px;font-size:12px">临保预警：选择日期后计算</div>
-
+<div class="row">
+  <div class="col-quarter"><label>初始数量</label><input type="number" id="sp_count" value="1" min="1"></div>
+</div>
+<div class="code-box" id="sp_name_display">选择字段生成名称</div>
+<div class="code-box" style="margin-top:4px" id="sp_code_display">编码：选择字段自动生成</div>
+<div class="code-hint" id="sp_warning">临保预警：选择日期后计算</div>
 <button class="btn btn-primary" style="margin-top:12px" onclick="submitSample()">📦 添加样品</button>
 </div>
 
-<div class="card" style="margin-top:12px">
+<div class="card">
 <div class="card-title">📤 样品出库</div>
 <div class="row">
   <div class="col-half"><label>样品</label><select id="sp_select"><option value="-1">选择样品</option></select></div>
   <div class="col-half"><label>出库日期</label><input type="date" id="sp_out_date"></div>
 </div>
-<div class="row" style="margin-top:8px">
-  <div class="col-half"><label>数量</label><input type="number" id="sp_out_qty" min="1" placeholder="正整数"></div>
-  <div class="col-half"><label>领用部门</label><input type="text" id="sp_out_dept" placeholder="如 餐饮研发部"></div>
+<div class="row">
+  <div class="col-quarter"><label>数量</label><input type="number" id="sp_out_qty" min="1" placeholder="正数"></div>
+  <div class="col-quarter"><label>领用部门</label><input type="text" id="sp_out_dept" placeholder="餐饮研发部"></div>
+  <div class="col-quarter"><label>客户</label><input type="text" id="sp_out_client" placeholder="HH"></div>
 </div>
-<div class="row" style="margin-top:8px">
-  <div class="col-half"><label>客户</label><input type="text" id="sp_out_client" placeholder="如 HH"></div>
-  <div class="col-half"><label>签字</label><canvas id="sp_sig_canvas" width="280" height="70" style="border:1px solid var(--border);border-radius:8px;touch-action:none;width:100%;cursor:crosshair;background:#fafafa"></canvas></div>
+<div class="row">
+  <div class="col-half"><label>签字确认</label><canvas id="sp_sig_canvas" width="280" height="70" style="border:1px solid var(--border);border-radius:8px;touch-action:none;width:100%;cursor:crosshair;background:var(--bg)"></canvas></div>
 </div>
 <button class="btn btn-primary" style="margin-top:8px" onclick="submitOutbound()">📤 确认出库</button>
 </div>
 
-<div class="card" style="margin-top:12px">
+<div class="card">
 <div class="card-title">📋 库存清单 (<span id="inv_count">0</span>)</div>
 <div id="inv_list"></div>
 </div>
+
 </div>
+</div>
+
 
 <!-- ====== Scripts ====== -->
 <script>
