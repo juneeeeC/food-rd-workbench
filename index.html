@@ -822,7 +822,7 @@ textarea{resize:vertical;min-height:60px}
 
 <div id="inv_sub_in" style="display:none">
   <div class="card">
-    <div class="card-title">📦 样品录入 <button class="btn btn-sm" style="float:right;font-size:12px;padding:2px 10px" onclick="showInvSub('home')">← 返回</button></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px"><h3 style="margin:0;font-size:15px">📦 样品录入</h3><button class="btn btn-sm" style="font-size:12px;padding:4px 12px" onclick="showInvSub('home')">← 返回</button></div>
     <div class="row">
       <div class="col-half"><label>制样人</label><select id="sp_operator" onchange="genInvCode()">
         <option value="">选制样人</option>
@@ -876,10 +876,10 @@ textarea{resize:vertical;min-height:60px}
     <div class="row">
       <div class="col-half"><label>产品形态</label><input type="text" id="sp_form" list="sp_form_list" placeholder="选形态或自填" oninput="genInvCode();updateFormHint()">
         <datalist id="sp_form_list">
-          <option value="调理"><option value="排"><option value="片"><option value="上脑">
-          <option value="丝"><option value="丁"><option value="粒"><option value="靡">
-          <option value="肥牛"><option value="饼"><option value="丸"><option value="全腿">
-          <option value="吊龙"><option value="梅肉"><option value="其他">
+          <option value="排"><option value="片"><option value="丝"><option value="丁">
+          <option value="粒"><option value="靡"><option value="饼"><option value="丸">
+          <option value="肥牛"><option value="其他"><option value="料理包">
+          <option value="酱汁"><option value="调味料"><option value="罐头">
         </datalist>
         <span class="code-hint" id="sp_form_hint"></span>
       </div>
@@ -903,7 +903,7 @@ textarea{resize:vertical;min-height:60px}
 
 <div id="inv_sub_out" style="display:none">
   <div class="card">
-    <div class="card-title">📤 样品出库 <button class="btn btn-sm" style="float:right;font-size:12px;padding:2px 10px" onclick="showInvSub('home')">← 返回</button></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px"><h3 style="margin:0;font-size:15px">📤 样品出库</h3><button class="btn btn-sm" style="font-size:12px;padding:4px 12px" onclick="showInvSub('home')">← 返回</button></div>
     <div class="row">
       <div class="col-half"><label>样品</label><select id="sp_select"><option value="-1">选择样品</option></select></div>
       <div class="col-half"><label>出库日期</label><input type="date" id="sp_out_date"></div>
