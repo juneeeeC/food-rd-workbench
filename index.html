@@ -654,6 +654,19 @@ textarea{resize:vertical;min-height:60px}
 </div>
 </div>
 
+<!-- 4.5 单块称重 (鸡全腿/鸡小胸) -->
+<div id="single_piece_card" class="card" style="display:none">
+<div class="card-title">📏 单块称重</div>
+<div class="row">
+  <div class="col-quarter"><label>平均值 <span class="u">g</span></label><input type="number" id="sp_avg" step="0.1"></div>
+  <div class="col-quarter"><label>最小 <span class="u">g</span></label><input type="number" id="sp_min" step="0.1"></div>
+  <div class="col-quarter"><label>最大 <span class="u">g</span></label><input type="number" id="sp_max" step="0.1"></div>
+  <div class="col-quarter"><label>切片总重 <span class="u">g</span></label><input type="number" id="sp_total" step="0.1"></div>
+</div>
+<button class="collapse-btn" onclick="togglePieceGrid()">▶ 展开各块重量（1# ~ 24#）</button>
+<div id="piece_grid" class="hidden" style="margin-top:10px"><div class="slice-grid" id="piece_grid_inner"></div></div>
+</div>
+
 <!-- 5. 结果 -->
 <div class="card">
 <div class="card-title">✅ 结果</div>
@@ -1137,8 +1150,12 @@ function rebuildParts(){
   if(cfg.chinly){
     document.getElementById('split_area').innerHTML='';
     document.getElementById('nosplit_area').innerHTML='';
+    var pc=document.getElementById('single_piece_card');
+    if(pc)pc.style.display='block';
     return;
   }
+  var pc=document.getElementById('single_piece_card');
+  if(pc)pc.style.display='none';
   const area=document.getElementById('split_area');
   let h='';
   cfg.parts.forEach((pt,i)=>{
@@ -1165,6 +1182,17 @@ function buildSliceGrid(){
   let h='<div class="slice-item"><label>头</label><input type="number" id="sl_h" step="0.1" placeholder="-" oninput="calcAll()"></div>';
   for(let i=1;i<=30;i++)h+='<div class="slice-item"><label>'+i+'#</label><input type="number" id="sl_'+i+'" step="0.1" placeholder="-" oninput="calcAll()"></div>';
   g.innerHTML=h;
+}
+function togglePieceGrid(){
+  var g=document.getElementById('piece_grid');
+  var i=document.getElementById('piece_grid_inner');
+  if(g.classList.contains('hidden')){
+    if(!i.children.length){
+      var h='';for(var n=1;n<=24;n++){h+='<div class="slice-cell"><div class="num">'+n+'#</div><input type="number" id="piece_'+n+'" step="0.1"></div>';}
+      i.innerHTML=h;
+    }
+    g.classList.remove('hidden');
+  }else{g.classList.add('hidden');}
 }
 function toggleSliceGrid(){
   const g=document.getElementById('slice_grid'),b=document.getElementById('slice_toggle_btn');
