@@ -1557,7 +1557,7 @@ function refreshDashboard(){
           if(la.yield)h+='<span class="log-meta"> 出品率:'+la.yield+'%</span>';
           if(la.version)h+='<span class="log-meta"> 样品编码:'+la.version+'</span>';
           if(la.operator)h+='<span class="log-meta"> 👤'+la.operator+'</span>';
-          h+='<button class="log-edit" onclick="event.stopPropagation();editLog(\''+la.savedAt+'\')">✏️</button>';
+          if(la.savedAt)h+='<button class="log-edit" onclick="event.stopPropagation();editLog(\''+la.savedAt+'\')">✏️</button>';
           h+='<div class="log-content">'+la.content+'</div>';
           if(la.next_step)h+='<div class="log-next">→ '+la.next_step+'</div>';
           if(la.photo){
