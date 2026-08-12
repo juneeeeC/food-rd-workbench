@@ -375,6 +375,8 @@ textarea{resize:vertical;min-height:60px}
 .log-item .log-meta{color:var(--sub);font-size:12px}
 .log-item .log-content{color:var(--text);margin-top:3px;line-height:1.5}
 .log-item .log-photo{max-width:100%;max-height:120px;border-radius:8px;margin-top:6px;cursor:pointer}
+.log-edit{float:right;background:transparent;border:1px solid var(--border);border-radius:6px;padding:2px 8px;cursor:pointer;font-size:14px}
+.log-edit:hover{background:var(--bg-hover)}
 
 .empty-state{
   text-align:center;
@@ -711,7 +713,7 @@ textarea{resize:vertical;min-height:60px}
 </div>
 <input type="file" id="rp_photo" accept="image/*" multiple style="display:none" onchange="handlePhotos(event)">
 
-<button class="btn btn-primary" style="margin-top:12px" onclick="submitReport()">📤 提交日报</button>
+<button id="rp_submit_btn" class="btn btn-primary" style="margin-top:12px" onclick="submitReport()">📤 提交日报</button>
 </div>
 
 <!-- 项目看板 -->
@@ -1260,17 +1262,31 @@ function submitReport(){
     next_step:gv('rp_next_step'),
     operator:gv('rp_operator'),
     photo:PHOTO_DATA.join('|')||'',
-    savedAt:new Date().toISOString()
+    savedAt:EDITING_SAVEDAT||new Date().toISOString()
   };
 
   let entries=[];
   try{entries=JSON.parse(localStorage.getItem('houcaller_entries')||'[]');}catch(e){}
-  entries.push(entry);
+
+  if(EDITING_SAVEDAT){
+    const idx=entries.findIndex(e=>e.savedAt===EDITING_SAVEDAT);
+    if(idx>=0){
+      entries[idx]=entry;
+      showToast('✅ 日报已更新','ok');
+    }else{
+      entries.push(entry);
+      showToast('✅ 日报已保存','ok');
+    }
+    EDITING_SAVEDAT=null;
+  }else{
+    entries.push(entry);
+    showToast('✅ 日报已保存','ok');
+  }
+
   localStorage.setItem('houcaller_entries',JSON.stringify(entries));
 
-  saveShared(); // Sync to GitHub -> 20 users see it instantly
+  saveShared();
 
-  showToast('✅ 日报已保存','ok');
   document.getElementById('rp_content').value='';
   document.getElementById('rp_stage').value='';
   document.getElementById('rp_conclusion').value='';
@@ -1284,9 +1300,49 @@ function submitReport(){
   document.getElementById('photo_area').classList.remove('has-photo');
   document.getElementById('rp_photo').value='';
   document.getElementById('rp_date').value=new Date().toISOString().slice(0,10);
+  if(document.getElementById('rp_submit_btn')){
+    document.getElementById('rp_submit_btn').textContent='📤 提交日报';
+  }
 
   refreshDashboard();
   refreshHomeStats();
+}
+
+var EDITING_SAVEDAT=null;
+
+function editLog(savedAt){
+  let entries=[];
+  try{entries=JSON.parse(localStorage.getItem('houcaller_entries')||'[]');}catch(e){}
+  const entry=entries.find(e=>e.savedAt===savedAt);
+  if(!entry){showToast('找不到这条日报','err');return;}
+
+  EDITING_SAVEDAT=savedAt;
+
+  // Switch to daily report tab
+  var tabs=document.querySelectorAll('.tab');
+  var contents=document.querySelectorAll('.tab-content');
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
+  if(tabs[1])tabs[1].classList.add('active');
+  if(contents[1])contents[1].classList.add('active');
+
+  document.getElementById('rp_date').value=entry.date||'';
+  document.getElementById('rp_project').value=entry.project||'';
+  document.getElementById('rp_content').value=entry.content||'';
+  document.getElementById('rp_stage').value=entry.stage||'';
+  document.getElementById('rp_conclusion').value=entry.conclusion||'';
+  document.getElementById('rp_yield').value=entry.yield||'';
+  document.getElementById('rp_version').value=entry.version||'';
+  document.getElementById('rp_next_step').value=entry.next_step||'';
+  document.getElementById('rp_operator').value=entry.operator||'';
+  if(document.getElementById('rp_submit_btn')){
+    document.getElementById('rp_submit_btn').textContent='💾 更新日报';
+  }
+
+  if(document.getElementById('tab-report')){
+    document.getElementById('tab-report').scrollIntoView({behavior:'smooth'});
+  }
+  showToast('✏️ 编辑中，修改后点更新','ok');
 }
 
 // ==================== Dashboard ====================
@@ -1501,6 +1557,7 @@ function refreshDashboard(){
           if(la.yield)h+='<span class="log-meta"> 出品率:'+la.yield+'%</span>';
           if(la.version)h+='<span class="log-meta"> 样品编码:'+la.version+'</span>';
           if(la.operator)h+='<span class="log-meta"> 👤'+la.operator+'</span>';
+          h+='<button class="log-edit" onclick="event.stopPropagation();editLog(\''+la.savedAt+'\')">✏️</button>';
           h+='<div class="log-content">'+la.content+'</div>';
           if(la.next_step)h+='<div class="log-next">→ '+la.next_step+'</div>';
           if(la.photo){
