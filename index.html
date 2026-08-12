@@ -83,11 +83,6 @@ body{
 .container{max-width:680px;margin:0 auto;padding:16px}
 .tab-content{display:none}
 .tab-content.active{display:block}
-.inv-row{margin-bottom:10px}
-.inv-row label{display:block;font-size:13px;color:var(--text-secondary);margin-bottom:4px}
-.inv-row select,.inv-row input{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:15px;background:var(--bg);color:var(--text);box-sizing:border-box;-webkit-appearance:none}
-.inv-row select{appearance:auto}
-.inv-row .code-box{font-size:13px;color:var(--text-primary);padding:10px 12px;border-radius:8px;background:var(--bg-hover);border:1px solid var(--border)}
 
 /* ====== Home Tab ====== */
 .home-hero{
@@ -797,70 +792,90 @@ textarea{resize:vertical;min-height:60px}
 <!-- ====== 样品库存TAB ====== -->
 <div class="tab-content" id="tab-inventory">
 <div class="card">
-  <div class="card-title">📦 新增样品</div>
-  <div class="inv-row"><label>制样人</label><select id="sp_operator" onchange="genInvCode()">
-    <option value="">选择制样人</option>
+<div class="card-title">📦 新增样品</div>
+
+<div class="row">
+  <div class="col-third"><label>制样人</label><select id="sp_operator" onchange="genInvCode()">
+    <option value="">选制样人</option>
     <option value="杜凯强">杜凯强 07</option><option value="叶校斌">叶校斌 06</option>
     <option value="蔡将君">蔡将君 08</option><option value="刘淑贞">刘淑贞 04</option>
     <option value="杨江">杨江 09</option><option value="黄毅勇">黄毅勇 01</option>
     <option value="余庆海">余庆海 05</option><option value="丁建民">丁建民 02</option>
   </select></div>
-  <div class="inv-row"><label>制样日期</label><input type="date" id="sp_date" onchange="genInvCode()"></div>
-  <div class="inv-row"><label>主料</label><select id="sp_material" onchange="genInvCode();updateFlavor()">
+  <div class="col-third"><label>制样日期</label><input type="date" id="sp_date" onchange="genInvCode()"></div>
+  <div class="col-third"><label>规格(g)</label><input type="number" id="sp_size" placeholder="如 200"></div>
+</div>
+
+<div class="row" style="margin-top:8px">
+  <div class="col-half"><label>主料</label><select id="sp_material" onchange="genInvCode();updateFlavor()">
     <option value="">选主料</option><option value="牛">牛 B</option><option value="猪">猪 P</option>
     <option value="鸡">鸡 C</option><option value="鸭">鸭 D</option><option value="羊">羊 L</option>
     <option value="混合">混合 A</option><option value="其他">其他 E</option>
   </select></div>
-  <div class="inv-row"><label>工艺</label><select id="sp_process" onchange="genInvCode();updateFlavor()">
+  <div class="col-half"><label>工艺</label><select id="sp_process" onchange="genInvCode();updateFlavor()">
     <option value="">选工艺</option><option value="原切">原切 O</option><option value="滚揉">滚揉 G</option>
     <option value="麻冻">麻冻 M</option><option value="整切">整切 Z</option><option value="静腌">静腌 J</option>
-    <option value="卤制">卤制 L</option><option value="煮制">煮制 C</option><option value="低温慢煮">低温慢煮 D</option>
-    <option value="裹粉">裹粉 F</option>
+    <option value="卤制">卤制 L</option><option value="煮制">煮制 C</option><option value="裹粉">裹粉 F</option>
   </select></div>
-  <div class="inv-row"><label>储存方式</label><select id="sp_storage" onchange="genInvCode();updateShelf()">
+</div>
+
+<div class="row" style="margin-top:8px">
+  <div class="col-half"><label>储存方式</label><select id="sp_storage" onchange="genInvCode();updateShelf()">
     <option value="冷冻">冷冻 F</option><option value="冷藏">冷藏 C</option><option value="常温">常温 R</option>
   </select></div>
-  <div class="inv-row"><label>产品类型</label><select id="sp_prodtype" onchange="genInvCode()">
+  <div class="col-half"><label>产品类型</label><select id="sp_prodtype" onchange="genInvCode()">
     <option value="">选类型</option><optgroup label="生制品">
-      <option value="排">排 S</option><option value="片">片 P</option><option value="条/丝/丁/糜">条/丝/丁/糜 E</option>
-      <option value="肥牛">肥牛 B</option><option value="饼">饼 K</option><option value="丸">丸 W</option><option value="其他生制品">其他生制品 Z</option>
+      <option value="排">排 S</option><option value="片">片 P</option>
+      <option value="条/丝/丁/糜">条/丝/丁/糜 E</option><option value="肥牛">肥牛 B</option>
     </optgroup><optgroup label="熟制品">
-      <option value="肉">肉 M</option><option value="酱/汁/汤">酱/汁/汤 D</option><option value="料理包">料理包 L</option><option value="调味料">调味料 C</option><option value="罐头">罐头 G</option>
+      <option value="肉">肉 M</option><option value="酱/汁/汤">酱/汁/汤 D</option>
+    </optgroup><optgroup label="调味品">
+      <option value="干料">干料 C</option>
     </optgroup>
   </select></div>
-  <div class="inv-row"><label>部位（可选）</label><input type="text" id="sp_part" placeholder="如 上脑、肋排、全腿" oninput="genInvCode()"></div>
-  <div class="inv-row"><label>风味</label><input type="text" id="sp_flavor" placeholder="如 原味、黑椒" oninput="genInvCode()"></div>
-  <div class="inv-row"><label>规格(g)</label><input type="number" id="sp_size" placeholder="如 200"></div>
-  <div class="inv-row"><label>初始数量</label><input type="number" id="sp_count" value="1" min="1"></div>
-  <div class="inv-row"><label>储存位置</label><select id="sp_location">
-    <option value="同安研发室">同安研发室</option>
-    <option value="同安冻库">同安冻库</option>
-    <option value="翔安工厂">翔安工厂</option>
+</div>
+
+<div class="row" style="margin-top:8px">
+  <div class="col-half"><label>风味</label><input type="text" id="sp_flavor" placeholder="如 原味、黑椒" oninput="genInvCode()"></div>
+  <div class="col-half"><label>部位（可选）</label><input type="text" id="sp_part" placeholder="上脑、肋排、全腿" oninput="genInvCode()"></div>
+</div>
+
+<div class="row" style="margin-top:8px">
+  <div class="col-quarter"><label>项目流水</label><input type="text" id="sp_project" value="A" maxlength="1" oninput="genInvCode()" style="text-transform:uppercase"></div>
+  <div class="col-quarter"><label>保质期<span class="u">天</span></label><input type="number" id="sp_shelf" value="365" readonly></div>
+  <div class="col-quarter"><label>初始数量</label><input type="number" id="sp_count" value="1" min="1"></div>
+  <div class="col-quarter"><label>储存位置</label><select id="sp_location">
+    <option value="同安研发室">同安研发室</option><option value="同安冻库">同安冻库</option><option value="翔安工厂">翔安工厂</option>
   </select></div>
-  <div class="inv-row"><label>货架号</label><input type="text" id="sp_shelfno" placeholder="冻库必填"></div>
-  <div class="inv-row"><label>保质期(天)</label><input type="number" id="sp_shelf" value="365" readonly style="background:#f5f5f5"></div>
-  <div class="inv-row"><label>临保预警</label><div id="sp_warning">选择日期后计算</div></div>
-  <div class="inv-row"><label>数据编码</label><div class="code-box" id="sp_code_display">选择字段生成</div></div>
-  <div class="inv-row"><label>样品名称</label><div class="code-box" id="sp_name_display">选择字段生成</div></div>
-  <button class="btn btn-primary" style="margin-top:12px;width:100%;padding:14px;font-size:16px" onclick="submitSample()">📦 添加样品</button>
+</div>
+
+<div class="code-box" id="sp_name_display" style="margin-top:8px">选择字段生成名称</div>
+<div class="code-box" id="sp_code_display" style="margin-top:4px">编码：选择字段自动生成</div>
+<div class="code-hint" id="sp_warning" style="margin-top:2px;font-size:12px">临保预警：选择日期后计算</div>
+
+<button class="btn btn-primary" style="margin-top:12px" onclick="submitSample()">📦 添加样品</button>
 </div>
 
 <div class="card" style="margin-top:12px">
-  <div class="card-title">📋 样品库存清单 (<span id="inv_count">0</span>)</div>
-  <div id="inv_list"></div>
+<div class="card-title">📤 样品出库</div>
+<div class="row">
+  <div class="col-half"><label>样品</label><select id="sp_select"><option value="-1">选择样品</option></select></div>
+  <div class="col-half"><label>出库日期</label><input type="date" id="sp_out_date"></div>
+</div>
+<div class="row" style="margin-top:8px">
+  <div class="col-half"><label>数量</label><input type="number" id="sp_out_qty" min="1" placeholder="正整数"></div>
+  <div class="col-half"><label>领用部门</label><input type="text" id="sp_out_dept" placeholder="如 餐饮研发部"></div>
+</div>
+<div class="row" style="margin-top:8px">
+  <div class="col-half"><label>客户</label><input type="text" id="sp_out_client" placeholder="如 HH"></div>
+  <div class="col-half"><label>签字</label><canvas id="sp_sig_canvas" width="280" height="70" style="border:1px solid var(--border);border-radius:8px;touch-action:none;width:100%;cursor:crosshair;background:#fafafa"></canvas></div>
+</div>
+<button class="btn btn-primary" style="margin-top:8px" onclick="submitOutbound()">📤 确认出库</button>
 </div>
 
 <div class="card" style="margin-top:12px">
-  <div class="card-title">📤 样品出库</div>
-  <div class="inv-row"><label>选择样品</label><select id="sp_select"><option value="-1">选择样品</option></select></div>
-  <div class="inv-row"><label>出库日期</label><input type="date" id="sp_out_date"></div>
-  <div class="inv-row"><label>出库数量</label><input type="number" id="sp_out_qty" placeholder="正整数" min="1"></div>
-  <div class="inv-row"><label>领用部门</label><input type="text" id="sp_out_dept" placeholder="如 餐饮研发部"></div>
-  <div class="inv-row"><label>客户</label><input type="text" id="sp_out_client" placeholder="如 HH"></div>
-  <div class="inv-row"><label>签字确认</label><canvas id="sp_sig_canvas" width="300" height="80" style="border:1px solid var(--border);border-radius:8px;touch-action:none;width:100%;max-width:300px;cursor:crosshair"></canvas>
-    <div style="font-size:11px;color:#888">在框内手写签名</div>
-  </div>
-  <button class="btn btn-primary" style="margin-top:12px;width:100%;padding:14px;font-size:16px" onclick="submitOutbound()">📤 确认出库</button>
+<div class="card-title">📋 库存清单 (<span id="inv_count">0</span>)</div>
+<div id="inv_list"></div>
 </div>
 </div>
 
@@ -1851,15 +1866,13 @@ document.addEventListener('click',function(e){
 // ==================== Inventory ====================
 var INV_SAMPLES=[];try{INV_SAMPLES=JSON.parse(localStorage.getItem('inv_samples')||'[]');}catch(e){}
 
-var INV_MAP={牛:'B',猪:'P',鸡:'C',鸭:'D',羊:'L',其他:'E',混合:'A'};
-var INV_MAP_REV={B:'牛',P:'猪',C:'鸡',D:'鸭',L:'羊',E:'其他',A:'混合'};
-var INV_PROC={原切:'O',滚揉:'G',麻冻:'M',整切:'Z',静腌:'J',卤制:'L',煮制:'C',低温慢煮:'D',裹粉:'F'};
-var INV_PROC_REV={};for(var p in INV_PROC)INV_PROC_REV[INV_PROC[p]]=p;
+var INV_MAT={牛:'B',猪:'P',鸡:'C',鸭:'D',羊:'L',混合:'A',其他:'E'};
+var INV_PROC={原切:'O',滚揉:'G',麻冻:'M',整切:'Z',静腌:'J',卤制:'L',煮制:'C',裹粉:'F'};
 var INV_STORE={冷冻:'F',冷藏:'C',常温:'R'};
-var INV_PROD={排:'S',片:'P',条:'E',丝:'E',丁:'E',糜:'E',肥牛:'B',饼:'K',丸:'W',其他生制品:'Z',肉:'M',酱:'D',汁:'D',汤:'D',料理包:'L',调味料:'C',罐头:'G'};
+var INV_PROD={排:'S',片:'P','条/丝/丁/糜':'E',肥牛:'B',肉:'M','酱/汁/汤':'D',干料:'C'};
 var INV_OPER={杜凯强:'07',叶校斌:'06',蔡将君:'08',刘淑贞:'04',杨江:'09',黄毅勇:'01',余庆海:'05',丁建民:'02'};
 var SHELF_RULES={冷冻:365,冷藏:5,常温:180};
-var INV_SIG_DRAWING=false;
+var INV_SELF_REF={肥牛:1}; // types that already imply the material, don't prefix
 
 function updateFlavor(){
   var p=document.getElementById('sp_process').value;
@@ -1867,114 +1880,83 @@ function updateFlavor(){
   if(p==='原切'){f.value='无';f.readOnly=true;}else{f.readOnly=false;}
   genInvCode();
 }
-
 function updateShelf(){
-  var s=document.getElementById('sp_storage').value;
-  document.getElementById('sp_shelf').value=SHELF_RULES[s]||365;
-  genInvCode();
+  document.getElementById('sp_shelf').value=SHELF_RULES[document.getElementById('sp_storage').value]||365;
 }
 
 function genInvCode(){
-  var op=(function(str){
-    for(var o in INV_OPER)if(str.indexOf(o)===0)return INV_OPER[o];
-    return '00';
-  })(document.getElementById('sp_operator').value);
-  var mat=(function(str){for(var m in INV_MAP)if(str.indexOf(m)===0)return INV_MAP[m];return '';})(document.getElementById('sp_material').value);
-  var prc=(function(str){for(var p in INV_PROC)if(str.indexOf(p)===0)return INV_PROC[p];return '';})(document.getElementById('sp_process').value);
-  var stg=INV_STORE[document.getElementById('sp_storage').value.split(' ')[0]]||'F';
-  var prd=INV_PROD[document.getElementById('sp_prodtype').value]||'';
-  var dat=document.getElementById('sp_date').value.replace(/-/g,'').slice(2);
+  var op=(function(str){for(var o in INV_OPER)if(str.indexOf(o)===0)return INV_OPER[o];return'00';})(gv('sp_operator'));
+  var mat=(function(str){for(var m in INV_MAT)if(str.indexOf(m)===0)return INV_MAT[m];return'';})(gv('sp_material'));
+  var prc=INV_PROC[gv('sp_process')]||'';
+  var stg=INV_STORE[gv('sp_storage')]||'F';
+  var prd=INV_PROD[gv('sp_prodtype')]||'';
+  var dat=gv('sp_date').replace(/-/g,'').slice(2);
+  var proj=gv('sp_project')||'A';
 
   if(!mat||!prc||!prd||!op||!dat){
-    document.getElementById('sp_code_display').textContent='补充字段生成';
-    document.getElementById('sp_name_display').textContent='补充字段生成';
+    document.getElementById('sp_code_display').textContent='编码：补充字段后生成';
+    document.getElementById('sp_name_display').textContent='名称：补充字段后生成';
     return;
   }
   var seq=String(INV_SAMPLES.length+1).padStart(2,'0');
-  var code=mat+prc+stg+prd+'-'+dat+'-'+op+seq;
-  document.getElementById('sp_code_display').textContent=code;
+  var code=mat+prc+stg+prd+op+'-'+dat+'-'+proj+seq;
+  document.getElementById('sp_code_display').textContent='编码：'+code;
 
-  // Name: 工艺+风味+主料+产品类型+(部位)
-  var proc=document.getElementById('sp_process').value.split(' ')[0];
-  var flavor=document.getElementById('sp_flavor').value||'原味';
-  var matName=document.getElementById('sp_material').value;
-  var prodName=document.getElementById('sp_prodtype').value;
-  var part=document.getElementById('sp_part').value;
-  if(!proc||!matName||!prodName){document.getElementById('sp_name_display').textContent='补充字段生成';return;}
-  var name=proc+flavor+matName+prodName;
+  // Name: 工艺+风味+主料+类型+(部位)
+  var proc=gv('sp_process');
+  var flavor=gv('sp_flavor')||'原味';
+  var type=gv('sp_prodtype');
+  var part=gv('sp_part');
+  if(!proc||!type){return;}
+  var name=proc+flavor;
+  if(INV_SELF_REF[type]){name+=type;}else{name+=gv('sp_material')+type;}
   if(part)name+='('+part+')';
-  document.getElementById('sp_name_display').textContent=name;
+  document.getElementById('sp_name_display').textContent='名称：'+name;
   updateInvWarning();
 }
 
 function updateInvWarning(){
-  var d=document.getElementById('sp_date').value;
-  var shelf=parseInt(document.getElementById('sp_shelf').value)||365;
-  var el=document.getElementById('sp_warning');
-  if(!d){el.textContent='选择日期后计算';el.style.color='#666';return;}
-  var exp=new Date(d);exp.setDate(exp.getDate()+shelf);
-  var days=Math.ceil((exp-new Date())/(1000*60*60*24));
-  if(days<=0){el.textContent='已过期!';el.style.color='#e24b4a';}
-  else if(days<=30){el.textContent=days+'天后到期';el.style.color='#ba7517';}
-  else{el.textContent='剩余'+days+'天';el.style.color='#639922';}
+  var d=gv('sp_date');var shelf=parseInt(document.getElementById('sp_shelf').value)||365;
+  var el=document.getElementById('sp_warning');if(!d){el.textContent='临保预警：选择日期后计算';el.style.color='#888';return;}
+  var exp=new Date(d);exp.setDate(exp.getDate()+shelf);var days=Math.ceil((exp-new Date())/(1000*60*60*24));
+  if(days<=0){el.textContent='临保预警：已过期!';el.style.color='#e24b4a';}
+  else if(days<=30){el.textContent='临保预警：'+days+'天后到期';el.style.color='#ba7517';}
+  else{el.textContent='临保预警：剩余'+days+'天';el.style.color='#639922';}
 }
 
 function submitSample(){
-  var code=document.getElementById('sp_code_display').textContent;
-  var name=document.getElementById('sp_name_display').textContent;
-  if(code.indexOf('补充')===0||name.indexOf('补充')===0){showToast('请填写所有字段','err');return;}
-  var sample={
-    savedAt:new Date().toISOString(),code:code,name:name,
-    date:document.getElementById('sp_date').value,
-    operator:document.getElementById('sp_operator').value,
-    size:document.getElementById('sp_size').value||'',
-    material:document.getElementById('sp_material').value,
-    process:document.getElementById('sp_process').value,
-    storage:document.getElementById('sp_storage').value,
-    prodtype:document.getElementById('sp_prodtype').value,
-    part:document.getElementById('sp_part').value,
-    flavor:document.getElementById('sp_flavor').value||'原味',
-    shelf:parseInt(document.getElementById('sp_shelf').value)||365,
-    count:parseInt(document.getElementById('sp_count').value)||1,
-    location:document.getElementById('sp_location').value,
-    shelfno:document.getElementById('sp_shelfno').value,
-    records:[]
-  };
+  var codeEl=document.getElementById('sp_code_display').textContent;
+  var nameEl=document.getElementById('sp_name_display').textContent;
+  if(codeEl.indexOf('补充')>=0||nameEl.indexOf('补充')>=0){showToast('请填写所有字段','err');return;}
+  var sample={savedAt:new Date().toISOString(),code:codeEl.replace('编码：',''),name:nameEl.replace('名称：',''),
+    date:gv('sp_date'),operator:gv('sp_operator'),size:gv('sp_size'),
+    material:gv('sp_material'),process:gv('sp_process'),storage:gv('sp_storage'),
+    prodtype:gv('sp_prodtype'),part:gv('sp_part'),flavor:gv('sp_flavor')||'原味',
+    shelf:parseInt(document.getElementById('sp_shelf').value)||365,count:parseInt(gv('sp_count'))||1,
+    location:gv('sp_location'),project:gv('sp_project')||'A',records:[]};
   INV_SAMPLES.push(sample);
   localStorage.setItem('inv_samples',JSON.stringify(INV_SAMPLES));
-  showToast('✅ 样品已添加','ok');genInvCode();refreshInvList();refreshOutSelect();
+  showToast('✅ 样品已添加','ok');refreshInvList();refreshOutSelect();
 }
 
 function refreshInvList(){
-  var el=document.getElementById('inv_list');
-  document.getElementById('inv_count').textContent=INV_SAMPLES.length;
+  var el=document.getElementById('inv_list');document.getElementById('inv_count').textContent=INV_SAMPLES.length;
   if(!INV_SAMPLES.length){el.innerHTML='<p style="color:#999;text-align:center;padding:20px">暂无样品</p>';return;}
   var h='';
   INV_SAMPLES.forEach(function(s,i){
     var total=s.count+(s.records||[]).reduce(function(a,r){return a+(r.quantity||0)},0);
-    var exp=new Date(s.date);exp.setDate(exp.getDate()+s.shelf);
-    var days=Math.ceil((exp-new Date())/(1000*60*60*24));
+    var exp=new Date(s.date);exp.setDate(exp.getDate()+s.shelf);var days=Math.ceil((exp-new Date())/(1000*60*60*24));
     var status=days<=0?'<span style="color:#e24b4a">已过期</span>':days<=30?'<span style="color:#ba7517">'+days+'天</span>':'<span style="color:#639922">剩余'+days+'天</span>';
-    h+='<div class="inv-item" style="border:1px solid var(--border);border-radius:8px;padding:12px 10px;margin-bottom:8px">';
-    h+='<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">';
-    h+='<span style="font-weight:500;font-size:14px">'+s.code+'</span>'+status;
-    h+='<span style="color:#888;font-size:12px">数量:'+total+'</span>';
-    h+='</div>';
-    h+='<div style="font-size:13px;color:#666;margin:4px 0">'+s.name+'</div>';
-    h+='<div style="font-size:11px;color:#999">'+s.date+' | '+s.storage+' | '+s.location+(s.shelfno?' | '+s.shelfno:'')+'</div>';
-    if(s.records&&s.records.length){
-      h+='<div style="margin-top:6px;font-size:11px;color:#999">';
-      s.records.slice(-3).forEach(function(r){h+=(r.quantity>0?'+':'')+r.quantity+' '+r.date.slice(0,10)+' '+(r.dept||'')+' ';});
-      h+='</div>';
-    }
-    h+='</div>';
+    h+='<div class="inv-item" style="border:1px solid var(--border);border-radius:8px;padding:10px;margin-bottom:6px">';
+    h+='<div style="display:flex;justify-content:space-between;align-items:center"><b>'+s.code+'</b>'+status+'<span style="font-size:12px">x'+total+'</span></div>';
+    h+='<div style="font-size:13px;margin-top:2px">'+s.name+'</div>';
+    h+='<div style="font-size:11px;color:#999;margin-top:2px">'+s.date+' | '+s.location+(s.records&&s.records.length?' | 最近:'+(s.records[s.records.length-1].quantity)+'':'')+'</div></div>';
   });
   el.innerHTML=h;
 }
 
 function refreshOutSelect(){
-  var s=document.getElementById('sp_select');
-  s.innerHTML='<option value="-1">选择样品</option>';
+  var s=document.getElementById('sp_select');s.innerHTML='<option value="-1">选择样品</option>';
   INV_SAMPLES.forEach(function(sm,i){
     var total=sm.count+(sm.records||[]).reduce(function(a,r){return a+(r.quantity||0)},0);
     if(total>0)s.innerHTML+='<option value="'+i+'">'+sm.code+' '+sm.name+' (库存:'+total+')</option>';
@@ -1982,50 +1964,37 @@ function refreshOutSelect(){
 }
 
 function submitOutbound(){
-  var idx=parseInt(document.getElementById('sp_select').value);
-  if(idx<0){showToast('请选择样品','err');return;}
-  var qty=parseInt(document.getElementById('sp_out_qty').value);
-  if(!qty||qty<=0){showToast('请输入正数出库数量','err');return;}
-  var dept=document.getElementById('sp_out_dept').value.trim();
-  var client=document.getElementById('sp_out_client').value.trim();
-  var date=document.getElementById('sp_out_date').value||new Date().toISOString().slice(0,10);
+  var idx=parseInt(gv('sp_select'));if(idx<0){showToast('请选择样品','err');return;}
+  var qty=parseInt(gv('sp_out_qty'));if(!qty||qty<=0){showToast('请输入数量','err');return;}
+  var dept=gv('sp_out_dept');var client=gv('sp_out_client');
+  var date=gv('sp_out_date')||new Date().toISOString().slice(0,10);
   INV_SAMPLES[idx].records=INV_SAMPLES[idx].records||[];
-  INV_SAMPLES[idx].records.push({date:date,quantity:-qty,dept:dept,client:client,
-    signature:document.getElementById('sp_sig_canvas').toDataURL()});
+  INV_SAMPLES[idx].records.push({date:date,quantity:-qty,dept:dept,client:client,signature:document.getElementById('sp_sig_canvas').toDataURL()});
   localStorage.setItem('inv_samples',JSON.stringify(INV_SAMPLES));
-  showToast('✅ 已出库'+qty,'ok');
-  document.getElementById('sp_out_qty').value='';
-  document.getElementById('sp_out_dept').value='';
-  document.getElementById('sp_out_client').value='';
-  clearSigCanvas();refreshInvList();refreshOutSelect();
+  showToast('✅ 已出库'+qty,'ok');clearSigCanvas();
+  document.getElementById('sp_out_qty').value='';document.getElementById('sp_out_dept').value='';document.getElementById('sp_out_client').value='';
+  refreshInvList();refreshOutSelect();
 }
 
-// Signature canvas
 function initSigCanvas(){
   var cv=document.getElementById('sp_sig_canvas');if(!cv)return;
   var ctx=cv.getContext('2d');ctx.strokeStyle='#333';ctx.lineWidth=2;ctx.lineCap='round';
   var drawing=false;
-  function getPos(e){var r=cv.getBoundingClientRect();return{x:(e.touches?e.touches[0].clientX:e.clientX)-r.left,y:(e.touches?e.touches[0].clientY:e.clientY)-r.top};}
-  cv.addEventListener('touchstart',function(e){e.preventDefault();drawing=true;var p=getPos(e);ctx.beginPath();ctx.moveTo(p.x,p.y);});
-  cv.addEventListener('touchmove',function(e){e.preventDefault();if(!drawing)return;var p=getPos(e);ctx.lineTo(p.x,p.y);ctx.stroke();});
+  function pos(e){var r=cv.getBoundingClientRect();return{x:(e.touches?e.touches[0].clientX:e.clientX)-r.left,y:(e.touches?e.touches[0].clientY:e.clientY)-r.top};}
+  cv.addEventListener('touchstart',function(e){e.preventDefault();drawing=true;var p=pos(e);ctx.beginPath();ctx.moveTo(p.x,p.y);});
+  cv.addEventListener('touchmove',function(e){e.preventDefault();if(!drawing)return;var p=pos(e);ctx.lineTo(p.x,p.y);ctx.stroke();});
   cv.addEventListener('touchend',function(){drawing=false;});
-  cv.addEventListener('mousedown',function(e){drawing=true;var p=getPos(e);ctx.beginPath();ctx.moveTo(p.x,p.y);});
-  cv.addEventListener('mousemove',function(e){if(!drawing)return;var p=getPos(e);ctx.lineTo(p.x,p.y);ctx.stroke();});
+  cv.addEventListener('mousedown',function(e){drawing=true;var p=pos(e);ctx.beginPath();ctx.moveTo(p.x,p.y);});
+  cv.addEventListener('mousemove',function(e){if(!drawing)return;var p=pos(e);ctx.lineTo(p.x,p.y);ctx.stroke();});
   cv.addEventListener('mouseup',function(){drawing=false;});
 }
+function clearSigCanvas(){var cv=document.getElementById('sp_sig_canvas');if(cv)cv.getContext('2d').clearRect(0,0,cv.width,cv.height);}
 
-function clearSigCanvas(){
-  var cv=document.getElementById('sp_sig_canvas');if(cv)cv.getContext('2d').clearRect(0,0,cv.width,cv.height);
-}
-
-// Init
 document.addEventListener('DOMContentLoaded',function(){
-  var d=document.getElementById('sp_date');
-  if(d&&!d.value)d.value=new Date().toISOString().slice(0,10);
-  var od=document.getElementById('sp_out_date');
-  if(od&&!od.value)od.value=new Date().toISOString().slice(0,10);
   initSigCanvas();
-  updateInvWarning();refreshInvList();refreshOutSelect();
+  if(!document.getElementById('sp_date').value)document.getElementById('sp_date').value=new Date().toISOString().slice(0,10);
+  if(!document.getElementById('sp_out_date').value)document.getElementById('sp_out_date').value=new Date().toISOString().slice(0,10);
+  refreshInvList();refreshOutSelect();
 });
 
 // ==================== Init ====================
