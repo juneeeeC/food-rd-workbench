@@ -614,6 +614,7 @@ textarea{resize:vertical;min-height:60px}
 </div>
 
 <!-- 3. 拆分与部位 -->
+<div id="cut_sections">
 <div class="card">
 <div class="card-title">🔪 拆分与部位</div>
 <div class="row">
@@ -650,6 +651,7 @@ textarea{resize:vertical;min-height:60px}
 </div>
 <button class="collapse-btn" onclick="toggleSliceGrid()" id="slice_toggle_btn">▶ 展开各片重量（头 + 1# ~ 30#）</button>
 <div id="slice_grid" class="hidden" style="margin-top:10px"><div class="slice-grid" id="slice_grid_inner"></div></div>
+</div>
 </div>
 
 <!-- 5. 结果 -->
@@ -1128,8 +1130,15 @@ function calcSliceData(tw){
 // ==================== Rebuild Parts ====================
 function rebuildParts(){
   const p=document.getElementById('e_part').value;
+  const cutSec=document.getElementById('cut_sections');
+  if(cutSec)cutSec.style.display=PARTS[p]&&PARTS[p].chinly?'none':'block';
   if(!PARTS[p])return;
   const cfg=PARTS[p];
+  if(cfg.chinly){
+    document.getElementById('split_area').innerHTML='';
+    document.getElementById('nosplit_area').innerHTML='';
+    return;
+  }
   const area=document.getElementById('split_area');
   let h='';
   cfg.parts.forEach((pt,i)=>{
