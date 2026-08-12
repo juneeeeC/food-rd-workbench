@@ -1294,7 +1294,7 @@ let PROJECT_DATA=null;
 let CUSTOM_PROJECTS=[];
 try{CUSTOM_PROJECTS=JSON.parse(localStorage.getItem('custom_projects')||'[]');}catch(e){}
 
-fetch('project_data.json?'+Date.now()).then(r=>r.json()).then(d=>{
+fetch('https://raw.githubusercontent.com/juneeeeC/food-rd-workbench/master/project_data.json?'+Date.now()).then(r=>r.json()).then(d=>{
   PROJECT_DATA=d;
   console.log('Loaded '+d.total_logs+' historical entries, '+d.total_projects+' projects');
   refreshDashboard();
