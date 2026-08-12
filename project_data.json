@@ -1,6 +1,30 @@
 {
   "daily": [
     {
+      "date": "2026-08-10",
+      "project": "原切肥牛片",
+      "content": "餐饮上周五门店测试不通过：肉是当着消费者的面前加熟，口感偏干柴，整体效果不理想；也打不了原切的概念，所以想要试下肥牛片做低保水。",
+      "stage": "需求沟通",
+      "conclusion": "不通过",
+      "yield": "",
+      "version": "",
+      "next_step": "制样方案沟通",
+      "source": "feishu_import",
+      "record_id": "recvs2KXKYHhOj"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "原切肥牛片",
+      "content": "制样方案沟通：修割后芯+底板+夹肌注射不同梯度保水15/25%（滚揉需切割成小块保水，粘合后片型不佳，假肉粘合肉）；滚揉TG酶+D异抗后入塑形盒。另外切片巴西431谷饲上脑，对比1920原切口感。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "制样，预计本周四8/13完成。",
+      "source": "feishu_import",
+      "record_id": "recvs2LRMcruSw"
+    },
+    {
       "date": "2026-08-04",
       "project": "带骨牛腱",
       "content": "滚揉后组织松散，卤制后几乎脱骨，原型态几乎不存在，卖相不佳",
@@ -3117,6 +3141,30 @@
           "next_step": "谷饲丹佛牛排同步试产",
           "source": "feishu_import",
           "record_id": "recvrjJb5jCxtH"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "原切肥牛片",
+          "content": "餐饮上周五门店测试不通过：肉是当着消费者的面前加熟，口感偏干柴，整体效果不理想；也打不了原切的概念，所以想要试下肥牛片做低保水。",
+          "stage": "需求沟通",
+          "conclusion": "不通过",
+          "yield": "",
+          "version": "",
+          "next_step": "制样方案沟通",
+          "source": "feishu_import",
+          "record_id": "recvs2KXKYHhOj"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "原切肥牛片",
+          "content": "制样方案沟通：修割后芯+底板+夹肌注射不同梯度保水15/25%（滚揉需切割成小块保水，粘合后片型不佳，假肉粘合肉）；滚揉TG酶+D异抗后入塑形盒。另外切片巴西431谷饲上脑，对比1920原切口感。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "制样，预计本周四8/13完成。",
+          "source": "feishu_import",
+          "record_id": "recvs2LRMcruSw"
         }
       ],
       "number": "NO.002",
@@ -6400,7 +6448,7 @@
       "sampler": "刘淑贞"
     }
   },
-  "imported_at": "2026-08-12T08:35:47.828141",
-  "total_logs": 225,
+  "imported_at": "2026-08-12T10:09:16.454670",
+  "total_logs": 227,
   "total_projects": 37
 }
