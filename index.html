@@ -820,6 +820,19 @@ textarea{resize:vertical;min-height:60px}
 </div>
 
 <div class="row" style="margin-top:8px">
+  <div class="col-third"><label>种类</label><select id="sp_breed" onchange="genInvCode();updateFeed()">
+    <option value="">选种类</option><option value="和牛">和牛</option>
+    <option value="安格斯">安格斯</option><option value="伊比利亚猪">伊比利亚猪</option>
+    <option value="盐池滩羊">盐池滩羊</option><option value="黄牛">黄牛</option>
+    <option value="无">无</option>
+  </select></div>
+  <div class="col-third"><label>饲养方式</label><select id="sp_feed" onchange="genInvCode()">
+    <option value="无">无</option><option value="谷饲">谷饲</option>
+  </select></div>
+  <div class="col-third"><label>风味</label><input type="text" id="sp_flavor" placeholder="原味、黑椒" oninput="genInvCode()"></div>
+</div>
+
+<div class="row" style="margin-top:8px">
   <div class="col-half"><label>储存方式</label><select id="sp_storage" onchange="genInvCode();updateShelf()">
     <option value="冷冻">冷冻 F</option><option value="冷藏">冷藏 C</option><option value="常温">常温 R</option>
   </select></div>
@@ -836,7 +849,6 @@ textarea{resize:vertical;min-height:60px}
 </div>
 
 <div class="row" style="margin-top:8px">
-  <div class="col-half"><label>风味</label><input type="text" id="sp_flavor" placeholder="如 原味、黑椒" oninput="genInvCode()"></div>
   <div class="col-half"><label>部位（可选）</label><input type="text" id="sp_part" placeholder="上脑、肋排、全腿" oninput="genInvCode()"></div>
 </div>
 
@@ -1880,6 +1892,12 @@ function updateFlavor(){
   if(p==='原切'){f.value='无';f.readOnly=true;}else{f.readOnly=false;}
   genInvCode();
 }
+function updateFeed(){
+  var breed=document.getElementById('sp_breed').value;
+  var feed=document.getElementById('sp_feed');
+  if(breed==='和牛')feed.value='谷饲';else feed.value='无';
+  genInvCode();
+}
 function updateShelf(){
   document.getElementById('sp_shelf').value=SHELF_RULES[document.getElementById('sp_storage').value]||365;
 }
@@ -1902,13 +1920,18 @@ function genInvCode(){
   var code=mat+prc+stg+prd+op+'-'+dat+'-'+proj+seq;
   document.getElementById('sp_code_display').textContent='编码：'+code;
 
-  // Name: 工艺+风味+主料+类型+(部位)
+  // Name: [饲养方式] + 工艺 + 风味 + [和牛] + [主料] + 类型 + (部位)
   var proc=gv('sp_process');
   var flavor=gv('sp_flavor')||'原味';
   var type=gv('sp_prodtype');
   var part=gv('sp_part');
+  var feed=gv('sp_feed');
+  var breed=gv('sp_breed');
   if(!proc||!type){return;}
-  var name=proc+flavor;
+  var name='';
+  if(feed==='谷饲')name+='谷饲';
+  name+=proc+flavor;
+  if(breed==='和牛')name+='和牛';
   if(INV_SELF_REF[type]){name+=type;}else{name+=gv('sp_material')+type;}
   if(part)name+='('+part+')';
   document.getElementById('sp_name_display').textContent='名称：'+name;
@@ -1930,7 +1953,8 @@ function submitSample(){
   if(codeEl.indexOf('补充')>=0||nameEl.indexOf('补充')>=0){showToast('请填写所有字段','err');return;}
   var sample={savedAt:new Date().toISOString(),code:codeEl.replace('编码：',''),name:nameEl.replace('名称：',''),
     date:gv('sp_date'),operator:gv('sp_operator'),size:gv('sp_size'),
-    material:gv('sp_material'),process:gv('sp_process'),storage:gv('sp_storage'),
+    material:gv('sp_material'),breed:gv('sp_breed'),feed:gv('sp_feed'),
+    process:gv('sp_process'),storage:gv('sp_storage'),
     prodtype:gv('sp_prodtype'),part:gv('sp_part'),flavor:gv('sp_flavor')||'原味',
     shelf:parseInt(document.getElementById('sp_shelf').value)||365,count:parseInt(gv('sp_count'))||1,
     location:gv('sp_location'),project:gv('sp_project')||'A',records:[]};
