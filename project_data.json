@@ -1,6 +1,66 @@
 {
   "daily": [
     {
+      "date": "2026-08-13",
+      "project": "嫩煎眼肉芯牛排",
+      "content": "保水30/40%各2份",
+      "stage": "供样",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "下周一产品会出品测试",
+      "source": "feishu_import",
+      "record_id": "recvs4grS8Snpe"
+    },
+    {
+      "date": "2026-08-13",
+      "project": "闽南醋肉",
+      "content": "提前沟通工艺：确认是否一定需要使用静腌工艺（料液成本高，需在翔安生产），可否按原风味调整为滚揉。确认生产可以实现裹干粉，资质过期需重新扩项。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "制样滚揉方案",
+      "source": "feishu_import",
+      "record_id": "recvs8QiQWTcVR"
+    },
+    {
+      "date": "2026-08-13",
+      "project": "闽南醋肉",
+      "content": "现有版本：1、静腌（已腌/未腌）2、二次静腌（已腌/未腌）3、滚揉\n内测结论：滚揉后风味较淡，酸味不足，颜色较浅。保水约12-15%。\n餐饮反馈后续使用方式为：油炸后裹酱汁，风味需减弱。",
+      "stage": "内测",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "供样",
+      "source": "feishu_import",
+      "record_id": "recvs8TlXr3qiV"
+    },
+    {
+      "date": "2026-08-13",
+      "project": "战斧牛排",
+      "content": "背景：国产眼肉芯库存约有17t（其中10t在9月出过期）；工艺原计划使用麻冻工艺生产传奇牛排，后叫停改为评估生产战斧牛排。\n目前难点：1、餐饮端克重未定（400/520）；2、肋眼骨原料未到货标准及到货时间未定。\n沟通方案：\n1、战斧肉骨分开生产，优点：解决10t即将到期原料；生产难度较低；让重可由40g降低至20g\n2、肋眼骨标准确认：试产上限190g，下限80g；供样餐饮确认是否可接受，不可接受需评估原料要求。（国产原料沟通皓月定制/挑选；进口原料不可挑选）",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "制样确认",
+      "source": "feishu_import",
+      "record_id": "recvs8XB1aDuW8"
+    },
+    {
+      "date": "2026-08-13",
+      "project": "战斧牛排",
+      "content": "【制样方案】\n1、国产眼肉芯等厚2cm静腌，暂不定重\n2、阿根廷肋眼骨1.8kg/2.6kg，新厂号各锯割一条后静腌称重",
+      "stage": "制样",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "1、确认肋眼骨标准\n2、内测\n3、新厂号肋眼骨确认",
+      "source": "feishu_import",
+      "record_id": "recvs8Zj2lihO6"
+    },
+    {
       "date": "2026-08-12",
       "project": "保乐肩牛排",
       "content": "2、55、104、394厂原料检测报告发出",
@@ -11,6 +71,18 @@
       "next_step": null,
       "source": "feishu_import",
       "record_id": "recvs2UpvueIRI"
+    },
+    {
+      "date": "2026-08-12",
+      "project": "臀腰肉芯牛排",
+      "content": "制样完成：麻冻和牛谷饲原味牛排（臀腰肉芯）",
+      "stage": "制样",
+      "conclusion": "通过",
+      "yield": "",
+      "version": "",
+      "next_step": "制样注射版本，参考和牛小米龙配方，注射15%+滚揉15%，风味参考谷饲丹佛配方。",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZaLcO"
     },
     {
       "date": "2026-08-11",
@@ -49,6 +121,78 @@
       "record_id": "recvs37J95PQnM"
     },
     {
+      "date": "2026-08-11",
+      "project": "鸡全腿",
+      "content": "制样完成：原料失水严重，失水得率90.22%；送样规格200-220，实际克重范围187-228，2kg共9片，有4片克重低于200g。",
+      "stage": "制样",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "六和原料对比内测",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZ3Wg6"
+    },
+    {
+      "date": "2026-08-11",
+      "project": "鸡全腿",
+      "content": "餐饮研发：反馈项目需等待餐饮产品前端确认产品应用方案。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "对比内测后锁定配方待确认",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZxXE0"
+    },
+    {
+      "date": "2026-08-11",
+      "project": "低温慢煮牛肉片",
+      "content": "输出厨师版配方表，沟通工艺，确认当前方案量产难点：1、注射率155%，低温慢煮仅60℃，微生物超标风险高，切片后需辐照，外观颜色变深，费用：1元/kg。2、油炸后切片损耗高，增加低温慢煮后冷冻-解冻回温-切片-定重-包装步骤，整体人工成本高。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "成本测算后下周一呈报确认是否推进交接测试。",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZttbD"
+    },
+    {
+      "date": "2026-08-11",
+      "project": "卤鸭腿",
+      "content": "餐厅测试反馈：规格选择鸭全腿，不带胸骨；样品暂不调整，待餐饮产品思考应用方向",
+      "stage": "供样",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "待餐饮确认应用方案后调样。",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZMWZW"
+    },
+    {
+      "date": "2026-08-11",
+      "project": "川香腌料拆解",
+      "content": "基快富版本内测：藤椒香味不足，辣度、麻度均弱于原版",
+      "stage": "内测",
+      "conclusion": "不通过",
+      "yield": "",
+      "version": "",
+      "next_step": "沟通供应商调整制样。",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZIUof"
+    },
+    {
+      "date": "2026-08-11",
+      "project": "果葡糖浆风味饮料",
+      "content": "餐饮反馈：餐饮研发同步寻找外部供应商，预计对比现有果葡糖浆、工厂版果葡糖浆，三版盲测，测试后决议是否继续推进。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "待餐饮反馈。",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZpWa4"
+    },
+    {
       "date": "2026-08-10",
       "project": "原切肥牛片",
       "content": "餐饮上周五门店测试不通过：肉是当着消费者的面前加熟，口感偏干柴，整体效果不理想；也打不了原切的概念，所以想要试下肥牛片做低保水。",
@@ -83,6 +227,66 @@
       "next_step": "量产",
       "source": "feishu_import",
       "record_id": "recvs2Zwr3I1iD"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "鸡全腿",
+      "content": "供应商超和到货200-220g范围原料2kg*2包，增加美式风味，维持原本保水配方115%，对比六和原料查看失水情况，对比口感嫩度。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "制样",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZJh54"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "闽南醋肉",
+      "content": "需求调整：不裹粉调整为工厂裹粉",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "制样",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZjxYw"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "牛肉饼",
+      "content": "oa需求已下，参考现有安格斯牛肉饼配方，取消玉米粒，规格100g，揉球出品。【制样方案】使用谷饲安格斯上脑碎肉（未腌）（目前库存1.8t），制样保水15%/不保水两个配方测试。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "制样",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZ8xQ2"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "T骨牛排",
+      "content": "追踪预计周五到货",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "原料研究",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZzc4O"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "鸡肉小食",
+      "content": "餐饮研发：oa需求研发裹粉翅根，要求裹粉率≤15%，保水110%，原料规格50-60g，成品规格60-70g，干粉使用黑明配方。竞品价格约1.55元/根。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "制样沟通",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZHPZf"
     },
     {
       "date": "2026-08-07",
@@ -121,6 +325,90 @@
       "record_id": "recvs3ccf1suMn"
     },
     {
+      "date": "2026-08-07",
+      "project": "草饲肥牛片",
+      "content": "通过，使用此版配方交接",
+      "stage": "内测",
+      "conclusion": "通过",
+      "yield": "",
+      "version": "",
+      "next_step": "对比内测。",
+      "source": "feishu_import",
+      "record_id": "recvs8m0w1EF57"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "卤鸭腿",
+      "content": "供样餐厅：鸭全腿/鸭边腿（带胸骨）各4份，熟制后克重，全腿约170g/边腿约200g",
+      "stage": "供样",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "待餐厅测试反馈",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZL4IW"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "川香腌料拆解",
+      "content": "宝立供样样品内测不通过，风味不佳，不如工厂自制复刻版",
+      "stage": "内测",
+      "conclusion": "不通过",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZaMOn"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "传奇牛排",
+      "content": "7月31日试产的降盐版牛排【传奇】，盐度0.43，同批正常生产盐度0.77；盐度明显下降，待餐厅发货后追踪市场反馈。",
+      "stage": "供样",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "待餐饮反馈。",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZlyJG"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "儿童牛肉条",
+      "content": "内测牛霖版，有内筋，咬不断，不适合儿童，修割得率低。",
+      "stage": "内测",
+      "conclusion": "不通过",
+      "yield": "",
+      "version": "",
+      "next_step": "使用针扒测试，进一步考虑其他原料。",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZUsdq"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "臀腰肉芯牛排",
+      "content": "内测：口感可接受，有涩味。",
+      "stage": "内测",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "制样注射版本，参考和牛小米龙配方，注射15%+滚揉15%，风味参考谷饲丹佛配方。",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZwbvA"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "嫩煎眼肉芯牛排",
+      "content": "内测：原料切片后带老饕部分片型不佳。通过30%，下周一产品会供样，优先出品30%，试吃后再出40%版本。",
+      "stage": "内测",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "成本测算，下周一产品会供样。",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZp7h5"
+    },
+    {
       "date": "2026-08-06",
       "project": "鸡胸",
       "content": "盲测对比20/30/35%不同保水梯度样品，确认口感有较嫩改善，供样35%样品200g，2包。",
@@ -131,6 +419,90 @@
       "next_step": "待餐饮测试反馈",
       "source": "feishu_import",
       "record_id": "recvs37hzBOqMP"
+    },
+    {
+      "date": "2026-08-06",
+      "project": "草饲肥牛片",
+      "content": "供样餐厅确认80g*3份错开叠放方式样品。",
+      "stage": "供样",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "待餐厅反馈。",
+      "source": "feishu_import",
+      "record_id": "recvs8m0w15x0Y"
+    },
+    {
+      "date": "2026-08-06",
+      "project": "闽南醋肉",
+      "content": "需求调整：优化块型为2-2.5cm，制样已腌/未腌2个版本。",
+      "stage": "需求沟通",
+      "conclusion": "不通过",
+      "yield": "",
+      "version": "",
+      "next_step": "制样",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZ1pGM"
+    },
+    {
+      "date": "2026-08-06",
+      "project": "卤鸭腿",
+      "content": "沟通采购确认鸭全腿市面常规规格为270-320g，边腿300-350g，无更大规格原料。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZTTN6"
+    },
+    {
+      "date": "2026-08-06",
+      "project": "嫩煎眼肉芯牛排",
+      "content": "制样完成：保水31.5/39%",
+      "stage": "制样",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "制样",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZEfi1"
+    },
+    {
+      "date": "2026-08-05",
+      "project": "草饲肥牛片",
+      "content": "【制样方案】降低小苏打、保水剂投放比例，粘合时不撒TG酶，形态更相对更自然。",
+      "stage": "制样",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "对比内测。",
+      "source": "feishu_import",
+      "record_id": "recvs8m0w1YTiP"
+    },
+    {
+      "date": "2026-08-05",
+      "project": "嫩煎眼肉芯牛排",
+      "content": "餐饮需求：\n1、该产品替代沙朗牛排115g，用眼肉芯部位;厚度1.5cm等厚切;现有的小沙朗115g，消费者投诉肉柴；\n2、保水可做梯度测试，结合厚度来评估；\n3、现有小沙朗油筋占比<15%，该产品期望再降低一些，目标10%；\n4、可做拼块，最多2块，拼块≥30g。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "制样沟通，方案确认",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZAZM7"
+    },
+    {
+      "date": "2026-08-05",
+      "project": "嫩煎眼肉芯牛排",
+      "content": "【制样方案】参考餐厅儿童蔬菜汁配方，取消复合调味料（蔬菜汁）使用，改用保水剂单体（三聚+小苏打），制样30/40%保水梯度样品。",
+      "stage": "需求沟通",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": "制样",
+      "source": "feishu_import",
+      "record_id": "recvs8nYcZgpCZ"
     },
     {
       "date": "2026-08-04",
@@ -2842,7 +3214,19 @@
       "version": "",
       "next_step": null,
       "source": "feishu_import",
-      "record_id": "recvs4grS8Snpe"
+      "record_id": "recvs8DmiDau4F"
+    },
+    {
+      "date": "",
+      "project": null,
+      "content": null,
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvs8ZKWtgU7n"
     }
   ],
   "projects": {
@@ -3804,6 +4188,30 @@
           "next_step": "待供应商供样",
           "source": "feishu_import",
           "record_id": "recvr7iJZttXvo"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "川香腌料拆解",
+          "content": "宝立供样样品内测不通过，风味不佳，不如工厂自制复刻版",
+          "stage": "内测",
+          "conclusion": "不通过",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZaMOn"
+        },
+        {
+          "date": "2026-08-11",
+          "project": "川香腌料拆解",
+          "content": "基快富版本内测：藤椒香味不足，辣度、麻度均弱于原版",
+          "stage": "内测",
+          "conclusion": "不通过",
+          "yield": "",
+          "version": "",
+          "next_step": "沟通供应商调整制样。",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZIUof"
         }
       ],
       "number": "NO.024",
@@ -4479,6 +4887,42 @@
           "next_step": "【制样】：油封工艺调整为卤制。",
           "source": "feishu_import",
           "record_id": "recvrjJb5jfmdn"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "卤鸭腿",
+          "content": "供样餐厅：鸭全腿/鸭边腿（带胸骨）各4份，熟制后克重，全腿约170g/边腿约200g",
+          "stage": "供样",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "待餐厅测试反馈",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZL4IW"
+        },
+        {
+          "date": "2026-08-06",
+          "project": "卤鸭腿",
+          "content": "沟通采购确认鸭全腿市面常规规格为270-320g，边腿300-350g，无更大规格原料。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZTTN6"
+        },
+        {
+          "date": "2026-08-11",
+          "project": "卤鸭腿",
+          "content": "餐厅测试反馈：规格选择鸭全腿，不带胸骨；样品暂不调整，待餐饮产品思考应用方向",
+          "stage": "供样",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "待餐饮确认应用方案后调样。",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZMWZW"
         }
       ],
       "number": "NO.023",
@@ -4920,6 +5364,18 @@
           "next_step": "制样儿童牛肉条测试口感",
           "source": "feishu_import",
           "record_id": "recvrjHpiDJD72"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "儿童牛肉条",
+          "content": "内测牛霖版，有内筋，咬不断，不适合儿童，修割得率低。",
+          "stage": "内测",
+          "conclusion": "不通过",
+          "yield": "",
+          "version": "",
+          "next_step": "使用针扒测试，进一步考虑其他原料。",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZUsdq"
         }
       ],
       "number": "NO.028",
@@ -5217,6 +5673,18 @@
           "next_step": "待餐饮研发反馈",
           "source": "feishu_import",
           "record_id": "recvqwCWEewox2"
+        },
+        {
+          "date": "2026-08-11",
+          "project": "果葡糖浆风味饮料",
+          "content": "餐饮反馈：餐饮研发同步寻找外部供应商，预计对比现有果葡糖浆、工厂版果葡糖浆，三版盲测，测试后决议是否继续推进。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "待餐饮反馈。",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZpWa4"
         }
       ],
       "number": "NO.025",
@@ -5472,6 +5940,30 @@
           "next_step": "试产样交付餐厅测试。",
           "source": "feishu_import",
           "record_id": "recvs2TqtzwIZP"
+        },
+        {
+          "date": "2026-08-13",
+          "project": "战斧牛排",
+          "content": "背景：国产眼肉芯库存约有17t（其中10t在9月出过期）；工艺原计划使用麻冻工艺生产传奇牛排，后叫停改为评估生产战斧牛排。\n目前难点：1、餐饮端克重未定（400/520）；2、肋眼骨原料未到货标准及到货时间未定。\n沟通方案：\n1、战斧肉骨分开生产，优点：解决10t即将到期原料；生产难度较低；让重可由40g降低至20g\n2、肋眼骨标准确认：试产上限190g，下限80g；供样餐饮确认是否可接受，不可接受需评估原料要求。（国产原料沟通皓月定制/挑选；进口原料不可挑选）",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "制样确认",
+          "source": "feishu_import",
+          "record_id": "recvs8XB1aDuW8"
+        },
+        {
+          "date": "2026-08-13",
+          "project": "战斧牛排",
+          "content": "【制样方案】\n1、国产眼肉芯等厚2cm静腌，暂不定重\n2、阿根廷肋眼骨1.8kg/2.6kg，新厂号各锯割一条后静腌称重",
+          "stage": "制样",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "1、确认肋眼骨标准\n2、内测\n3、新厂号肋眼骨确认",
+          "source": "feishu_import",
+          "record_id": "recvs8Zj2lihO6"
         }
       ],
       "number": "NO.003",
@@ -5706,6 +6198,42 @@
           "next_step": "【制样】：降低保水，加强风味。",
           "source": "feishu_import",
           "record_id": "recvrjJb5jvc0S"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "鸡全腿",
+          "content": "供应商超和到货200-220g范围原料2kg*2包，增加美式风味，维持原本保水配方115%，对比六和原料查看失水情况，对比口感嫩度。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "制样",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZJh54"
+        },
+        {
+          "date": "2026-08-11",
+          "project": "鸡全腿",
+          "content": "制样完成：原料失水严重，失水得率90.22%；送样规格200-220，实际克重范围187-228，2kg共9片，有4片克重低于200g。",
+          "stage": "制样",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "六和原料对比内测",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZ3Wg6"
+        },
+        {
+          "date": "2026-08-11",
+          "project": "鸡全腿",
+          "content": "餐饮研发：反馈项目需等待餐饮产品前端确认产品应用方案。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "对比内测后锁定配方待确认",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZxXE0"
         }
       ],
       "number": "NO.013",
@@ -5781,6 +6309,54 @@
           "next_step": "待餐饮确认",
           "source": "feishu_import",
           "record_id": "recvqK71X3dfWH"
+        },
+        {
+          "date": "2026-08-06",
+          "project": "闽南醋肉",
+          "content": "需求调整：优化块型为2-2.5cm，制样已腌/未腌2个版本。",
+          "stage": "需求沟通",
+          "conclusion": "不通过",
+          "yield": "",
+          "version": "",
+          "next_step": "制样",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZ1pGM"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "闽南醋肉",
+          "content": "需求调整：不裹粉调整为工厂裹粉",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "制样",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZjxYw"
+        },
+        {
+          "date": "2026-08-13",
+          "project": "闽南醋肉",
+          "content": "提前沟通工艺：确认是否一定需要使用静腌工艺（料液成本高，需在翔安生产），可否按原风味调整为滚揉。确认生产可以实现裹干粉，资质过期需重新扩项。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "制样滚揉方案",
+          "source": "feishu_import",
+          "record_id": "recvs8QiQWTcVR"
+        },
+        {
+          "date": "2026-08-13",
+          "project": "闽南醋肉",
+          "content": "现有版本：1、静腌（已腌/未腌）2、二次静腌（已腌/未腌）3、滚揉\n内测结论：滚揉后风味较淡，酸味不足，颜色较浅。保水约12-15%。\n餐饮反馈后续使用方式为：油炸后裹酱汁，风味需减弱。",
+          "stage": "内测",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "供样",
+          "source": "feishu_import",
+          "record_id": "recvs8TlXr3qiV"
         }
       ],
       "number": "NO.022",
@@ -6042,6 +6618,18 @@
           "next_step": null,
           "source": "feishu_import",
           "record_id": "recvq5t12zsqtO"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "传奇牛排",
+          "content": "7月31日试产的降盐版牛排【传奇】，盐度0.43，同批正常生产盐度0.77；盐度明显下降，待餐厅发货后追踪市场反馈。",
+          "stage": "供样",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "待餐饮反馈。",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZlyJG"
         }
       ],
       "number": "NO.027",
@@ -6180,6 +6768,18 @@
           "next_step": "1、工艺交接配方：确认量产障碍点；2、核算价格",
           "source": "feishu_import",
           "record_id": "recvs3ccf1suMn"
+        },
+        {
+          "date": "2026-08-11",
+          "project": "低温慢煮牛肉片",
+          "content": "输出厨师版配方表，沟通工艺，确认当前方案量产难点：1、注射率155%，低温慢煮仅60℃，微生物超标风险高，切片后需辐照，外观颜色变深，费用：1元/kg。2、油炸后切片损耗高，增加低温慢煮后冷冻-解冻回温-切片-定重-包装步骤，整体人工成本高。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "成本测算后下周一呈报确认是否推进交接测试。",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZttbD"
         }
       ],
       "number": "NO.018",
@@ -6417,6 +7017,42 @@
           "next_step": "【制样】80g错开后为1份，叠放3份",
           "source": "feishu_import",
           "record_id": "recvrjJb5jhIuT"
+        },
+        {
+          "date": "2026-08-06",
+          "project": "草饲肥牛片",
+          "content": "供样餐厅确认80g*3份错开叠放方式样品。",
+          "stage": "供样",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "待餐厅反馈。",
+          "source": "feishu_import",
+          "record_id": "recvs8m0w15x0Y"
+        },
+        {
+          "date": "2026-08-05",
+          "project": "草饲肥牛片",
+          "content": "【制样方案】降低小苏打、保水剂投放比例，粘合时不撒TG酶，形态更相对更自然。",
+          "stage": "制样",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "对比内测。",
+          "source": "feishu_import",
+          "record_id": "recvs8m0w1YTiP"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "草饲肥牛片",
+          "content": "通过，使用此版配方交接",
+          "stage": "内测",
+          "conclusion": "通过",
+          "yield": "",
+          "version": "",
+          "next_step": "对比内测。",
+          "source": "feishu_import",
+          "record_id": "recvs8m0w1EF57"
         }
       ],
       "number": "NO.033",
@@ -6519,6 +7155,30 @@
           "next_step": "滚揉完成样品",
           "source": "feishu_import",
           "record_id": "recvrjHpiD3BAP"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "臀腰肉芯牛排",
+          "content": "内测：口感可接受，有涩味。",
+          "stage": "内测",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "制样注射版本，参考和牛小米龙配方，注射15%+滚揉15%，风味参考谷饲丹佛配方。",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZwbvA"
+        },
+        {
+          "date": "2026-08-12",
+          "project": "臀腰肉芯牛排",
+          "content": "制样完成：麻冻和牛谷饲原味牛排（臀腰肉芯）",
+          "stage": "制样",
+          "conclusion": "通过",
+          "yield": "",
+          "version": "",
+          "next_step": "制样注射版本，参考和牛小米龙配方，注射15%+滚揉15%，风味参考谷饲丹佛配方。",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZaLcO"
         }
       ],
       "number": "NO.035",
@@ -6558,6 +7218,18 @@
           "next_step": null,
           "source": "feishu_import",
           "record_id": "recvrRunuVkpv0"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "鸡肉小食",
+          "content": "餐饮研发：oa需求研发裹粉翅根，要求裹粉率≤15%，保水110%，原料规格50-60g，成品规格60-70g，干粉使用黑明配方。竞品价格约1.55元/根。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "制样沟通",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZHPZf"
         }
       ],
       "number": "NO.032",
@@ -6597,6 +7269,18 @@
           "next_step": null,
           "source": "feishu_import",
           "record_id": "recvrRunuVGM9K"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "牛肉饼",
+          "content": "oa需求已下，参考现有安格斯牛肉饼配方，取消玉米粒，规格100g，揉球出品。【制样方案】使用谷饲安格斯上脑碎肉（未腌）（目前库存1.8t），制样保水15%/不保水两个配方测试。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "制样",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZ8xQ2"
         }
       ],
       "number": "NO.031",
@@ -6623,34 +7307,69 @@
       "start_time": "2026-07-20T00:00:00.000+08:00",
       "sampler": "待定"
     },
-    "T骨牛排": {
-      "logs": [],
-      "number": "NO.036",
-      "status": [
-        "沟通中"
-      ],
-      "client": "HH",
-      "latest": null,
-      "engineer": "周岚",
-      "category": [
-        "生制品"
-      ],
-      "priority": [
-        "重要不紧急"
-      ],
-      "material": null,
-      "water_rate": null,
-      "version": null,
-      "has_oa": [
-        "否"
-      ],
-      "doc_link": null,
-      "local_path": null,
-      "start_time": "2026-07-29T00:00:00.000+08:00",
-      "sampler": "杜凯强"
-    },
     "嫩煎眼肉芯牛排": {
-      "logs": [],
+      "logs": [
+        {
+          "date": "2026-08-13",
+          "project": "嫩煎眼肉芯牛排",
+          "content": "保水30/40%各2份",
+          "stage": "供样",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "下周一产品会出品测试",
+          "source": "feishu_import",
+          "record_id": "recvs4grS8Snpe"
+        },
+        {
+          "date": "2026-08-05",
+          "project": "嫩煎眼肉芯牛排",
+          "content": "餐饮需求：\n1、该产品替代沙朗牛排115g，用眼肉芯部位;厚度1.5cm等厚切;现有的小沙朗115g，消费者投诉肉柴；\n2、保水可做梯度测试，结合厚度来评估；\n3、现有小沙朗油筋占比<15%，该产品期望再降低一些，目标10%；\n4、可做拼块，最多2块，拼块≥30g。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "制样沟通，方案确认",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZAZM7"
+        },
+        {
+          "date": "2026-08-05",
+          "project": "嫩煎眼肉芯牛排",
+          "content": "【制样方案】参考餐厅儿童蔬菜汁配方，取消复合调味料（蔬菜汁）使用，改用保水剂单体（三聚+小苏打），制样30/40%保水梯度样品。",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "制样",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZgpCZ"
+        },
+        {
+          "date": "2026-08-06",
+          "project": "嫩煎眼肉芯牛排",
+          "content": "制样完成：保水31.5/39%",
+          "stage": "制样",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "制样",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZEfi1"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "嫩煎眼肉芯牛排",
+          "content": "内测：原料切片后带老饕部分片型不佳。通过30%，下周一产品会供样，优先出品30%，试吃后再出40%版本。",
+          "stage": "内测",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "成本测算，下周一产品会供样。",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZp7h5"
+        }
+      ],
       "number": "NO.037",
       "status": [
         "沟通中"
@@ -6674,9 +7393,48 @@
       "local_path": null,
       "start_time": "2026-08-03T00:00:00.000+08:00",
       "sampler": "刘淑贞"
+    },
+    "T骨牛排": {
+      "logs": [
+        {
+          "date": "2026-08-10",
+          "project": "T骨牛排",
+          "content": "追踪预计周五到货",
+          "stage": "需求沟通",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": "原料研究",
+          "source": "feishu_import",
+          "record_id": "recvs8nYcZzc4O"
+        }
+      ],
+      "number": "NO.036",
+      "status": [
+        "沟通中"
+      ],
+      "client": "HH",
+      "latest": null,
+      "engineer": "周岚",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要不紧急"
+      ],
+      "material": null,
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-29T00:00:00.000+08:00",
+      "sampler": "杜凯强"
     }
   },
-  "imported_at": "2026-08-13T08:37:24.900777",
-  "total_logs": 237,
+  "imported_at": "2026-08-13T14:47:24.005107",
+  "total_logs": 269,
   "total_projects": 37
 }
