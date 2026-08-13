@@ -2831,6 +2831,18 @@
       "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzcmIX"
+    },
+    {
+      "date": "",
+      "project": null,
+      "content": null,
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvs4grS8Snpe"
     }
   ],
   "projects": {
@@ -6664,7 +6676,7 @@
       "sampler": "刘淑贞"
     }
   },
-  "imported_at": "2026-08-12T14:56:15.346304",
-  "total_logs": 236,
+  "imported_at": "2026-08-13T08:34:23.179759",
+  "total_logs": 237,
   "total_projects": 37
 }
