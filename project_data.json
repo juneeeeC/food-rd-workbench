@@ -7432,9 +7432,35 @@
       "local_path": null,
       "start_time": "2026-07-29T00:00:00.000+08:00",
       "sampler": "杜凯强"
+    },
+    "整切臀腰肉芯牛排": {
+      "logs": [],
+      "number": "NO.038",
+      "status": [
+        "制样中"
+      ],
+      "client": "一部百胜",
+      "latest": null,
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "臀腰肉芯",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-08-13T00:00:00.000+08:00",
+      "sampler": "叶校斌"
     }
   },
-  "imported_at": "2026-08-13T14:47:24.005107",
+  "imported_at": "2026-08-13T16:26:12.079998",
   "total_logs": 269,
-  "total_projects": 37
+  "total_projects": 38
 }
