@@ -73,6 +73,30 @@
       "record_id": "recvsak7mBaD0w"
     },
     {
+      "date": "2026-08-13",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "未测试：两端断筋锯割深度太深，煎制外观不好看；重新盘点现有样品，待下次送样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKq0tJ9"
+    },
+    {
+      "date": "2026-08-13",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "翔安内测不通过",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqAVZC"
+    },
+    {
       "date": "2026-08-12",
       "project": "保乐肩牛排",
       "content": "2、55、104、394厂原料检测报告发出",
@@ -95,6 +119,66 @@
       "next_step": "制样注射版本，参考和牛小米龙配方，注射15%+滚揉15%，风味参考谷饲丹佛配方。",
       "source": "feishu_import",
       "record_id": "recvs8nYcZaLcO"
+    },
+    {
+      "date": "2026-08-12",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "IC测试",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKquPq4"
+    },
+    {
+      "date": "2026-08-12",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "IC测试：不通过",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqPcyR"
+    },
+    {
+      "date": "2026-08-12",
+      "project": "牛肉粒（清洁配方）",
+      "content": "更新成本",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdtbmlnHF"
+    },
+    {
+      "date": "2026-08-12",
+      "project": "猪肉粒（1.2*1.2cm）",
+      "content": "内测",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdtbmCWy3"
+    },
+    {
+      "date": "2026-08-12",
+      "project": "酱香牛肉片（肩胛 ）",
+      "content": "输出成本",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdtbml7Vn"
     },
     {
       "date": "2026-08-11",
@@ -205,6 +289,42 @@
       "record_id": "recvs8nYcZpWa4"
     },
     {
+      "date": "2026-08-11",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "制样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqFhuS"
+    },
+    {
+      "date": "2026-08-11",
+      "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+      "content": "内测不通过，明天重新制样内测",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdtbmE87V"
+    },
+    {
+      "date": "2026-08-11",
+      "project": "牛肉粒（清洁配方）",
+      "content": "客户端需求：鸡精调味料要替换为松茸调味料\n新物料询价",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdtbmOJeM"
+    },
+    {
       "date": "2026-08-10",
       "project": "原切肥牛片",
       "content": "餐饮上周五门店测试不通过：肉是当着消费者的面前加熟，口感偏干柴，整体效果不理想；也打不了原切的概念，所以想要试下肥牛片做低保水。",
@@ -299,6 +419,102 @@
       "next_step": "制样沟通",
       "source": "feishu_import",
       "record_id": "recvs8nYcZHPZf"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "内测不通过但先送样，同步重新制样；",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqdTte"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "整切牛霖牛排（150g 堂食版）",
+      "content": "内测不通过，重新制样，计划下周一内测",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdtbmpX5q"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "西冷牛排（1.2kg&2kg）",
+      "content": "送样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdtbmVYR9"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "静腌西冷牛排（＞180g）",
+      "content": "送样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdtbmbeIh"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "牛肉粒（清洁配方）",
+      "content": "重新制样送样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdtbmY8Km"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "酱香牛肉片 （1kg）（大米龙、肩胛 、保乐肩）",
+      "content": "送样各一盒\n更新卤汤二次使用成本",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdtbmbavF"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "酱香牛肉片（肩胛 ）",
+      "content": "送样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdtbmi3qI"
+    },
+    {
+      "date": "2026-08-10",
+      "project": "低温慢煮牛肉片（肩胛→保乐肩）",
+      "content": "送样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdtbmtBwY"
     },
     {
       "date": "2026-08-07",
@@ -421,6 +637,78 @@
       "record_id": "recvs8nYcZp7h5"
     },
     {
+      "date": "2026-08-07",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "翔安内测：\n反馈：①熟制得率达到80%+，因配方微调：大豆蛋白&木薯淀粉添加量大于大货，但汁水比大货少\n②增加撒黑胡椒碎与大货对比测试：大货本身也自带酸味，制样版撒黑胡椒后酸味不明显，但咸味增加（已排除黑胡椒碎带盐分的因素）",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdomrmQFh"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "翔安内测：",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdomra9nn"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+      "content": "安排调样，周二早上内测",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqvdzk"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "牛肉粒（清洁配方）",
+      "content": "早上制样，送样200g*5包；\n下午内测：熟制得率较上一版+2%；",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqQG10"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "猪肉粒（1.2*1.2cm）",
+      "content": "安排调样，计划周一下午内测",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqlSS9"
+    },
+    {
+      "date": "2026-08-07",
+      "project": "低温慢煮牛肉片（肩胛→保乐肩）",
+      "content": "早上内测：先送样待反馈，同步输出成本",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqX6Zx"
+    },
+    {
       "date": "2026-08-06",
       "project": "鸡胸",
       "content": "盲测对比20/30/35%不同保水梯度样品，确认口感有较嫩改善，供样35%样品200g，2包。",
@@ -481,6 +769,102 @@
       "record_id": "recvs8nYcZEfi1"
     },
     {
+      "date": "2026-08-06",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "安排调样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdomrahMC"
+    },
+    {
+      "date": "2026-08-06",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "安排调样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdomrrXEy"
+    },
+    {
+      "date": "2026-08-06",
+      "project": "静腌西冷牛排（＞180g）",
+      "content": "内测：内测三版，先送样待反馈，同步输出3版成本\n①涩味明显：有调整辅料覆盖涩味的调整，但是效果不大\n②厚度1.8cm无法增重至25%：泡腌时间从20h增加至40h，1.4cm增重至25%封顶；",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdomrURF6"
+    },
+    {
+      "date": "2026-08-06",
+      "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+      "content": "客户反馈：客户端测试颜色偏浅及鲜味弱些!评估滚揉环节色加深上调鲜味",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqpiRC"
+    },
+    {
+      "date": "2026-08-06",
+      "project": "牛肉粒（清洁配方）",
+      "content": "客户反馈：客户端测烤制得率低5%，优化烤制后得率，保持清洁配方，周五内测",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqrocy"
+    },
+    {
+      "date": "2026-08-06",
+      "project": "猪肉粒（1.2*1.2cm）",
+      "content": "接收调样需：调整膻味，增重率调整至40%，重新设计配方",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqhsxE"
+    },
+    {
+      "date": "2026-08-06",
+      "project": "酱香牛肉片（肩胛 ）",
+      "content": "下午内测：颜色和香味都可以，内测通过，先送样待反馈，同步输出成本",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqowTF"
+    },
+    {
+      "date": "2026-08-06",
+      "project": "低温慢煮牛肉片（肩胛→保乐肩）",
+      "content": "需求接收错误，先用豪客来现测试保乐肩版本内测",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqJvu6"
+    },
+    {
       "date": "2026-08-05",
       "project": "草饲肥牛片",
       "content": "【制样方案】降低小苏打、保水剂投放比例，粘合时不撒TG酶，形态更相对更自然。",
@@ -515,6 +899,42 @@
       "next_step": "制样",
       "source": "feishu_import",
       "record_id": "recvs8nYcZgpCZ"
+    },
+    {
+      "date": "2026-08-05",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "复盘",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdomrnjJY"
+    },
+    {
+      "date": "2026-08-05",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "复盘",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdomrcCbP"
+    },
+    {
+      "date": "2026-08-05",
+      "project": "整切牛霖牛排（150g 堂食版）",
+      "content": "复盘",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdomrf2Pt"
     },
     {
       "date": "2026-08-04",
@@ -563,6 +983,78 @@
       "next_step": "8/6试产",
       "source": "feishu_import",
       "record_id": "recvrjHpiD77hW"
+    },
+    {
+      "date": "2026-08-04",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "翔安内测：①177厂明显颜色偏深、带有酸味且煎制鼓包严重，后续制样排除该厂号；\n\n②2924厂熟制前颜色较合适但熟制后发白（调整火龙果浆用量，要求供应商调整甜度）；\n\n③口感较友商偏绵，Q弹感有所欠缺；\n\n④煎制时鼓包有改善，但建议锯割前油边去角断筋",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdomrBfOt"
+    },
+    {
+      "date": "2026-08-04",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "翔安内测：①花脸（因原料解冻不完全，注射液分布不均匀→原料需完全解冻，加长滚揉时间至1h）；\n\n②熟制得率（加木薯淀粉/纤维，原使用变性淀粉）；\n\n③烤制后有裂纹，厚度、口感偏绵不Q弹&不均匀（因塑形拼不同分割块、原料解冻不均匀、含有不可见内部筋）\n\n④偏咸（考虑测盐度）\n\n⑤有苦涩味（更新辅料、熟制方式/器具测试）",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdomrNqpx"
+    },
+    {
+      "date": "2026-08-04",
+      "project": "整切牛霖牛排（150g 堂食版）",
+      "content": "翔安内测：①预处理得率85%，需达到89%才可以满足成本（原对标二部牛霖牛排预处理得率90%但实际没有制样）；\n\n②熟制后颜色不均匀，发白（加酱油）；\n\n③有筋会裂开（去筋但是会增加碎肉导致得率降低；滚揉提高酶的用量黏合去筋处）；\n\n④三分体之间的口感差异（区分较硬分体部分断筋）；带酸苦涩味（更新辅料测试）；\n\n⑤以上问题更换厂号对比测试",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdomrhU6i"
+    },
+    {
+      "date": "2026-08-04",
+      "project": "西冷牛排（1.2kg&2kg）",
+      "content": "内测：销售内测口味偏咸，先送样待反馈同步输出成本",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdomrxzYC"
+    },
+    {
+      "date": "2026-08-04",
+      "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+      "content": "内测：先送样待反馈",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqFlrh"
+    },
+    {
+      "date": "2026-08-04",
+      "project": "猪肉粒（1.2*1.2cm）",
+      "content": "内测：先送样待反馈",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqldT0"
     },
     {
       "date": "2026-08-03",
@@ -623,6 +1115,30 @@
       "next_step": "谷饲丹佛牛排同步试产",
       "source": "feishu_import",
       "record_id": "recvrjJb5jCxtH"
+    },
+    {
+      "date": "2026-08-03",
+      "project": "酱香牛肉片（肩胛 ）",
+      "content": "接收需求",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqdXwX"
+    },
+    {
+      "date": "2026-08-03",
+      "project": "低温慢煮牛肉片（肩胛→保乐肩）",
+      "content": "接收需求",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdqKqGgD7"
     },
     {
       "date": "2026-07-31",
@@ -709,6 +1225,78 @@
       "record_id": "recvr7karUTSPx"
     },
     {
+      "date": "2026-07-31",
+      "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+      "content": "送样未通过，第8版待通知制样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxGPrMy"
+    },
+    {
+      "date": "2026-07-31",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "送样未通过：风味发酸，口感绵软，煎制收缩，周一制样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxGKFid"
+    },
+    {
+      "date": "2026-07-31",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "送样未通过，失水率过高，口感干柴，150g周一制样，130g待通知制样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIJwp8"
+    },
+    {
+      "date": "2026-07-31",
+      "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+      "content": "新增需求：使用牛肉粒成品滚揉两版：客户配方+自己增重5-8%配方",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVI68he"
+    },
+    {
+      "date": "2026-07-31",
+      "project": "猪肉粒（1.2*1.2cm）",
+      "content": "切粒，分装",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIhMsN"
+    },
+    {
+      "date": "2026-07-31",
+      "project": "红烧牛腩",
+      "content": "使用原通过版样品供样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVID6Zj"
+    },
+    {
       "date": "2026-07-30",
       "project": "原切肥牛片",
       "content": "使用韦伯制样，设备可实现叠放/错开摆放。制样3份80g错开12cm叠放，5份80g错开12cm叠放，中间用2张硅油纸隔开，2*4拉伸膜包装，螺旋速冻柜可放入。3份方案可行。5份方案真空包装后变形严重，冷冻状态预计难以分开。",
@@ -767,6 +1355,42 @@
       "next_step": "炒制测试",
       "source": "feishu_import",
       "record_id": "recvr7k8VugQW8"
+    },
+    {
+      "date": "2026-07-30",
+      "project": "静腌西冷牛排（＞180g）",
+      "content": "新需求，制样人淑贞",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIYgOc"
+    },
+    {
+      "date": "2026-07-30",
+      "project": "酱香牛肉片 （1kg）（大米龙、肩胛 、保乐肩）",
+      "content": "待PFC13188-酱香牛肉片（肩胛肉 1kg 陈香贵）量产门店反馈",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIJrSG"
+    },
+    {
+      "date": "2026-07-30",
+      "project": "猪肉粒（1.2*1.2cm）",
+      "content": "新需求，制样人杨江\n领用半成品",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIWED7"
     },
     {
       "date": "2026-07-29",
@@ -901,6 +1525,174 @@
       "record_id": "recvr7hTkcCmjn"
     },
     {
+      "date": "2026-07-29",
+      "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+      "content": "输出样品得率及配方明细",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxGTs2Z"
+    },
+    {
+      "date": "2026-07-29",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "输出样品得率及配方明细",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxG70W9"
+    },
+    {
+      "date": "2026-07-29",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "输出样品得率及配方明细",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVI8MWe"
+    },
+    {
+      "date": "2026-07-29",
+      "project": "整切西冷牛排（125g）",
+      "content": "销售提出该客户的新需求，该样品暂无送样计划",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIhbn9"
+    },
+    {
+      "date": "2026-07-29",
+      "project": "牛肉风味肉饼（100g）",
+      "content": "销售提出该客户的新需求，该样品暂无送样计划",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIEcUY"
+    },
+    {
+      "date": "2026-07-28",
+      "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+      "content": "内测：使用新设备的刀片手动断筋，不平整问题有改善；颜色发白已解决；口味稍甜；煎制得率未达标*80%）；先送样待反馈",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxGm93y"
+    },
+    {
+      "date": "2026-07-28",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "内测：解冻后颜色较深，肉感有提升，但还有涩味（碱味）；先送样待反馈",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxGsyv8"
+    },
+    {
+      "date": "2026-07-28",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "1、堂食150gPPM版：周五送样\n2、零售650g（火龙果）：失水率，厚度太薄，煎制后干柴，且不平整，下次制样考虑更小折径塑形袋",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxGrapW"
+    },
+    {
+      "date": "2026-07-28",
+      "project": "西冷牛排（1.2kg&2kg）",
+      "content": "内测：失水已优化，口感有改善但还是有点绵，还有涩味（考虑是味精导致的口咸发苦），黑椒味淡，继续调样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIeESY"
+    },
+    {
+      "date": "2026-07-28",
+      "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+      "content": "内测：涩味有改善，失水率显著降低，熟制230℃烤12min得率66%较上版低，考虑是熟制时间的问题（上版同温度烤制8min）；先送样待反馈",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIlYxc"
+    },
+    {
+      "date": "2026-07-28",
+      "project": "酱香牛肉片 （1kg）（大米龙、肩胛 、保乐肩）",
+      "content": "成本已输出",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIwhRh"
+    },
+    {
+      "date": "2026-07-27",
+      "project": "整切西冷牛排（125g）",
+      "content": "成本已输出",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIANmn"
+    },
+    {
+      "date": "2026-07-27",
+      "project": "牛肉风味肉饼（100g）",
+      "content": "成本已输出",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIbd9s"
+    },
+    {
+      "date": "2026-07-27",
+      "project": "牛肉片（85g）（原料新厂号测试）",
+      "content": "测试不通过：乐聚-牛肉片（新厂号1925厂）内测对比现有大货筋膜过多，根据工艺提供预处理数据，计算其主材成本及变动成本均高于于原大货成本",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdlVIiKDG"
+    },
+    {
       "date": "2026-07-24",
       "project": "原切肥牛片",
       "content": "添加D异抗方案制样完成，预计周一可刨片。",
@@ -971,6 +1763,78 @@
       "next_step": "周一上午内测，确定产品会版本",
       "source": "feishu_import",
       "record_id": "recvqwCXM6ZCN1"
+    },
+    {
+      "date": "2026-07-24",
+      "project": "西冷牛排（1.2kg&2kg）",
+      "content": "下午内测：解冻失水较上版高，需＜8%，口感仍有提升空间→增加淀粉，控制滚揉温度",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdh8XT8G6"
+    },
+    {
+      "date": "2026-07-24",
+      "project": "整切西冷牛排（125g）",
+      "content": "下午内测：颜色偏浅，煎制得率过低，Q弹感可以提高→增加增稠剂和老抽；送样客户测试，同步输出成本",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdh8Xp1zC"
+    },
+    {
+      "date": "2026-07-24",
+      "project": "牛肉风味肉饼（100g）",
+      "content": "下午内测：送样客户测试，同步输出成本使用鸡大胸（12元）&胸精碎肉（10元）共4版成本",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxGOmze"
+    },
+    {
+      "date": "2026-07-24",
+      "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+      "content": "下午内测：解冻失水过高，熟制得率低，口感发涩",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxGc0oM"
+    },
+    {
+      "date": "2026-07-24",
+      "project": "牛肉片（85g）（原料新厂号测试）",
+      "content": "下午内测：1925厂对比现有大货筋膜过多，对比成本有无优势，确定是否有多修割筋膜的空间",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxGZ7YQ"
+    },
+    {
+      "date": "2026-07-24",
+      "project": "酱香牛肉片 （1kg）（大米龙、肩胛 、保乐肩）",
+      "content": "下午内测：周一输出保乐肩、肩胛、大米龙&保水、不保水）成本汇总",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxG5vJL"
     },
     {
       "date": "2026-07-23",
@@ -1045,6 +1909,66 @@
       "record_id": "recvqbCHDKSrOu"
     },
     {
+      "date": "2026-07-23",
+      "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+      "content": "1、第6版送样反馈未通过：失水&煎制收缩、火龙果版颜色偏浅（火龙果浆添加量要回溯上一版/Ⅲ代西冷配方添加量1.97%)",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdh8Xq857"
+    },
+    {
+      "date": "2026-07-23",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "1、第6版送样反馈未通过：失水、口感绵软（考虑是否制样厂号问题，制样厂号非百胜白名单厂号）、火龙果版颜色过浅（火龙果浆添加量要回溯上一版/Ⅲ代西冷配方添加量1.97%)",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdh8XZaCZ"
+    },
+    {
+      "date": "2026-07-23",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "接收650g需求&产品QAP",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdh8XwhrN"
+    },
+    {
+      "date": "2026-07-23",
+      "project": "牛肉风味肉饼（100g）",
+      "content": "下午锯割",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdh8XyaEa"
+    },
+    {
+      "date": "2026-07-23",
+      "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+      "content": "下午锯割",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxG0rdL"
+    },
+    {
       "date": "2026-07-22",
       "project": "原切肥牛片",
       "content": "内测：通过横剖方案",
@@ -1091,6 +2015,18 @@
       "next_step": "追踪采购包材报价",
       "source": "feishu_import",
       "record_id": "recvq6A9267tdi"
+    },
+    {
+      "date": "2026-07-22",
+      "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+      "content": "半成品制样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxGp0zS"
     },
     {
       "date": "2026-07-21",
@@ -1211,6 +2147,54 @@
       "next_step": null,
       "source": "feishu_import",
       "record_id": "recvrRunuVkpv0"
+    },
+    {
+      "date": "2026-07-21",
+      "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+      "content": "1、成本及其明细已输出\n2、内测未通过：失水有改善（大滚揉锅比小滚揉锅效果好）；煎制不平整问题未解决",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdh8Xm4vO"
+    },
+    {
+      "date": "2026-07-21",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "1、成本及其明细已输出\n2、内测未通过：口感绵软不弹脆",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdh8Xx6XH"
+    },
+    {
+      "date": "2026-07-21",
+      "project": "臀腰肉心牛排（150gPPM版）",
+      "content": "接收150g需求&配方",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdh8XSohN"
+    },
+    {
+      "date": "2026-07-21",
+      "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+      "content": "输出工厂版配方成本",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdjxG5K6C"
     },
     {
       "date": "2026-07-20",
@@ -1429,6 +2413,66 @@
       "record_id": "recvq5t12zRvGs"
     },
     {
+      "date": "2026-07-17",
+      "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+      "content": "安排重新制样（火龙果版&酱油版），下周三前内测",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7yMFf"
+    },
+    {
+      "date": "2026-07-17",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "安排重新制样（火龙果版），下周三前内测",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7sBcC"
+    },
+    {
+      "date": "2026-07-17",
+      "project": "西冷牛排（1.2kg&2kg）",
+      "content": "内测结果：鱼排腌制料可切换，但品质问题未完全解决",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7DLiD"
+    },
+    {
+      "date": "2026-07-17",
+      "project": "整切西冷牛排（125g）",
+      "content": "内测风味通过，口感未通过",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdh8Xt8bT"
+    },
+    {
+      "date": "2026-07-17",
+      "project": "牛肉风味肉饼（100g）",
+      "content": "内测未通过",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdh8Xi9eS"
+    },
+    {
       "date": "2026-07-16",
       "project": "原切肥牛片",
       "content": "调理方向暂停",
@@ -1547,6 +2591,30 @@
       "next_step": null,
       "source": "feishu_import",
       "record_id": "recvpvtZ8pof0O"
+    },
+    {
+      "date": "2026-07-15",
+      "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+      "content": "内测未通过，失水及煎制不平整问题未解决",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7LW7F"
+    },
+    {
+      "date": "2026-07-15",
+      "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+      "content": "内测数据较客户反馈低10-15%，且报价版与工厂生产版添加肥油率不一致，需按工厂版配方重新核算成本",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdh8Xg8N1"
     },
     {
       "date": "2026-07-14",
@@ -1765,6 +2833,54 @@
       "record_id": "recvq5t12zkf5a"
     },
     {
+      "date": "2026-07-13",
+      "project": "整切肋眼牛排",
+      "content": "1、南非眼肉内测",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7K6wk"
+    },
+    {
+      "date": "2026-07-13",
+      "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+      "content": "1、第4版（老抽版）内测未通过，解冻、煎制时及煎制后均失水严重；平底锅煎制时不平整，导致一面四周过焦而中间无法上色\n2、计划重新制样火龙果版+上脑版，同时记录原料进出滚揉锅前后的温度、注射滚揉料液温度、车间静置温度等",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL79qxW"
+    },
+    {
+      "date": "2026-07-13",
+      "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+      "content": "内测未通过，失水&碱味重，口感涩",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7vJG4"
+    },
+    {
+      "date": "2026-07-13",
+      "project": "西冷牛排（1.2kg&2kg）",
+      "content": "领用制样物料，确定先制样一版1.2kg黑椒风味版",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7b16A"
+    },
+    {
       "date": "2026-07-10",
       "project": "儿童牛肉条",
       "content": "建议使用谷饲原料制作",
@@ -1909,6 +3025,54 @@
       "record_id": "recvpjIwxsTum1"
     },
     {
+      "date": "2026-07-10",
+      "project": "西冷牛排（1.2kg&2kg）",
+      "content": "1、与销售沟通后，鱼排腌制料与品质问题同步制样，周一确定制样时间",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7qRUh"
+    },
+    {
+      "date": "2026-07-10",
+      "project": "西冷牛排（1.2kg&2kg）",
+      "content": "待1.2kg测试后确认是否能够同步直接切换",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7ReyP"
+    },
+    {
+      "date": "2026-07-10",
+      "project": "整切西冷牛排（125g）",
+      "content": "完成第一次制样，使用小注射机注射，注射率偏差较大，计划重新制样",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7oASh"
+    },
+    {
+      "date": "2026-07-10",
+      "project": "牛肉风味肉饼（100g）",
+      "content": "安排下周制样，制样时间待确认",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7CcMk"
+    },
+    {
       "date": "2026-07-09",
       "project": "谷饲上脑牛排",
       "content": "交接测试中，发现有含内筋，需餐饮研发确认是否可接受",
@@ -1979,6 +3143,30 @@
       "next_step": null,
       "source": "feishu_import",
       "record_id": "recvoVYyXzwo1r"
+    },
+    {
+      "date": "2026-07-09",
+      "project": "西冷牛排（1.2kg&2kg）",
+      "content": "1、收到客户反馈：①失水率高（解冻得率约93%、煎制后总得率72%、80%）；②解冻后牛排边缘抛；\n2、销售推荐优化点（参考百胜的配方）：①变性淀粉换成木薯淀粉；②酶换成换成AFA101；③保水剂换成BS-1；",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7fRV4"
+    },
+    {
+      "date": "2026-07-09",
+      "project": "西冷牛排（1.2kg&2kg）",
+      "content": "1、收到客户反馈：①失水率高（解冻得率约93%、煎制后总得率72%、80%）；②解冻后牛排边缘抛；\n2、销售推荐优化点（参考百胜的配方）：①变性淀粉换成木薯淀粉；②酶换成换成AFA101；③保水剂换成BS-1；",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7IBhr"
     },
     {
       "date": "2026-07-08",
@@ -2063,6 +3251,30 @@
       "next_step": null,
       "source": "feishu_import",
       "record_id": "recvq5t12zZ2Rt"
+    },
+    {
+      "date": "2026-07-08",
+      "project": "西冷牛排（1.2kg&2kg）",
+      "content": "1、配方中鱼排腌制料外采替换为公司自配，已收到从豪客来项目处拆解配方，需要制样测试——预计下周三前完成（需替换鱼排腌制料&黑胡椒风味牛排腌料中包含的鱼排腌制料）",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL76phN"
+    },
+    {
+      "date": "2026-07-08",
+      "project": "西冷牛排（1.2kg&2kg）",
+      "content": "1、配方中鱼排腌制料外采替换为公司自配，已收到从豪客来项目处拆解配方，需替换鱼排腌制料",
+      "stage": "",
+      "conclusion": "",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvszdeL7lOvK"
     },
     {
       "date": "2026-07-07",
@@ -7457,11 +8669,1682 @@
       "start_time": "2026-07-29T00:00:00.000+08:00",
       "sampler": "杜凯强"
     },
-    "整切臀腰肉芯牛排": {
+    "西冷牛排（1.2kg&2kg）": {
+      "logs": [
+        {
+          "date": "2026-07-08",
+          "project": "西冷牛排（1.2kg&2kg）",
+          "content": "1、配方中鱼排腌制料外采替换为公司自配，已收到从豪客来项目处拆解配方，需要制样测试——预计下周三前完成（需替换鱼排腌制料&黑胡椒风味牛排腌料中包含的鱼排腌制料）",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL76phN"
+        },
+        {
+          "date": "2026-07-09",
+          "project": "西冷牛排（1.2kg&2kg）",
+          "content": "1、收到客户反馈：①失水率高（解冻得率约93%、煎制后总得率72%、80%）；②解冻后牛排边缘抛；\n2、销售推荐优化点（参考百胜的配方）：①变性淀粉换成木薯淀粉；②酶换成换成AFA101；③保水剂换成BS-1；",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7fRV4"
+        },
+        {
+          "date": "2026-07-10",
+          "project": "西冷牛排（1.2kg&2kg）",
+          "content": "1、与销售沟通后，鱼排腌制料与品质问题同步制样，周一确定制样时间",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7qRUh"
+        },
+        {
+          "date": "2026-07-08",
+          "project": "西冷牛排（1.2kg&2kg）",
+          "content": "1、配方中鱼排腌制料外采替换为公司自配，已收到从豪客来项目处拆解配方，需替换鱼排腌制料",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7lOvK"
+        },
+        {
+          "date": "2026-07-09",
+          "project": "西冷牛排（1.2kg&2kg）",
+          "content": "1、收到客户反馈：①失水率高（解冻得率约93%、煎制后总得率72%、80%）；②解冻后牛排边缘抛；\n2、销售推荐优化点（参考百胜的配方）：①变性淀粉换成木薯淀粉；②酶换成换成AFA101；③保水剂换成BS-1；",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7IBhr"
+        },
+        {
+          "date": "2026-07-10",
+          "project": "西冷牛排（1.2kg&2kg）",
+          "content": "待1.2kg测试后确认是否能够同步直接切换",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7ReyP"
+        },
+        {
+          "date": "2026-07-13",
+          "project": "西冷牛排（1.2kg&2kg）",
+          "content": "领用制样物料，确定先制样一版1.2kg黑椒风味版",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7b16A"
+        },
+        {
+          "date": "2026-07-17",
+          "project": "西冷牛排（1.2kg&2kg）",
+          "content": "内测结果：鱼排腌制料可切换，但品质问题未完全解决",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7DLiD"
+        },
+        {
+          "date": "2026-07-24",
+          "project": "西冷牛排（1.2kg&2kg）",
+          "content": "下午内测：解冻失水较上版高，需＜8%，口感仍有提升空间→增加淀粉，控制滚揉温度",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdh8XT8G6"
+        },
+        {
+          "date": "2026-07-28",
+          "project": "西冷牛排（1.2kg&2kg）",
+          "content": "内测：失水已优化，口感有改善但还是有点绵，还有涩味（考虑是味精导致的口咸发苦），黑椒味淡，继续调样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIeESY"
+        },
+        {
+          "date": "2026-08-04",
+          "project": "西冷牛排（1.2kg&2kg）",
+          "content": "内测：销售内测口味偏咸，先送样待反馈同步输出成本",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdomrxzYC"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "西冷牛排（1.2kg&2kg）",
+          "content": "送样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdtbmVYR9"
+        }
+      ],
+      "number": "NO.039",
+      "status": [
+        "送样待反馈"
+      ],
+      "client": "一部品佳",
+      "latest": "送样",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "西冷",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-06T00:00:00.000+08:00",
+      "sampler": "叶校斌"
+    },
+    "整切西冷牛排（125g）": {
+      "logs": [
+        {
+          "date": "2026-07-10",
+          "project": "整切西冷牛排（125g）",
+          "content": "完成第一次制样，使用小注射机注射，注射率偏差较大，计划重新制样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7oASh"
+        },
+        {
+          "date": "2026-07-17",
+          "project": "整切西冷牛排（125g）",
+          "content": "内测风味通过，口感未通过",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdh8Xt8bT"
+        },
+        {
+          "date": "2026-07-24",
+          "project": "整切西冷牛排（125g）",
+          "content": "下午内测：颜色偏浅，煎制得率过低，Q弹感可以提高→增加增稠剂和老抽；送样客户测试，同步输出成本",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdh8Xp1zC"
+        },
+        {
+          "date": "2026-07-27",
+          "project": "整切西冷牛排（125g）",
+          "content": "成本已输出",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIANmn"
+        },
+        {
+          "date": "2026-07-29",
+          "project": "整切西冷牛排（125g）",
+          "content": "销售提出该客户的新需求，该样品暂无送样计划",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIhbn9"
+        }
+      ],
+      "number": "NO.040",
+      "status": [
+        "暂停"
+      ],
+      "client": "一部蔓味轻食",
+      "latest": "销售提出该客户的新需求，该样品暂无送样计划",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "西冷",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-06T00:00:00.000+08:00",
+      "sampler": "蔡将君"
+    },
+    "牛肉风味肉饼（100g）": {
+      "logs": [
+        {
+          "date": "2026-07-10",
+          "project": "牛肉风味肉饼（100g）",
+          "content": "安排下周制样，制样时间待确认",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7CcMk"
+        },
+        {
+          "date": "2026-07-17",
+          "project": "牛肉风味肉饼（100g）",
+          "content": "内测未通过",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdh8Xi9eS"
+        },
+        {
+          "date": "2026-07-23",
+          "project": "牛肉风味肉饼（100g）",
+          "content": "下午锯割",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdh8XyaEa"
+        },
+        {
+          "date": "2026-07-24",
+          "project": "牛肉风味肉饼（100g）",
+          "content": "下午内测：送样客户测试，同步输出成本使用鸡大胸（12元）&胸精碎肉（10元）共4版成本",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxGOmze"
+        },
+        {
+          "date": "2026-07-27",
+          "project": "牛肉风味肉饼（100g）",
+          "content": "成本已输出",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIbd9s"
+        },
+        {
+          "date": "2026-07-29",
+          "project": "牛肉风味肉饼（100g）",
+          "content": "销售提出该客户的新需求，该样品暂无送样计划",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIEcUY"
+        }
+      ],
+      "number": "NO.041",
+      "status": [
+        "暂停"
+      ],
+      "client": "一部蔓味轻食",
+      "latest": "销售提出该客户的新需求，该样品暂无送样计划",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "牛前部位肉（90vl）/和牛脂肪/鸡胸肉",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-06T00:00:00.000+08:00",
+      "sampler": "叶校斌"
+    },
+    "整切肋眼牛排": {
+      "logs": [
+        {
+          "date": "2026-07-13",
+          "project": "整切肋眼牛排",
+          "content": "1、南非眼肉内测",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7K6wk"
+        }
+      ],
+      "number": "NO.042",
+      "status": [
+        "暂停"
+      ],
+      "client": "一部百胜",
+      "latest": "1、南非眼肉内测",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "眼肉",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-13T00:00:00.000+08:00",
+      "sampler": "蔡将君"
+    },
+    "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）": {
+      "logs": [
+        {
+          "date": "2026-07-13",
+          "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+          "content": "1、第4版（老抽版）内测未通过，解冻、煎制时及煎制后均失水严重；平底锅煎制时不平整，导致一面四周过焦而中间无法上色\n2、计划重新制样火龙果版+上脑版，同时记录原料进出滚揉锅前后的温度、注射滚揉料液温度、车间静置温度等",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL79qxW"
+        },
+        {
+          "date": "2026-07-15",
+          "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+          "content": "内测未通过，失水及煎制不平整问题未解决",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7LW7F"
+        },
+        {
+          "date": "2026-07-17",
+          "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+          "content": "安排重新制样（火龙果版&酱油版），下周三前内测",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7yMFf"
+        },
+        {
+          "date": "2026-07-21",
+          "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+          "content": "1、成本及其明细已输出\n2、内测未通过：失水有改善（大滚揉锅比小滚揉锅效果好）；煎制不平整问题未解决",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdh8Xm4vO"
+        },
+        {
+          "date": "2026-07-23",
+          "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+          "content": "1、第6版送样反馈未通过：失水&煎制收缩、火龙果版颜色偏浅（火龙果浆添加量要回溯上一版/Ⅲ代西冷配方添加量1.97%)",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdh8Xq857"
+        },
+        {
+          "date": "2026-07-28",
+          "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+          "content": "内测：使用新设备的刀片手动断筋，不平整问题有改善；颜色发白已解决；口味稍甜；煎制得率未达标*80%）；先送样待反馈",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxGm93y"
+        },
+        {
+          "date": "2026-07-29",
+          "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+          "content": "输出样品得率及配方明细",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxGTs2Z"
+        },
+        {
+          "date": "2026-07-31",
+          "project": "整切上脑牛排（对标整切调理黑椒牛排（650g 零售版）",
+          "content": "送样未通过，第8版待通知制样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxGPrMy"
+        }
+      ],
+      "number": "NO.043",
+      "status": [
+        "暂停"
+      ],
+      "client": "一部百胜",
+      "latest": "送样未通过，第8版待通知制样",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "上脑",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-13T00:00:00.000+08:00",
+      "sampler": "蔡将君"
+    },
+    "整切调理西冷牛排（180g 升级版 改火龙果）": {
+      "logs": [
+        {
+          "date": "2026-07-13",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "内测未通过，失水&碱味重，口感涩",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7vJG4"
+        },
+        {
+          "date": "2026-07-17",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "安排重新制样（火龙果版），下周三前内测",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdeL7sBcC"
+        },
+        {
+          "date": "2026-07-21",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "1、成本及其明细已输出\n2、内测未通过：口感绵软不弹脆",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdh8Xx6XH"
+        },
+        {
+          "date": "2026-07-23",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "1、第6版送样反馈未通过：失水、口感绵软（考虑是否制样厂号问题，制样厂号非百胜白名单厂号）、火龙果版颜色过浅（火龙果浆添加量要回溯上一版/Ⅲ代西冷配方添加量1.97%)",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdh8XZaCZ"
+        },
+        {
+          "date": "2026-07-28",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "内测：解冻后颜色较深，肉感有提升，但还有涩味（碱味）；先送样待反馈",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxGsyv8"
+        },
+        {
+          "date": "2026-07-29",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "输出样品得率及配方明细",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxG70W9"
+        },
+        {
+          "date": "2026-07-31",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "送样未通过：风味发酸，口感绵软，煎制收缩，周一制样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxGKFid"
+        },
+        {
+          "date": "2026-08-04",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "翔安内测：①177厂明显颜色偏深、带有酸味且煎制鼓包严重，后续制样排除该厂号；\n\n②2924厂熟制前颜色较合适但熟制后发白（调整火龙果浆用量，要求供应商调整甜度）；\n\n③口感较友商偏绵，Q弹感有所欠缺；\n\n④煎制时鼓包有改善，但建议锯割前油边去角断筋",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdomrBfOt"
+        },
+        {
+          "date": "2026-08-05",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "复盘",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdomrnjJY"
+        },
+        {
+          "date": "2026-08-06",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "安排调样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdomrahMC"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "翔安内测：\n反馈：①熟制得率达到80%+，因配方微调：大豆蛋白&木薯淀粉添加量大于大货，但汁水比大货少\n②增加撒黑胡椒碎与大货对比测试：大货本身也自带酸味，制样版撒黑胡椒后酸味不明显，但咸味增加（已排除黑胡椒碎带盐分的因素）",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdomrmQFh"
+        },
+        {
+          "date": "2026-08-12",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "IC测试",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKquPq4"
+        },
+        {
+          "date": "2026-08-13",
+          "project": "整切调理西冷牛排（180g 升级版 改火龙果）",
+          "content": "未测试：两端断筋锯割深度太深，煎制外观不好看；重新盘点现有样品，待下次送样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKq0tJ9"
+        }
+      ],
+      "number": "NO.044",
+      "status": [
+        "暂停"
+      ],
+      "client": "一部百胜",
+      "latest": "未测试：两端断筋锯割深度太深，煎制外观不好看；重新盘点现有样品，待下次送样",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "西冷",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-13T00:00:00.000+08:00",
+      "sampler": "蔡将君"
+    },
+    "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）": {
+      "logs": [
+        {
+          "date": "2026-07-15",
+          "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+          "content": "内测数据较客户反馈低10-15%，且报价版与工厂生产版添加肥油率不一致，需按工厂版配方重新核算成本",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdh8Xg8N1"
+        },
+        {
+          "date": "2026-07-21",
+          "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+          "content": "输出工厂版配方成本",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxG5K6C"
+        },
+        {
+          "date": "2026-07-22",
+          "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+          "content": "半成品制样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxGp0zS"
+        },
+        {
+          "date": "2026-07-23",
+          "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+          "content": "下午锯割",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxG0rdL"
+        },
+        {
+          "date": "2026-07-24",
+          "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+          "content": "下午内测：解冻失水过高，熟制得率低，口感发涩",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxGc0oM"
+        },
+        {
+          "date": "2026-07-28",
+          "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+          "content": "内测：涩味有改善，失水率显著降低，熟制230℃烤12min得率66%较上版低，考虑是熟制时间的问题（上版同温度烤制8min）；先送样待反馈",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIlYxc"
+        },
+        {
+          "date": "2026-07-31",
+          "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+          "content": "新增需求：使用牛肉粒成品滚揉两版：客户配方+自己增重5-8%配方",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVI68he"
+        },
+        {
+          "date": "2026-08-04",
+          "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+          "content": "内测：先送样待反馈",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqFlrh"
+        },
+        {
+          "date": "2026-08-06",
+          "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+          "content": "客户反馈：客户端测试颜色偏浅及鲜味弱些!评估滚揉环节色加深上调鲜味",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqpiRC"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+          "content": "安排调样，周二早上内测",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqvdzk"
+        },
+        {
+          "date": "2026-08-11",
+          "project": "牛肉粒（原黑椒风味牛肉粒（2kg）二次滚揉）",
+          "content": "内测不通过，明天重新制样内测",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdtbmE87V"
+        }
+      ],
+      "number": "NO.045",
+      "status": [
+        "送样待反馈"
+      ],
+      "client": "一部乐肴居",
+      "latest": "内测不通过，明天重新制样内测",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "上脑",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-13T00:00:00.000+08:00",
+      "sampler": "杨江"
+    },
+    "臀腰肉心牛排（150gPPM版）": {
+      "logs": [
+        {
+          "date": "2026-07-21",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "接收150g需求&配方",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdh8XSohN"
+        },
+        {
+          "date": "2026-07-23",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "接收650g需求&产品QAP",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdh8XwhrN"
+        },
+        {
+          "date": "2026-07-28",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "1、堂食150gPPM版：周五送样\n2、零售650g（火龙果）：失水率，厚度太薄，煎制后干柴，且不平整，下次制样考虑更小折径塑形袋",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxGrapW"
+        },
+        {
+          "date": "2026-07-29",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "输出样品得率及配方明细",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVI8MWe"
+        },
+        {
+          "date": "2026-07-31",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "送样未通过，失水率过高，口感干柴，150g周一制样，130g待通知制样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIJwp8"
+        },
+        {
+          "date": "2026-08-04",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "翔安内测：①花脸（因原料解冻不完全，注射液分布不均匀→原料需完全解冻，加长滚揉时间至1h）；\n\n②熟制得率（加木薯淀粉/纤维，原使用变性淀粉）；\n\n③烤制后有裂纹，厚度、口感偏绵不Q弹&不均匀（因塑形拼不同分割块、原料解冻不均匀、含有不可见内部筋）\n\n④偏咸（考虑测盐度）\n\n⑤有苦涩味（更新辅料、熟制方式/器具测试）",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdomrNqpx"
+        },
+        {
+          "date": "2026-08-05",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "复盘",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdomrcCbP"
+        },
+        {
+          "date": "2026-08-06",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "安排调样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdomrrXEy"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "翔安内测：",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdomra9nn"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "内测不通过但先送样，同步重新制样；",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqdTte"
+        },
+        {
+          "date": "2026-08-11",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "制样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqFhuS"
+        },
+        {
+          "date": "2026-08-12",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "IC测试：不通过",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqPcyR"
+        },
+        {
+          "date": "2026-08-13",
+          "project": "臀腰肉心牛排（150gPPM版）",
+          "content": "翔安内测不通过",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqAVZC"
+        }
+      ],
+      "number": "NO.046",
+      "status": [
+        "制样中"
+      ],
+      "client": "一部百胜",
+      "latest": "翔安内测不通过",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "臀腰肉心",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-20T00:00:00.000+08:00",
+      "sampler": "叶校斌"
+    },
+    "牛肉片（85g）（原料新厂号测试）": {
+      "logs": [
+        {
+          "date": "2026-07-24",
+          "project": "牛肉片（85g）（原料新厂号测试）",
+          "content": "下午内测：1925厂对比现有大货筋膜过多，对比成本有无优势，确定是否有多修割筋膜的空间",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxGZ7YQ"
+        },
+        {
+          "date": "2026-07-27",
+          "project": "牛肉片（85g）（原料新厂号测试）",
+          "content": "测试不通过：乐聚-牛肉片（新厂号1925厂）内测对比现有大货筋膜过多，根据工艺提供预处理数据，计算其主材成本及变动成本均高于于原大货成本",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIiKDG"
+        }
+      ],
+      "number": "NO.047",
+      "status": [
+        "已完成"
+      ],
+      "client": "一部乐聚",
+      "latest": "测试不通过：乐聚-牛肉片（新厂号1925厂）内测对比现有大货筋膜过多，根据工艺提供预处理数据，计算其主材成本及变动成本均高于于原大货成本",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "牛前胸",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "否"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-20T00:00:00.000+08:00",
+      "sampler": "待定"
+    },
+    "酱香牛肉片 （1kg）（大米龙、肩胛 、保乐肩）": {
+      "logs": [
+        {
+          "date": "2026-07-24",
+          "project": "酱香牛肉片 （1kg）（大米龙、肩胛 、保乐肩）",
+          "content": "下午内测：周一输出保乐肩、肩胛、大米龙&保水、不保水）成本汇总",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdjxG5vJL"
+        },
+        {
+          "date": "2026-07-28",
+          "project": "酱香牛肉片 （1kg）（大米龙、肩胛 、保乐肩）",
+          "content": "成本已输出",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIwhRh"
+        },
+        {
+          "date": "2026-07-30",
+          "project": "酱香牛肉片 （1kg）（大米龙、肩胛 、保乐肩）",
+          "content": "待PFC13188-酱香牛肉片（肩胛肉 1kg 陈香贵）量产门店反馈",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIJrSG"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "酱香牛肉片 （1kg）（大米龙、肩胛 、保乐肩）",
+          "content": "送样各一盒\n更新卤汤二次使用成本",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdtbmbavF"
+        }
+      ],
+      "number": "NO.048",
+      "status": [
+        "送样待反馈"
+      ],
+      "client": "一部陈香贵",
+      "latest": "送样各一盒\n更新卤汤二次使用成本",
+      "engineer": "何晓莹",
+      "category": [
+        "熟制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "大米龙/肩胛 /保乐肩",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-20T00:00:00.000+08:00",
+      "sampler": "丁建民"
+    },
+    "静腌西冷牛排（＞180g）": {
+      "logs": [
+        {
+          "date": "2026-07-30",
+          "project": "静腌西冷牛排（＞180g）",
+          "content": "新需求，制样人淑贞",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIYgOc"
+        },
+        {
+          "date": "2026-08-06",
+          "project": "静腌西冷牛排（＞180g）",
+          "content": "内测：内测三版，先送样待反馈，同步输出3版成本\n①涩味明显：有调整辅料覆盖涩味的调整，但是效果不大\n②厚度1.8cm无法增重至25%：泡腌时间从20h增加至40h，1.4cm增重至25%封顶；",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdomrURF6"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "静腌西冷牛排（＞180g）",
+          "content": "送样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdtbmbeIh"
+        }
+      ],
+      "number": "NO.050",
+      "status": [
+        "送样待反馈"
+      ],
+      "client": "一部蔓味轻食",
+      "latest": "送样",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "不重要紧急"
+      ],
+      "material": "西冷",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-27T00:00:00.000+08:00",
+      "sampler": "刘淑贞"
+    },
+    "猪肉粒（1.2*1.2cm）": {
+      "logs": [
+        {
+          "date": "2026-07-30",
+          "project": "猪肉粒（1.2*1.2cm）",
+          "content": "新需求，制样人杨江\n领用半成品",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIWED7"
+        },
+        {
+          "date": "2026-07-31",
+          "project": "猪肉粒（1.2*1.2cm）",
+          "content": "切粒，分装",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVIhMsN"
+        },
+        {
+          "date": "2026-08-04",
+          "project": "猪肉粒（1.2*1.2cm）",
+          "content": "内测：先送样待反馈",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqldT0"
+        },
+        {
+          "date": "2026-08-06",
+          "project": "猪肉粒（1.2*1.2cm）",
+          "content": "接收调样需：调整膻味，增重率调整至40%，重新设计配方",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqhsxE"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "猪肉粒（1.2*1.2cm）",
+          "content": "安排调样，计划周一下午内测",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqlSS9"
+        },
+        {
+          "date": "2026-08-12",
+          "project": "猪肉粒（1.2*1.2cm）",
+          "content": "内测",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdtbmCWy3"
+        }
+      ],
+      "number": "NO.051",
+      "status": [
+        "送样待反馈"
+      ],
+      "client": "一部通品",
+      "latest": "内测",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "国产梅花肉",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-27T00:00:00.000+08:00",
+      "sampler": "杨江"
+    },
+    "红烧牛腩": {
+      "logs": [
+        {
+          "date": "2026-07-31",
+          "project": "红烧牛腩",
+          "content": "使用原通过版样品供样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdlVID6Zj"
+        }
+      ],
+      "number": "NO.052",
+      "status": [
+        "送样待反馈"
+      ],
+      "client": "一部小鱼号",
+      "latest": "使用原通过版样品供样",
+      "engineer": "何晓莹",
+      "category": [
+        "熟制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "牛腩",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-27T00:00:00.000+08:00",
+      "sampler": "余庆海"
+    },
+    "整切牛霖牛排（150g 堂食版）": {
+      "logs": [
+        {
+          "date": "2026-08-04",
+          "project": "整切牛霖牛排（150g 堂食版）",
+          "content": "翔安内测：①预处理得率85%，需达到89%才可以满足成本（原对标二部牛霖牛排预处理得率90%但实际没有制样）；\n\n②熟制后颜色不均匀，发白（加酱油）；\n\n③有筋会裂开（去筋但是会增加碎肉导致得率降低；滚揉提高酶的用量黏合去筋处）；\n\n④三分体之间的口感差异（区分较硬分体部分断筋）；带酸苦涩味（更新辅料测试）；\n\n⑤以上问题更换厂号对比测试",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdomrhU6i"
+        },
+        {
+          "date": "2026-08-05",
+          "project": "整切牛霖牛排（150g 堂食版）",
+          "content": "复盘",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdomrf2Pt"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "整切牛霖牛排（150g 堂食版）",
+          "content": "内测不通过，重新制样，计划下周一内测",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdtbmpX5q"
+        }
+      ],
+      "number": "NO.049",
+      "status": [
+        "制样中"
+      ],
+      "client": "一部百胜",
+      "latest": "内测不通过，重新制样，计划下周一内测",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "牛霖",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-07-27T00:00:00.000+08:00",
+      "sampler": "叶校斌"
+    },
+    "牛肉粒（清洁配方）": {
+      "logs": [
+        {
+          "date": "2026-08-06",
+          "project": "牛肉粒（清洁配方）",
+          "content": "客户反馈：客户端测烤制得率低5%，优化烤制后得率，保持清洁配方，周五内测",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqrocy"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "牛肉粒（清洁配方）",
+          "content": "早上制样，送样200g*5包；\n下午内测：熟制得率较上一版+2%；",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqQG10"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "牛肉粒（清洁配方）",
+          "content": "重新制样送样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdtbmY8Km"
+        },
+        {
+          "date": "2026-08-11",
+          "project": "牛肉粒（清洁配方）",
+          "content": "客户端需求：鸡精调味料要替换为松茸调味料\n新物料询价",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdtbmOJeM"
+        },
+        {
+          "date": "2026-08-12",
+          "project": "牛肉粒（清洁配方）",
+          "content": "更新成本",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdtbmlnHF"
+        }
+      ],
+      "number": "NO.053",
+      "status": [
+        "交接中"
+      ],
+      "client": "一部乐肴居",
+      "latest": "更新成本",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "牛霖",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-08-03T00:00:00.000+08:00",
+      "sampler": "刘淑贞"
+    },
+    "酱香牛肉片（肩胛 ）": {
+      "logs": [
+        {
+          "date": "2026-08-03",
+          "project": "酱香牛肉片（肩胛 ）",
+          "content": "接收需求",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqdXwX"
+        },
+        {
+          "date": "2026-08-06",
+          "project": "酱香牛肉片（肩胛 ）",
+          "content": "下午内测：颜色和香味都可以，内测通过，先送样待反馈，同步输出成本",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqowTF"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "酱香牛肉片（肩胛 ）",
+          "content": "送样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdtbmi3qI"
+        },
+        {
+          "date": "2026-08-12",
+          "project": "酱香牛肉片（肩胛 ）",
+          "content": "输出成本",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdtbml7Vn"
+        }
+      ],
+      "number": "NO.054",
+      "status": [
+        "送样待反馈"
+      ],
+      "client": "一部通品",
+      "latest": "输出成本",
+      "engineer": "何晓莹",
+      "category": [
+        "熟制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "肩胛",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-08-03T00:00:00.000+08:00",
+      "sampler": "丁建民"
+    },
+    "低温慢煮牛肉片（肩胛→保乐肩）": {
+      "logs": [
+        {
+          "date": "2026-08-03",
+          "project": "低温慢煮牛肉片（肩胛→保乐肩）",
+          "content": "接收需求",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqGgD7"
+        },
+        {
+          "date": "2026-08-06",
+          "project": "低温慢煮牛肉片（肩胛→保乐肩）",
+          "content": "需求接收错误，先用豪客来现测试保乐肩版本内测",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqJvu6"
+        },
+        {
+          "date": "2026-08-07",
+          "project": "低温慢煮牛肉片（肩胛→保乐肩）",
+          "content": "早上内测：先送样待反馈，同步输出成本",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdqKqX6Zx"
+        },
+        {
+          "date": "2026-08-10",
+          "project": "低温慢煮牛肉片（肩胛→保乐肩）",
+          "content": "送样",
+          "stage": "",
+          "conclusion": "",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvszdtbmtBwY"
+        }
+      ],
+      "number": "NO.055",
+      "status": [
+        "送样待反馈"
+      ],
+      "client": "一部通品",
+      "latest": "送样",
+      "engineer": "何晓莹",
+      "category": [
+        "熟制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "保乐肩",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-08-03T00:00:00.000+08:00",
+      "sampler": "黄毅勇"
+    },
+    "臀腰肉芯牛排（650g 零售版（130g/片））": {
       "logs": [],
       "number": "NO.038",
       "status": [
-        "制样中"
+        "暂停"
       ],
       "client": "一部百胜",
       "latest": null,
@@ -7482,9 +10365,61 @@
       "local_path": null,
       "start_time": "2026-08-13T00:00:00.000+08:00",
       "sampler": "叶校斌"
+    },
+    "番茄牛腩": {
+      "logs": [],
+      "number": "NO.056",
+      "status": [
+        "送样待反馈"
+      ],
+      "client": "一部小鱼号",
+      "latest": null,
+      "engineer": "何晓莹",
+      "category": [
+        "熟制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "牛腩",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-08-13T00:00:00.000+08:00",
+      "sampler": "丁建民"
+    },
+    "原味牛肉片（2kg）": {
+      "logs": [],
+      "number": "NO.057",
+      "status": [
+        "制样中"
+      ],
+      "client": "一部三味午餐",
+      "latest": "1. 产品：原味牛肉片\n2. 部位： 牛霖\n3. 保水率：50%\n4.样品克重：100g/包或是200g/包都可以，成品克重按内部包材最大可包装量评估",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "牛霖",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-08-14T00:00:00.000+08:00",
+      "sampler": "刘淑贞"
     }
   },
-  "imported_at": "2026-08-17T16:25:46.466509",
-  "total_logs": 270,
-  "total_projects": 38
+  "imported_at": "2026-08-18T11:25:43.704329",
+  "total_logs": 371,
+  "total_projects": 57
 }
