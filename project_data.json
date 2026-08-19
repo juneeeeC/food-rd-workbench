@@ -1,6 +1,18 @@
 {
   "daily": [
     {
+      "date": "2026-08-19",
+      "project": "原味牛肉片（2kg）",
+      "content": "解冻失水1.5%，炒制得率76.5%\n内测销售反馈：偏瘦，牛肉味不足",
+      "stage": "内测",
+      "conclusion": "待定",
+      "yield": "",
+      "version": "",
+      "next_step": null,
+      "source": "feishu_import",
+      "record_id": "recvsHYZbWPgj9"
+    },
+    {
       "date": "2026-08-13",
       "project": "嫩煎眼肉芯牛排",
       "content": "保水30/40%各2份",
@@ -508,7 +520,7 @@
       "date": "2026-08-10",
       "project": "低温慢煮牛肉片（肩胛→保乐肩）",
       "content": "送样",
-      "stage": "",
+      "stage": "供样",
       "conclusion": "",
       "yield": "",
       "version": "",
@@ -700,7 +712,7 @@
       "date": "2026-08-07",
       "project": "低温慢煮牛肉片（肩胛→保乐肩）",
       "content": "早上内测：先送样待反馈，同步输出成本",
-      "stage": "",
+      "stage": "内测",
       "conclusion": "",
       "yield": "",
       "version": "",
@@ -856,7 +868,7 @@
       "date": "2026-08-06",
       "project": "低温慢煮牛肉片（肩胛→保乐肩）",
       "content": "需求接收错误，先用豪客来现测试保乐肩版本内测",
-      "stage": "",
+      "stage": "需求沟通",
       "conclusion": "",
       "yield": "",
       "version": "",
@@ -1132,7 +1144,7 @@
       "date": "2026-08-03",
       "project": "低温慢煮牛肉片（肩胛→保乐肩）",
       "content": "接收需求",
-      "stage": "",
+      "stage": "需求沟通",
       "conclusion": "",
       "yield": "",
       "version": "",
@@ -10271,7 +10283,7 @@
           "date": "2026-08-03",
           "project": "低温慢煮牛肉片（肩胛→保乐肩）",
           "content": "接收需求",
-          "stage": "",
+          "stage": "需求沟通",
           "conclusion": "",
           "yield": "",
           "version": "",
@@ -10283,7 +10295,7 @@
           "date": "2026-08-06",
           "project": "低温慢煮牛肉片（肩胛→保乐肩）",
           "content": "需求接收错误，先用豪客来现测试保乐肩版本内测",
-          "stage": "",
+          "stage": "需求沟通",
           "conclusion": "",
           "yield": "",
           "version": "",
@@ -10295,7 +10307,7 @@
           "date": "2026-08-07",
           "project": "低温慢煮牛肉片（肩胛→保乐肩）",
           "content": "早上内测：先送样待反馈，同步输出成本",
-          "stage": "",
+          "stage": "内测",
           "conclusion": "",
           "yield": "",
           "version": "",
@@ -10307,7 +10319,7 @@
           "date": "2026-08-10",
           "project": "低温慢煮牛肉片（肩胛→保乐肩）",
           "content": "送样",
-          "stage": "",
+          "stage": "供样",
           "conclusion": "",
           "yield": "",
           "version": "",
@@ -10339,6 +10351,45 @@
       "local_path": null,
       "start_time": "2026-08-03T00:00:00.000+08:00",
       "sampler": "黄毅勇"
+    },
+    "原味牛肉片（2kg）": {
+      "logs": [
+        {
+          "date": "2026-08-19",
+          "project": "原味牛肉片（2kg）",
+          "content": "解冻失水1.5%，炒制得率76.5%\n内测销售反馈：偏瘦，牛肉味不足",
+          "stage": "内测",
+          "conclusion": "待定",
+          "yield": "",
+          "version": "",
+          "next_step": null,
+          "source": "feishu_import",
+          "record_id": "recvsHYZbWPgj9"
+        }
+      ],
+      "number": "NO.057",
+      "status": [
+        "制样中"
+      ],
+      "client": "一部三味午餐",
+      "latest": "1. 产品：原味牛肉片\n2. 部位： 牛霖\n3. 保水率：50%\n4.样品克重：100g/包或是200g/包都可以，成品克重按内部包材最大可包装量评估",
+      "engineer": "何晓莹",
+      "category": [
+        "生制品"
+      ],
+      "priority": [
+        "重要紧急"
+      ],
+      "material": "牛霖",
+      "water_rate": null,
+      "version": null,
+      "has_oa": [
+        "是"
+      ],
+      "doc_link": null,
+      "local_path": null,
+      "start_time": "2026-08-14T00:00:00.000+08:00",
+      "sampler": "刘淑贞"
     },
     "臀腰肉芯牛排（650g 零售版（130g/片））": {
       "logs": [],
@@ -10391,35 +10442,9 @@
       "local_path": null,
       "start_time": "2026-08-13T00:00:00.000+08:00",
       "sampler": "丁建民"
-    },
-    "原味牛肉片（2kg）": {
-      "logs": [],
-      "number": "NO.057",
-      "status": [
-        "制样中"
-      ],
-      "client": "一部三味午餐",
-      "latest": "1. 产品：原味牛肉片\n2. 部位： 牛霖\n3. 保水率：50%\n4.样品克重：100g/包或是200g/包都可以，成品克重按内部包材最大可包装量评估",
-      "engineer": "何晓莹",
-      "category": [
-        "生制品"
-      ],
-      "priority": [
-        "重要紧急"
-      ],
-      "material": "牛霖",
-      "water_rate": null,
-      "version": null,
-      "has_oa": [
-        "是"
-      ],
-      "doc_link": null,
-      "local_path": null,
-      "start_time": "2026-08-14T00:00:00.000+08:00",
-      "sampler": "刘淑贞"
     }
   },
-  "imported_at": "2026-08-18T16:25:49.175141",
-  "total_logs": 371,
+  "imported_at": "2026-08-19T11:25:51.105097",
+  "total_logs": 372,
   "total_projects": 57
 }
